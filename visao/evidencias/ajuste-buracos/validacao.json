@@ -1,0 +1,2379 @@
+{
+  "selecao": {
+    "padrao": {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 8,
+      "fp": 22,
+      "fn": 44,
+      "precisao": 0.26666666666666666,
+      "recall": 0.15384615384615385,
+      "f1": 0.1951219512195122,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    "equilibrado": {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 16,
+      "fp": 22,
+      "fn": 36,
+      "precisao": 0.42105263157894735,
+      "recall": 0.3076923076923077,
+      "f1": 0.35555555555555557,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    "conservador": {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 16,
+      "fp": 22,
+      "fn": 36,
+      "precisao": 0.42105263157894735,
+      "recall": 0.3076923076923077,
+      "f1": 0.35555555555555557,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    }
+  },
+  "todas": [
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 9,
+      "fp": 28,
+      "fn": 43,
+      "precisao": 0.24324324324324326,
+      "recall": 0.17307692307692307,
+      "f1": 0.20224719101123595,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 8,
+      "fp": 22,
+      "fn": 44,
+      "precisao": 0.26666666666666666,
+      "recall": 0.15384615384615385,
+      "f1": 0.1951219512195122,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 7,
+      "fp": 21,
+      "fn": 45,
+      "precisao": 0.25,
+      "recall": 0.1346153846153846,
+      "f1": 0.175,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 6,
+      "fp": 15,
+      "fn": 46,
+      "precisao": 0.2857142857142857,
+      "recall": 0.11538461538461539,
+      "f1": 0.1643835616438356,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 4,
+      "fp": 6,
+      "fn": 48,
+      "precisao": 0.4,
+      "recall": 0.07692307692307693,
+      "f1": 0.12903225806451613,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 4,
+      "fp": 3,
+      "fn": 48,
+      "precisao": 0.5714285714285714,
+      "recall": 0.07692307692307693,
+      "f1": 0.13559322033898305,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 3,
+      "fp": 2,
+      "fn": 49,
+      "precisao": 0.6,
+      "recall": 0.057692307692307696,
+      "f1": 0.10526315789473684,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 2,
+      "fp": 1,
+      "fn": 50,
+      "precisao": 0.6666666666666666,
+      "recall": 0.038461538461538464,
+      "f1": 0.07272727272727272,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 0,
+      "fp": 0,
+      "fn": 52,
+      "precisao": 0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "passagens": 1,
+      "ms_modelos_estimados": 21.08
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 12,
+      "fp": 34,
+      "fn": 40,
+      "precisao": 0.2608695652173913,
+      "recall": 0.23076923076923078,
+      "f1": 0.24489795918367346,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 11,
+      "fp": 25,
+      "fn": 41,
+      "precisao": 0.3055555555555556,
+      "recall": 0.21153846153846154,
+      "f1": 0.25,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 10,
+      "fp": 19,
+      "fn": 42,
+      "precisao": 0.3448275862068966,
+      "recall": 0.19230769230769232,
+      "f1": 0.24691358024691357,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 9,
+      "fp": 12,
+      "fn": 43,
+      "precisao": 0.42857142857142855,
+      "recall": 0.17307692307692307,
+      "f1": 0.2465753424657534,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 6,
+      "fp": 6,
+      "fn": 46,
+      "precisao": 0.5,
+      "recall": 0.11538461538461539,
+      "f1": 0.1875,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 6,
+      "fp": 3,
+      "fn": 46,
+      "precisao": 0.6666666666666666,
+      "recall": 0.11538461538461539,
+      "f1": 0.19672131147540983,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 5,
+      "fp": 2,
+      "fn": 47,
+      "precisao": 0.7142857142857143,
+      "recall": 0.09615384615384616,
+      "f1": 0.1694915254237288,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 2,
+      "fp": 0,
+      "fn": 50,
+      "precisao": 1.0,
+      "recall": 0.038461538461538464,
+      "f1": 0.07407407407407407,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 1,
+      "fp": 0,
+      "fn": 51,
+      "precisao": 1.0,
+      "recall": 0.019230769230769232,
+      "f1": 0.03773584905660377,
+      "passagens": 2,
+      "ms_modelos_estimados": 38.01
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 10,
+      "fp": 35,
+      "fn": 42,
+      "precisao": 0.2222222222222222,
+      "recall": 0.19230769230769232,
+      "f1": 0.20618556701030927,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 10,
+      "fp": 31,
+      "fn": 42,
+      "precisao": 0.24390243902439024,
+      "recall": 0.19230769230769232,
+      "f1": 0.21505376344086022,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 6,
+      "fp": 25,
+      "fn": 46,
+      "precisao": 0.1935483870967742,
+      "recall": 0.11538461538461539,
+      "f1": 0.14457831325301204,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 6,
+      "fp": 18,
+      "fn": 46,
+      "precisao": 0.25,
+      "recall": 0.11538461538461539,
+      "f1": 0.15789473684210525,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 4,
+      "fp": 7,
+      "fn": 48,
+      "precisao": 0.36363636363636365,
+      "recall": 0.07692307692307693,
+      "f1": 0.12698412698412698,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 2,
+      "fp": 6,
+      "fn": 50,
+      "precisao": 0.25,
+      "recall": 0.038461538461538464,
+      "f1": 0.06666666666666667,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 2,
+      "fp": 2,
+      "fn": 50,
+      "precisao": 0.5,
+      "recall": 0.038461538461538464,
+      "f1": 0.07142857142857142,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 1,
+      "fp": 1,
+      "fn": 51,
+      "precisao": 0.5,
+      "recall": 0.019230769230769232,
+      "f1": 0.037037037037037035,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 0,
+      "fp": 1,
+      "fn": 52,
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 15,
+      "fp": 41,
+      "fn": 37,
+      "precisao": 0.26785714285714285,
+      "recall": 0.28846153846153844,
+      "f1": 0.2777777777777778,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 13,
+      "fp": 34,
+      "fn": 39,
+      "precisao": 0.2765957446808511,
+      "recall": 0.25,
+      "f1": 0.26262626262626265,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 11,
+      "fp": 28,
+      "fn": 41,
+      "precisao": 0.28205128205128205,
+      "recall": 0.21153846153846154,
+      "f1": 0.24175824175824176,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 10,
+      "fp": 23,
+      "fn": 42,
+      "precisao": 0.30303030303030304,
+      "recall": 0.19230769230769232,
+      "f1": 0.23529411764705882,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 8,
+      "fp": 16,
+      "fn": 44,
+      "precisao": 0.3333333333333333,
+      "recall": 0.15384615384615385,
+      "f1": 0.21052631578947367,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 8,
+      "fp": 9,
+      "fn": 44,
+      "precisao": 0.47058823529411764,
+      "recall": 0.15384615384615385,
+      "f1": 0.2318840579710145,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 7,
+      "fp": 4,
+      "fn": 45,
+      "precisao": 0.6363636363636364,
+      "recall": 0.1346153846153846,
+      "f1": 0.2222222222222222,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 4,
+      "fp": 3,
+      "fn": 48,
+      "precisao": 0.5714285714285714,
+      "recall": 0.07692307692307693,
+      "f1": 0.13559322033898305,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 1,
+      "fp": 2,
+      "fn": 51,
+      "precisao": 0.3333333333333333,
+      "recall": 0.019230769230769232,
+      "f1": 0.03636363636363636,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 17,
+      "fp": 37,
+      "fn": 35,
+      "precisao": 0.3148148148148148,
+      "recall": 0.3269230769230769,
+      "f1": 0.32075471698113206,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 16,
+      "fp": 26,
+      "fn": 36,
+      "precisao": 0.38095238095238093,
+      "recall": 0.3076923076923077,
+      "f1": 0.3404255319148936,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 16,
+      "fp": 22,
+      "fn": 36,
+      "precisao": 0.42105263157894735,
+      "recall": 0.3076923076923077,
+      "f1": 0.35555555555555557,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 14,
+      "fp": 18,
+      "fn": 38,
+      "precisao": 0.4375,
+      "recall": 0.2692307692307692,
+      "f1": 0.3333333333333333,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 10,
+      "fp": 12,
+      "fn": 42,
+      "precisao": 0.45454545454545453,
+      "recall": 0.19230769230769232,
+      "f1": 0.2702702702702703,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 8,
+      "fp": 8,
+      "fn": 44,
+      "precisao": 0.5,
+      "recall": 0.15384615384615385,
+      "f1": 0.23529411764705882,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 6,
+      "fp": 6,
+      "fn": 46,
+      "precisao": 0.5,
+      "recall": 0.11538461538461539,
+      "f1": 0.1875,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 3,
+      "fp": 0,
+      "fn": 49,
+      "precisao": 1.0,
+      "recall": 0.057692307692307696,
+      "f1": 0.10909090909090909,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 2,
+      "fp": 0,
+      "fn": 50,
+      "precisao": 1.0,
+      "recall": 0.038461538461538464,
+      "f1": 0.07407407407407407,
+      "passagens": 2,
+      "ms_modelos_estimados": 32.78
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 14,
+      "fp": 56,
+      "fn": 38,
+      "precisao": 0.2,
+      "recall": 0.2692307692307692,
+      "f1": 0.22950819672131148,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 14,
+      "fp": 48,
+      "fn": 38,
+      "precisao": 0.22580645161290322,
+      "recall": 0.2692307692307692,
+      "f1": 0.24561403508771928,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 14,
+      "fp": 37,
+      "fn": 38,
+      "precisao": 0.27450980392156865,
+      "recall": 0.2692307692307692,
+      "f1": 0.27184466019417475,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 14,
+      "fp": 28,
+      "fn": 38,
+      "precisao": 0.3333333333333333,
+      "recall": 0.2692307692307692,
+      "f1": 0.2978723404255319,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 12,
+      "fp": 14,
+      "fn": 40,
+      "precisao": 0.46153846153846156,
+      "recall": 0.23076923076923078,
+      "f1": 0.3076923076923077,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 12,
+      "fp": 11,
+      "fn": 40,
+      "precisao": 0.5217391304347826,
+      "recall": 0.23076923076923078,
+      "f1": 0.32,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 9,
+      "fp": 7,
+      "fn": 43,
+      "precisao": 0.5625,
+      "recall": 0.17307692307692307,
+      "f1": 0.2647058823529412,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 2,
+      "fp": 4,
+      "fn": 50,
+      "precisao": 0.3333333333333333,
+      "recall": 0.038461538461538464,
+      "f1": 0.06896551724137931,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 1,
+      "fp": 2,
+      "fn": 51,
+      "precisao": 0.3333333333333333,
+      "recall": 0.019230769230769232,
+      "f1": 0.03636363636363636,
+      "passagens": 2,
+      "ms_modelos_estimados": 39.72
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 20,
+      "fp": 396,
+      "fn": 32,
+      "precisao": 0.04807692307692308,
+      "recall": 0.38461538461538464,
+      "f1": 0.08547008547008547,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 18,
+      "fp": 296,
+      "fn": 34,
+      "precisao": 0.05732484076433121,
+      "recall": 0.34615384615384615,
+      "f1": 0.09836065573770492,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 18,
+      "fp": 242,
+      "fn": 34,
+      "precisao": 0.06923076923076923,
+      "recall": 0.34615384615384615,
+      "f1": 0.11538461538461539,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 15,
+      "fp": 173,
+      "fn": 37,
+      "precisao": 0.0797872340425532,
+      "recall": 0.28846153846153844,
+      "f1": 0.125,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 13,
+      "fp": 101,
+      "fn": 39,
+      "precisao": 0.11403508771929824,
+      "recall": 0.25,
+      "f1": 0.1566265060240964,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 12,
+      "fp": 64,
+      "fn": 40,
+      "precisao": 0.15789473684210525,
+      "recall": 0.23076923076923078,
+      "f1": 0.1875,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 9,
+      "fp": 49,
+      "fn": 43,
+      "precisao": 0.15517241379310345,
+      "recall": 0.17307692307692307,
+      "f1": 0.16363636363636364,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 5,
+      "fp": 23,
+      "fn": 47,
+      "precisao": 0.17857142857142858,
+      "recall": 0.09615384615384616,
+      "f1": 0.125,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          384
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 5,
+      "fp": 5,
+      "fn": 47,
+      "precisao": 0.5,
+      "recall": 0.09615384615384616,
+      "f1": 0.16129032258064516,
+      "passagens": 2,
+      "ms_modelos_estimados": 30.8
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 26,
+      "fp": 605,
+      "fn": 26,
+      "precisao": 0.04120443740095087,
+      "recall": 0.5,
+      "f1": 0.07613469985358712,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 23,
+      "fp": 445,
+      "fn": 29,
+      "precisao": 0.049145299145299144,
+      "recall": 0.4423076923076923,
+      "f1": 0.08846153846153847,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 22,
+      "fp": 355,
+      "fn": 30,
+      "precisao": 0.058355437665782495,
+      "recall": 0.4230769230769231,
+      "f1": 0.10256410256410256,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 20,
+      "fp": 256,
+      "fn": 32,
+      "precisao": 0.07246376811594203,
+      "recall": 0.38461538461538464,
+      "f1": 0.12195121951219512,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 17,
+      "fp": 165,
+      "fn": 35,
+      "precisao": 0.09340659340659341,
+      "recall": 0.3269230769230769,
+      "f1": 0.1452991452991453,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 12,
+      "fp": 113,
+      "fn": 40,
+      "precisao": 0.096,
+      "recall": 0.23076923076923078,
+      "f1": 0.13559322033898305,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 12,
+      "fp": 68,
+      "fn": 40,
+      "precisao": 0.15,
+      "recall": 0.23076923076923078,
+      "f1": 0.18181818181818182,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 10,
+      "fp": 30,
+      "fn": 42,
+      "precisao": 0.25,
+      "recall": 0.19230769230769232,
+      "f1": 0.21739130434782608,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 8,
+      "fp": 15,
+      "fn": 44,
+      "precisao": 0.34782608695652173,
+      "recall": 0.15384615384615385,
+      "f1": 0.21333333333333335,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 32,
+      "fp": 1019,
+      "fn": 20,
+      "precisao": 0.030447193149381543,
+      "recall": 0.6153846153846154,
+      "f1": 0.05802357207615594,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 27,
+      "fp": 754,
+      "fn": 25,
+      "precisao": 0.034571062740076826,
+      "recall": 0.5192307692307693,
+      "f1": 0.06482593037214886,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 25,
+      "fp": 581,
+      "fn": 27,
+      "precisao": 0.041254125412541254,
+      "recall": 0.4807692307692308,
+      "f1": 0.07598784194528875,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 23,
+      "fp": 421,
+      "fn": 29,
+      "precisao": 0.0518018018018018,
+      "recall": 0.4423076923076923,
+      "f1": 0.09274193548387097,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 21,
+      "fp": 279,
+      "fn": 31,
+      "precisao": 0.07,
+      "recall": 0.40384615384615385,
+      "f1": 0.11931818181818182,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 17,
+      "fp": 193,
+      "fn": 35,
+      "precisao": 0.08095238095238096,
+      "recall": 0.3269230769230769,
+      "f1": 0.1297709923664122,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 17,
+      "fp": 145,
+      "fn": 35,
+      "precisao": 0.10493827160493827,
+      "recall": 0.3269230769230769,
+      "f1": 0.1588785046728972,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 14,
+      "fp": 86,
+      "fn": 38,
+      "precisao": 0.14,
+      "recall": 0.2692307692307692,
+      "f1": 0.18421052631578946,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "especialista",
+          640
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 9,
+      "fp": 45,
+      "fn": 43,
+      "precisao": 0.16666666666666666,
+      "recall": 0.17307692307692307,
+      "f1": 0.16981132075471697,
+      "passagens": 2,
+      "ms_modelos_estimados": 42.85
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 11,
+      "fp": 29,
+      "fn": 41,
+      "precisao": 0.275,
+      "recall": 0.21153846153846154,
+      "f1": 0.2391304347826087,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 10,
+      "fp": 24,
+      "fn": 42,
+      "precisao": 0.29411764705882354,
+      "recall": 0.19230769230769232,
+      "f1": 0.23255813953488372,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 9,
+      "fp": 19,
+      "fn": 43,
+      "precisao": 0.32142857142857145,
+      "recall": 0.17307692307692307,
+      "f1": 0.225,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 5,
+      "fp": 17,
+      "fn": 47,
+      "precisao": 0.22727272727272727,
+      "recall": 0.09615384615384616,
+      "f1": 0.13513513513513514,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 3,
+      "fp": 14,
+      "fn": 49,
+      "precisao": 0.17647058823529413,
+      "recall": 0.057692307692307696,
+      "f1": 0.08695652173913043,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 3,
+      "fp": 6,
+      "fn": 49,
+      "precisao": 0.3333333333333333,
+      "recall": 0.057692307692307696,
+      "f1": 0.09836065573770492,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 3,
+      "fp": 5,
+      "fn": 49,
+      "precisao": 0.375,
+      "recall": 0.057692307692307696,
+      "f1": 0.1,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 2,
+      "fp": 1,
+      "fn": 50,
+      "precisao": 0.6666666666666666,
+      "recall": 0.038461538461538464,
+      "f1": 0.07272727272727272,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "retreino",
+          384
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 1,
+      "fp": 1,
+      "fn": 51,
+      "precisao": 0.5,
+      "recall": 0.019230769230769232,
+      "f1": 0.037037037037037035,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.75
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 12,
+      "fp": 32,
+      "fn": 40,
+      "precisao": 0.2727272727272727,
+      "recall": 0.23076923076923078,
+      "f1": 0.25,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 12,
+      "fp": 27,
+      "fn": 40,
+      "precisao": 0.3076923076923077,
+      "recall": 0.23076923076923078,
+      "f1": 0.26373626373626374,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 12,
+      "fp": 23,
+      "fn": 40,
+      "precisao": 0.34285714285714286,
+      "recall": 0.23076923076923078,
+      "f1": 0.27586206896551724,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 10,
+      "fp": 17,
+      "fn": 42,
+      "precisao": 0.37037037037037035,
+      "recall": 0.19230769230769232,
+      "f1": 0.25316455696202533,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 9,
+      "fp": 13,
+      "fn": 43,
+      "precisao": 0.4090909090909091,
+      "recall": 0.17307692307692307,
+      "f1": 0.24324324324324326,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 7,
+      "fp": 11,
+      "fn": 45,
+      "precisao": 0.3888888888888889,
+      "recall": 0.1346153846153846,
+      "f1": 0.2,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 4,
+      "fp": 4,
+      "fn": 48,
+      "precisao": 0.5,
+      "recall": 0.07692307692307693,
+      "f1": 0.13333333333333333,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 3,
+      "fp": 2,
+      "fn": 49,
+      "precisao": 0.6,
+      "recall": 0.057692307692307696,
+      "f1": 0.10526315789473684,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 3,
+      "fp": 0,
+      "fn": 49,
+      "precisao": 1.0,
+      "recall": 0.057692307692307696,
+      "f1": 0.10909090909090909,
+      "passagens": 2,
+      "ms_modelos_estimados": 35.24
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 17,
+      "fp": 42,
+      "fn": 35,
+      "precisao": 0.288135593220339,
+      "recall": 0.3269230769230769,
+      "f1": 0.3063063063063063,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 17,
+      "fp": 38,
+      "fn": 35,
+      "precisao": 0.3090909090909091,
+      "recall": 0.3269230769230769,
+      "f1": 0.3177570093457944,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 17,
+      "fp": 34,
+      "fn": 35,
+      "precisao": 0.3333333333333333,
+      "recall": 0.3269230769230769,
+      "f1": 0.3300970873786408,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 16,
+      "fp": 25,
+      "fn": 36,
+      "precisao": 0.3902439024390244,
+      "recall": 0.3076923076923077,
+      "f1": 0.34408602150537637,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 12,
+      "fp": 16,
+      "fn": 40,
+      "precisao": 0.42857142857142855,
+      "recall": 0.23076923076923078,
+      "f1": 0.3,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 8,
+      "fp": 11,
+      "fn": 44,
+      "precisao": 0.42105263157894735,
+      "recall": 0.15384615384615385,
+      "f1": 0.22535211267605634,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 6,
+      "fp": 5,
+      "fn": 46,
+      "precisao": 0.5454545454545454,
+      "recall": 0.11538461538461539,
+      "f1": 0.19047619047619047,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 5,
+      "fp": 0,
+      "fn": 47,
+      "precisao": 1.0,
+      "recall": 0.09615384615384616,
+      "f1": 0.17543859649122806,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "especialista",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 4,
+      "fp": 0,
+      "fn": 48,
+      "precisao": 1.0,
+      "recall": 0.07692307692307693,
+      "f1": 0.14285714285714285,
+      "passagens": 3,
+      "ms_modelos_estimados": 45.91
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 11,
+      "fp": 22,
+      "fn": 41,
+      "precisao": 0.3333333333333333,
+      "recall": 0.21153846153846154,
+      "f1": 0.25882352941176473,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 10,
+      "fp": 20,
+      "fn": 42,
+      "precisao": 0.3333333333333333,
+      "recall": 0.19230769230769232,
+      "f1": 0.24390243902439024,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 9,
+      "fp": 18,
+      "fn": 43,
+      "precisao": 0.3333333333333333,
+      "recall": 0.17307692307692307,
+      "f1": 0.22784810126582278,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 9,
+      "fp": 12,
+      "fn": 43,
+      "precisao": 0.42857142857142855,
+      "recall": 0.17307692307692307,
+      "f1": 0.2465753424657534,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 7,
+      "fp": 8,
+      "fn": 45,
+      "precisao": 0.4666666666666667,
+      "recall": 0.1346153846153846,
+      "f1": 0.208955223880597,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 7,
+      "fp": 5,
+      "fn": 45,
+      "precisao": 0.5833333333333334,
+      "recall": 0.1346153846153846,
+      "f1": 0.21875,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 6,
+      "fp": 2,
+      "fn": 46,
+      "precisao": 0.75,
+      "recall": 0.11538461538461539,
+      "f1": 0.2,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 1,
+      "fp": 1,
+      "fn": 51,
+      "precisao": 0.5,
+      "recall": 0.019230769230769232,
+      "f1": 0.037037037037037035,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "retreino",
+          384
+        ],
+        [
+          "retreino",
+          640
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 1,
+      "fp": 1,
+      "fn": 51,
+      "precisao": 0.5,
+      "recall": 0.019230769230769232,
+      "f1": 0.037037037037037035,
+      "passagens": 3,
+      "ms_modelos_estimados": 50.39
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.08,
+      "vp": 6,
+      "fp": 17,
+      "fn": 46,
+      "precisao": 0.2608695652173913,
+      "recall": 0.11538461538461539,
+      "f1": 0.16,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.1,
+      "vp": 6,
+      "fp": 13,
+      "fn": 46,
+      "precisao": 0.3157894736842105,
+      "recall": 0.11538461538461539,
+      "f1": 0.16901408450704225,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.12,
+      "vp": 6,
+      "fp": 10,
+      "fn": 46,
+      "precisao": 0.375,
+      "recall": 0.11538461538461539,
+      "f1": 0.17647058823529413,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.15,
+      "vp": 4,
+      "fp": 8,
+      "fn": 48,
+      "precisao": 0.3333333333333333,
+      "recall": 0.07692307692307693,
+      "f1": 0.125,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.2,
+      "vp": 3,
+      "fp": 4,
+      "fn": 49,
+      "precisao": 0.42857142857142855,
+      "recall": 0.057692307692307696,
+      "f1": 0.1016949152542373,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.25,
+      "vp": 2,
+      "fp": 1,
+      "fn": 50,
+      "precisao": 0.6666666666666666,
+      "recall": 0.038461538461538464,
+      "f1": 0.07272727272727272,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.3,
+      "vp": 1,
+      "fp": 0,
+      "fn": 51,
+      "precisao": 1.0,
+      "recall": 0.019230769230769232,
+      "f1": 0.03773584905660377,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.4,
+      "vp": 1,
+      "fp": 0,
+      "fn": 51,
+      "precisao": 1.0,
+      "recall": 0.019230769230769232,
+      "f1": 0.03773584905660377,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    },
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ],
+        [
+          "original",
+          640
+        ]
+      ],
+      "limiar": 0.5,
+      "vp": 0,
+      "fp": 0,
+      "fn": 52,
+      "precisao": 0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "passagens": 2,
+      "ms_modelos_estimados": 40.88
+    }
+  ]
+}

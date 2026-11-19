@@ -1,0 +1,26 @@
+[
+  {
+    "fonte": "Buraco · Roma",
+    "recorte": "maior IoU",
+    "maior_iou": 0.801317572593689,
+    "imagem": "rome-vlcsnap-2025-02-26-20h35m13s989.jpg"
+  },
+  {
+    "fonte": "Buraco · Roma",
+    "recorte": "menor IoU",
+    "maior_iou": 0.0,
+    "imagem": "rome-vlcsnap-2025-02-26-20h42m24s605.jpg"
+  },
+  {
+    "fonte": "Calçada quebrada · Pune",
+    "recorte": "maior IoU",
+    "maior_iou": 0.9168366193771362,
+    "imagem": "pune-1071.jpg"
+  },
+  {
+    "fonte": "Calçada quebrada · Pune",
+    "recorte": "menor IoU",
+    "maior_iou": 0,
+    "imagem": "pune-6066.jpg"
+  }
+]

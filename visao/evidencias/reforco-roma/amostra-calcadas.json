@@ -1,0 +1,75 @@
+{
+  "metodo": "Amostra de conveniência Wikimedia Commons. Imagens de passeio e pavimento de circulação a pé. Anotação manual antes da inferência. Uma caixa por cavidade visível avaliada. Negativos de fissura, desnível ou pedras soltas. Triagem exploratória, sem representatividade geográfica.",
+  "imagens": [
+    {
+      "id": "00",
+      "fonte": "https://commons.wikimedia.org/wiki/File:IMG_sidewalk_in_poor_condition.jpg",
+      "sha256_original": "023b0e6b046ad1321313719791e65d69d2838726b6c4332d845e696cb1a67622",
+      "caixas_buraco_xyxy_normalizado": [
+        [
+          0.056666666666666664,
+          0.3288888888888889,
+          0.51,
+          0.6133333333333333
+        ]
+      ]
+    },
+    {
+      "id": "01",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Acera_quebrada_de_concreto_no_reparada_en_Maracay%2C_Venezuela.jpg",
+      "sha256_original": "8a1a5647422e56100ee0aaec2594dffaa7dc1702c768e99f6707f865546ecded",
+      "caixas_buraco_xyxy_normalizado": [
+        [
+          0.18,
+          0.1511111111111111,
+          0.7566666666666667,
+          0.49333333333333335
+        ]
+      ]
+    },
+    {
+      "id": "02",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Damaged_sidewalk_in_Montevideo_-_01.jpg",
+      "sha256_original": "533790829e1ad8b7547a8d1efe47980b68d6cab8937b60d75c21c0dc11550fe9",
+      "caixas_buraco_xyxy_normalizado": [
+        [
+          0.3333333333333333,
+          0.2311111111111111,
+          0.8866666666666667,
+          0.7822222222222223
+        ]
+      ]
+    },
+    {
+      "id": "04",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Cracked_sidewalk_1.jpg",
+      "sha256_original": "461846ddc0d27d18d269c22190d6f4360fe8986586060279386c82c3b9550cbd",
+      "caixas_buraco_xyxy_normalizado": []
+    },
+    {
+      "id": "06",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Seattle_-_damaged_McGraw_Street_Shoreline_Street_End_2025.jpg",
+      "sha256_original": "0ee4f56ca372569f7515c20edbcbae8879c16dba1e2a1e5024ef6a9b2fcb357d",
+      "caixas_buraco_xyxy_normalizado": []
+    },
+    {
+      "id": "08",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Watch_your_step.jpg",
+      "sha256_original": "0871eed2938304855ecd201f5bfd1bb77fd435162d8915c5c5e60b476ad969a6",
+      "caixas_buraco_xyxy_normalizado": [
+        [
+          0.37333333333333335,
+          0.24,
+          0.6733333333333333,
+          0.38666666666666666
+        ]
+      ]
+    },
+    {
+      "id": "10",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Broken_sidewalk.jpg",
+      "sha256_original": "0fc7ba75b5ee81218a5474eaf38e3c23af52c0ca09e8d3cff38c31cf5eac5584",
+      "caixas_buraco_xyxy_normalizado": []
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "validacao_simulado": {
+    "variantes": [
+      [
+        "simulado",
+        480
+      ]
+    ],
+    "limiar": 0.15,
+    "perfil": "simulado",
+    "vp": 13,
+    "fp": 27,
+    "fn": 39,
+    "precisao": 0.325,
+    "recall": 0.25,
+    "f1": 0.2826086956521739,
+    "passagens": 2,
+    "ms_modelos_estimados": 33.19
+  },
+  "todas_validacao": [
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "perfil": "padrao",
+      "vp": 8,
+      "fp": 22,
+      "fn": 44,
+      "precisao": 0.26666666666666666,
+      "recall": 0.15384615384615385,
+      "f1": 0.1951219512195122,
+      "passagens": 1,
+      "ms_modelos_estimados": 20.54
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.08,
+      "perfil": "simulado",
+      "vp": 16,
+      "fp": 65,
+      "fn": 36,
+      "precisao": 0.19753086419753085,
+      "recall": 0.3076923076923077,
+      "f1": 0.24060150375939848,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.1,
+      "perfil": "simulado",
+      "vp": 15,
+      "fp": 47,
+      "fn": 37,
+      "precisao": 0.24193548387096775,
+      "recall": 0.28846153846153844,
+      "f1": 0.2631578947368421,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.12,
+      "perfil": "simulado",
+      "vp": 14,
+      "fp": 40,
+      "fn": 38,
+      "precisao": 0.25925925925925924,
+      "recall": 0.2692307692307692,
+      "f1": 0.2641509433962264,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "perfil": "simulado",
+      "vp": 13,
+      "fp": 27,
+      "fn": 39,
+      "precisao": 0.325,
+      "recall": 0.25,
+      "f1": 0.2826086956521739,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.2,
+      "perfil": "simulado",
+      "vp": 9,
+      "fp": 15,
+      "fn": 43,
+      "precisao": 0.375,
+      "recall": 0.17307692307692307,
+      "f1": 0.23684210526315788,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.25,
+      "perfil": "simulado",
+      "vp": 8,
+      "fp": 9,
+      "fn": 44,
+      "precisao": 0.47058823529411764,
+      "recall": 0.15384615384615385,
+      "f1": 0.2318840579710145,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.3,
+      "perfil": "simulado",
+      "vp": 7,
+      "fp": 5,
+      "fn": 45,
+      "precisao": 0.5833333333333334,
+      "recall": 0.1346153846153846,
+      "f1": 0.21875,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.4,
+      "perfil": "simulado",
+      "vp": 4,
+      "fp": 2,
+      "fn": 48,
+      "precisao": 0.6666666666666666,
+      "recall": 0.07692307692307693,
+      "f1": 0.13793103448275862,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.5,
+      "perfil": "simulado",
+      "vp": 2,
+      "fp": 1,
+      "fn": 50,
+      "precisao": 0.6666666666666666,
+      "recall": 0.038461538461538464,
+      "f1": 0.07272727272727272,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.19
+    }
+  ],
+  "teste": [
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "perfil": "padrao",
+      "vp": 9,
+      "fp": 37,
+      "fn": 35,
+      "precisao": 0.1956521739130435,
+      "recall": 0.20454545454545456,
+      "f1": 0.2,
+      "passagens": 1,
+      "ms_modelos_estimados": 11.9
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "perfil": "simulado",
+      "vp": 13,
+      "fp": 38,
+      "fn": 31,
+      "precisao": 0.2549019607843137,
+      "recall": 0.29545454545454547,
+      "f1": 0.2736842105263158,
+      "passagens": 2,
+      "ms_modelos_estimados": 31.57
+    }
+  ],
+  "amostra_calcadas": [
+    {
+      "variantes": [
+        [
+          "original",
+          384
+        ]
+      ],
+      "limiar": 0.1,
+      "perfil": "padrao",
+      "vp": 0,
+      "fp": 0,
+      "fn": 4,
+      "precisao": 0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "passagens": 1,
+      "ms_modelos_estimados": 15.51
+    },
+    {
+      "variantes": [
+        [
+          "simulado",
+          480
+        ]
+      ],
+      "limiar": 0.15,
+      "perfil": "simulado",
+      "vp": 0,
+      "fp": 4,
+      "fn": 4,
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "passagens": 2,
+      "ms_modelos_estimados": 33.65
+    }
+  ]
+}

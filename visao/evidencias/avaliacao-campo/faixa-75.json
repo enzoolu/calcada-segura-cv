@@ -1,0 +1,148 @@
+{
+  "escopo": "presença por quadro em cenas do mesmo vídeo",
+  "imgsz": 384,
+  "obstaculo_ate_y": 0.75,
+  "cenas": [
+    {
+      "nome": "Piso tátil danificado",
+      "classe": "calcada_quebrada",
+      "presente": true,
+      "limiar": 0.3,
+      "quadros_revisados": 9,
+      "quadros_com_marcacao": 7,
+      "acertos_de_presenca": 7,
+      "quadros": [
+        {
+          "imagem": "066.jpg",
+          "segundo": 32.5,
+          "marcou": false,
+          "acertou_presenca": false,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "067.jpg",
+          "segundo": 33.0,
+          "marcou": false,
+          "acertou_presenca": false,
+          "confianca_maxima": 0.23242
+        },
+        {
+          "imagem": "068.jpg",
+          "segundo": 33.5,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.68931
+        },
+        {
+          "imagem": "069.jpg",
+          "segundo": 34.0,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.44411
+        },
+        {
+          "imagem": "070.jpg",
+          "segundo": 34.5,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.78193
+        },
+        {
+          "imagem": "071.jpg",
+          "segundo": 35.0,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.78017
+        },
+        {
+          "imagem": "072.jpg",
+          "segundo": 35.5,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.65566
+        },
+        {
+          "imagem": "073.jpg",
+          "segundo": 36.0,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.67163
+        },
+        {
+          "imagem": "074.jpg",
+          "segundo": 36.5,
+          "marcou": true,
+          "acertou_presenca": true,
+          "confianca_maxima": 0.78154
+        }
+      ]
+    },
+    {
+      "nome": "Calçado do operador sem obstáculo na rota",
+      "classe": "obstaculo",
+      "presente": false,
+      "limiar": 0.5,
+      "quadros_revisados": 8,
+      "quadros_com_marcacao": 0,
+      "acertos_de_presenca": 8,
+      "quadros": [
+        {
+          "imagem": "077.jpg",
+          "segundo": 38.0,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "078.jpg",
+          "segundo": 38.5,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "079.jpg",
+          "segundo": 39.0,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "080.jpg",
+          "segundo": 39.5,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "081.jpg",
+          "segundo": 40.0,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "082.jpg",
+          "segundo": 40.5,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "083.jpg",
+          "segundo": 41.0,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        },
+        {
+          "imagem": "084.jpg",
+          "segundo": 41.5,
+          "marcou": false,
+          "acertou_presenca": true,
+          "confianca_maxima": null
+        }
+      ]
+    }
+  ]
+}

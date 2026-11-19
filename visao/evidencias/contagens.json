@@ -1,0 +1,14 @@
+{
+  "train": {
+    "imagens": 100,
+    "caixas": 352
+  },
+  "val": {
+    "imagens": 15,
+    "caixas": 32
+  },
+  "test": {
+    "imagens": 12,
+    "caixas": 16
+  }
+}

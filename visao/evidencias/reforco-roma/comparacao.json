@@ -1,0 +1,265 @@
+{
+  "imgsz": 384,
+  "device": "cpu",
+  "imagens_teste": 112,
+  "limiar_fixo": 0.1,
+  "iou_limiar_fixo": 0.5,
+  "pesos": {
+    "anterior": {
+      "sha256": "7ae835b0d6bec694f46ce042e01fc92b9161bd5f98f9d1d37096ebc132e3dc62",
+      "metricas": {
+        "split": "test",
+        "map50": 0.3664997190456472,
+        "map50_95": 0.21774618763632111,
+        "precisao": 0.4738396786947024,
+        "recall": 0.3863636363636364,
+        "por_classe": [
+          {
+            "classe": "buraco",
+            "precisao": 0.27509335185449857,
+            "recall": 0.1590909090909091,
+            "map50": 0.10701767497603254,
+            "map50_95": 0.0386690951053811
+          },
+          {
+            "classe": "calcada_quebrada",
+            "precisao": 0.2894739385375732,
+            "recall": 0.36363636363636365,
+            "map50": 0.2923926652215099,
+            "map50_95": 0.12277980007131999
+          },
+          {
+            "classe": "obstaculo",
+            "precisao": 0.8569517456920356,
+            "recall": 0.6363636363636364,
+            "map50": 0.7000888169393992,
+            "map50_95": 0.4917896677322623
+          }
+        ]
+      },
+      "buraco_limiar_fixo": {
+        "vp": 7,
+        "fp": 31,
+        "fn": 37,
+        "precisao": 0.18421052631578946,
+        "recall": 0.1590909090909091,
+        "f1": 0.17073170731707318
+      },
+      "buraco_limiar_calibrado": {
+        "confianca": 0.1,
+        "validacao": {
+          "vp": 8,
+          "fp": 21,
+          "fn": 44,
+          "precisao": 0.27586206896551724,
+          "recall": 0.15384615384615385,
+          "f1": 0.19753086419753085
+        },
+        "teste": {
+          "vp": 7,
+          "fp": 31,
+          "fn": 37,
+          "precisao": 0.18421052631578946,
+          "recall": 0.1590909090909091,
+          "f1": 0.17073170731707318
+        }
+      },
+      "amostra_calcadas": {
+        "total_limiar_fixo": {
+          "vp": 0,
+          "fp": 0,
+          "fn": 4,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "por_imagem_limiar_fixo": {
+          "00": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "01": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "02": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "04": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "06": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "08": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          }
+        }
+      }
+    },
+    "retreino": {
+      "sha256": "c911a7e1a3595903777aede483bd989c79a2b643709406f98153ec05812c50a8",
+      "metricas": {
+        "split": "test",
+        "map50": 0.3399162218478062,
+        "map50_95": 0.2295565113921114,
+        "precisao": 0.5911743133350938,
+        "recall": 0.3253819450625384,
+        "por_classe": [
+          {
+            "classe": "buraco",
+            "precisao": 0.3285297863805795,
+            "recall": 0.18181818181818182,
+            "map50": 0.12670571753982338,
+            "map50_95": 0.051522302393141275
+          },
+          {
+            "classe": "calcada_quebrada",
+            "precisao": 0.5279534337722079,
+            "recall": 0.20341856246034248,
+            "map50": 0.22240808631736014,
+            "map50_95": 0.1005568756521594
+          },
+          {
+            "classe": "obstaculo",
+            "precisao": 0.9170397198524942,
+            "recall": 0.5909090909090909,
+            "map50": 0.670634861686235,
+            "map50_95": 0.5365903561310335
+          }
+        ]
+      },
+      "buraco_limiar_fixo": {
+        "vp": 17,
+        "fp": 68,
+        "fn": 27,
+        "precisao": 0.2,
+        "recall": 0.38636363636363635,
+        "f1": 0.26356589147286824
+      },
+      "buraco_limiar_calibrado": {
+        "confianca": 0.1,
+        "validacao": {
+          "vp": 13,
+          "fp": 37,
+          "fn": 39,
+          "precisao": 0.26,
+          "recall": 0.25,
+          "f1": 0.2549019607843137
+        },
+        "teste": {
+          "vp": 17,
+          "fp": 68,
+          "fn": 27,
+          "precisao": 0.2,
+          "recall": 0.38636363636363635,
+          "f1": 0.26356589147286824
+        }
+      },
+      "amostra_calcadas": {
+        "total_limiar_fixo": {
+          "vp": 0,
+          "fp": 0,
+          "fn": 4,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "por_imagem_limiar_fixo": {
+          "00": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "01": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "02": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "04": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "06": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "08": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "10": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          }
+        }
+      }
+    }
+  }
+}

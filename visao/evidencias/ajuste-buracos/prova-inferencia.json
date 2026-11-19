@@ -1,0 +1,10 @@
+{
+  "fonte": "Vídeo montado com 12 quadros de teste de vias italianas, executado localmente em CPU",
+  "quadros_processados": 12,
+  "eventos_gerados_por_tres_quadros_consistentes": 1,
+  "evento": {
+    "tipo": "buraco",
+    "confianca": 0.1761
+  },
+  "coordenadas_da_execucao": "Simuladas, sem publicação"
+}

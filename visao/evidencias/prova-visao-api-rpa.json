@@ -1,0 +1,10 @@
+{
+  "ambiente": "API local, sequência de fotos de Pune e coordenada fixa simulada em SP",
+  "origem": "visao",
+  "tipo": "calcada_quebrada",
+  "status": "validada",
+  "subprefeitura": "SE",
+  "confianca": 0.4459,
+  "prioridade": "baixa",
+  "relatorio_total": 1
+}

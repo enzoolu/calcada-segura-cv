@@ -1,0 +1,254 @@
+{
+  "fonte": "https://doi.org/10.5281/zenodo.17834373",
+  "dados_exclusivos_de_treino": [
+    {
+      "imagem": "roma-celular-20250216_164325.jpg",
+      "origem": "data/images/20250216_164325.jpg",
+      "sha256": "151f8fb2f423b089478644643315e2429dc2dccfb2d86541b1c19ada358a92ce",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250216_164521.jpg",
+      "origem": "data/images/20250216_164521.jpg",
+      "sha256": "742a73746d15947639f57253643dfb525244b37b54ac4a1fca40f7ac2d09db1d",
+      "caixas": 0
+    },
+    {
+      "imagem": "roma-celular-20250216_164541.jpg",
+      "origem": "data/images/20250216_164541.jpg",
+      "sha256": "8d7fb54fbfc9b82877144a8bf32067732ca47a90470102d4d9c598cea9c7f9e5",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_104730.jpg",
+      "origem": "data/images/20250223_104730.jpg",
+      "sha256": "92b0b6d67e525d58c41e6b60f8bd8742ebb6a3a7ba9e706ec5f57fd65bab427b",
+      "caixas": 4
+    },
+    {
+      "imagem": "roma-celular-20250223_104743.jpg",
+      "origem": "data/images/20250223_104743.jpg",
+      "sha256": "a480f05d3a8afaf39b23188f26eadbea78bd7a60fc2ef5dec67dd7e863b47d29",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_104750.jpg",
+      "origem": "data/images/20250223_104750.jpg",
+      "sha256": "888d7012c218d8a8902d2f50b176f6044d0ef6f4cab70debadc158fcb511bbaa",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_143815.jpg",
+      "origem": "data/images/20250223_143815.jpg",
+      "sha256": "fb77e85d26da2cebffc0596199f15112ee17a9e1a0e0cb81018c0ee1424d7d82",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_143826.jpg",
+      "origem": "data/images/20250223_143826.jpg",
+      "sha256": "5b4bbb57718814936da5290eb0c97a8f9d0b99d889392d96dc2c738f8ad107d1",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_143834.jpg",
+      "origem": "data/images/20250223_143834.jpg",
+      "sha256": "60123542ebb202e3751daa814142b9109289436ef9944a19df6679626fa2131d",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_143847.jpg",
+      "origem": "data/images/20250223_143847.jpg",
+      "sha256": "f3ea20353b6bc0411e9492833e0f88eb1f8c3e4b27e04a47c16599bbc8b78800",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_143902.jpg",
+      "origem": "data/images/20250223_143902.jpg",
+      "sha256": "9f94defc54828e03e56677db12902f7d260a7bddfc9d857c97bb40773404c941",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_143908.jpg",
+      "origem": "data/images/20250223_143908.jpg",
+      "sha256": "d0fac5643ed543f61d866f1053784a6ecedbec452d7d61a5b958bc512aac159b",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_143917.jpg",
+      "origem": "data/images/20250223_143917.jpg",
+      "sha256": "c6c7dc2e51d6f87e732a2a2c958297d289fd1534dff6d243dc3594f945058bcb",
+      "caixas": 11
+    },
+    {
+      "imagem": "roma-celular-20250223_143928.jpg",
+      "origem": "data/images/20250223_143928.jpg",
+      "sha256": "96eb4740c167c56641aff4a42da1c0e6d8f8dff173afc31f16677d40d1d06588",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_143943.jpg",
+      "origem": "data/images/20250223_143943.jpg",
+      "sha256": "fb5032c8006afb9e4d4fbcfb7b06eb712e2877331e7adbb59ff46e74bcf13aba",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_143954.jpg",
+      "origem": "data/images/20250223_143954.jpg",
+      "sha256": "25bfc69818a19fb114cd3bec99cf1fe9c187f3f11233fc76d74d9ff4a22a15b0",
+      "caixas": 0
+    },
+    {
+      "imagem": "roma-celular-20250223_144012.jpg",
+      "origem": "data/images/20250223_144012.jpg",
+      "sha256": "91abee54a8ae3ba1ca58ff7fc2a8d6f51df151f894c52029896507af108f2f28",
+      "caixas": 5
+    },
+    {
+      "imagem": "roma-celular-20250223_144019.jpg",
+      "origem": "data/images/20250223_144019.jpg",
+      "sha256": "666c1b03224fb3b1c4dcf2bcba9fbdd4746fba1e3f1837df73007345eb389717",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_144025.jpg",
+      "origem": "data/images/20250223_144025.jpg",
+      "sha256": "dca1e2dda6878e79a419b886a826ebfcb96fba600e0035ab40f9123beed42c94",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_144041.jpg",
+      "origem": "data/images/20250223_144041.jpg",
+      "sha256": "d0d82e8de4a501ae3fe4b36a4f51f01998b7a0a5032bb0da63b7e44f7993b669",
+      "caixas": 9
+    },
+    {
+      "imagem": "roma-celular-20250223_144121.jpg",
+      "origem": "data/images/20250223_144121.jpg",
+      "sha256": "5062c98e3c91f4aaa6df77178a09b76f6d784c5b9c01848617ca170f4c827278",
+      "caixas": 6
+    },
+    {
+      "imagem": "roma-celular-20250223_144138.jpg",
+      "origem": "data/images/20250223_144138.jpg",
+      "sha256": "c6ffcffc2b5b88dededfd8e811863491bf53226321685d351e5bedc05c6b8841",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_144145.jpg",
+      "origem": "data/images/20250223_144145.jpg",
+      "sha256": "851f13687d4e2b0df6063397ed98338229263255eef1569ef41f7b633df508b7",
+      "caixas": 5
+    },
+    {
+      "imagem": "roma-celular-20250223_144154.jpg",
+      "origem": "data/images/20250223_144154.jpg",
+      "sha256": "0daab364f0f1a0c2a3f82e0c5f95510b958c8b5ed780f7cf06338fc4cc949558",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_144159.jpg",
+      "origem": "data/images/20250223_144159.jpg",
+      "sha256": "9bfef4a434123467c8d81fec20272b9961eec0b732339f9689be7705df685a34",
+      "caixas": 5
+    },
+    {
+      "imagem": "roma-celular-20250223_144234.jpg",
+      "origem": "data/images/20250223_144234.jpg",
+      "sha256": "040995ccc42be317dbf004522d9d9d5123b7cb63c86d45787e994f26205b3e96",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_144242.jpg",
+      "origem": "data/images/20250223_144242.jpg",
+      "sha256": "bdc39c04592ed4a6443827e477bc0180801d85948a2eb042b15dd44ceebfc7a2",
+      "caixas": 5
+    },
+    {
+      "imagem": "roma-celular-20250223_144246.jpg",
+      "origem": "data/images/20250223_144246.jpg",
+      "sha256": "fbe628b8e258770a1005fcc2571e76840590653831a938c9bdb2823a22d77b2d",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_144304.jpg",
+      "origem": "data/images/20250223_144304.jpg",
+      "sha256": "54d82c63db4ce914dd242af0b197191fca80d56486beb7ca7e72abf3c4f92652",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_144310.jpg",
+      "origem": "data/images/20250223_144310.jpg",
+      "sha256": "accd1385d6d329152f0b9123b831a32f84a3ecf7385fecafb7b842b7d002b97c",
+      "caixas": 5
+    },
+    {
+      "imagem": "roma-celular-20250223_144352.jpg",
+      "origem": "data/images/20250223_144352.jpg",
+      "sha256": "132996a692060d783b898d66904c3287345359cd134376402e5525b79b403f3b",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_144821.jpg",
+      "origem": "data/images/20250223_144821.jpg",
+      "sha256": "fe41764ef21523d9f81f76466b2e220865c9033cff03e862c705d048be761d6d",
+      "caixas": 0
+    },
+    {
+      "imagem": "roma-celular-20250223_144828.jpg",
+      "origem": "data/images/20250223_144828.jpg",
+      "sha256": "3fb0c850b0e368ac12f1e96f01fa71b70d0d7e68a205dde88f414799110f8e86",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_144836.jpg",
+      "origem": "data/images/20250223_144836.jpg",
+      "sha256": "ae348f343c361fc3131ad0f664d515daf2d7bd4a8030a3aea9b64520f3834094",
+      "caixas": 3
+    },
+    {
+      "imagem": "roma-celular-20250223_144843.jpg",
+      "origem": "data/images/20250223_144843.jpg",
+      "sha256": "dc93b77e79a69e50b7d05e1dd0b9e0381cd782bb19fc41b4a13c89ce0b782e7a",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_144853.jpg",
+      "origem": "data/images/20250223_144853.jpg",
+      "sha256": "20035e9d4c420bdebe128f1c67adf30051aa5dd4f4571720ddf071b8e963c04b",
+      "caixas": 4
+    },
+    {
+      "imagem": "roma-celular-20250223_144906.jpg",
+      "origem": "data/images/20250223_144906.jpg",
+      "sha256": "2696b235619c08e4a7e2d66a1dc689a77de6f41ce0aacfcf5e6d0e5b40b2c4e4",
+      "caixas": 1
+    },
+    {
+      "imagem": "roma-celular-20250223_144911.jpg",
+      "origem": "data/images/20250223_144911.jpg",
+      "sha256": "67a965b601e7a3e1d502988116a1bee77d07ac504392ac83440364dd74130c14",
+      "caixas": 2
+    },
+    {
+      "imagem": "roma-celular-20250223_144934.jpg",
+      "origem": "data/images/20250223_144934.jpg",
+      "sha256": "7e1f3a22facd1a8f2fa03809a9e75785b9aa0c5d6b9c84a33028e315b6bffd71",
+      "caixas": 0
+    },
+    {
+      "imagem": "roma-celular-20250223_144944.jpg",
+      "origem": "data/images/20250223_144944.jpg",
+      "sha256": "4b7f101bd6381d8ab060905d7a39556111344a46b89a49216437ff431d784707",
+      "caixas": 0
+    },
+    {
+      "imagem": "roma-celular-20250223_144948.jpg",
+      "origem": "data/images/20250223_144948.jpg",
+      "sha256": "06ffbe6f305f6a8b52240e41e3a0d58889aacbd9904a6e40c164542e548646ae",
+      "caixas": 0
+    }
+  ],
+  "imagens_com_buraco": 35,
+  "imagens_sem_buraco": 6,
+  "caixas_buraco": 110
+}

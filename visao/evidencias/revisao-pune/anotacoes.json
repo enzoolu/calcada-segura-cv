@@ -1,0 +1,340 @@
+{
+  "fonte": "https://zenodo.org/records/17154852",
+  "anotacao": "Caixas manuais, antes de inferir, para cavidades visíveis no piso da calçada. Excluímos cenas com possibilidade clara de repetição entre partes da base, rachaduras sem cavidade, e casos ambíguos da seleção positiva. Escala normalizada XYXY.",
+  "imagens": [
+    {
+      "split": "train",
+      "imagem": "pune-1014.jpg",
+      "sha256": "948d34c5a1a13560fdf7d839803009e790e6f7d5edeba800f96356d6812bfe93",
+      "caixas_xyxy": [
+        [
+          0.05,
+          0.3089888,
+          0.5384615,
+          0.6292135
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-1031.jpg",
+      "sha256": "6e98c649a3f5dfc23aeadb23e85860e282df64f7ddc5f6ee8c81516eb733fef2",
+      "caixas_xyxy": [
+        [
+          0.1615385,
+          0.258427,
+          0.7115385,
+          0.9101124
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-1034.jpg",
+      "sha256": "609052eb9aac6646aa1f0b5feb716e67cb6d722312a7981547d150363219aa47",
+      "caixas_xyxy": [
+        [
+          0.3,
+          0.258427,
+          0.5730769,
+          0.7303371
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-1063.jpg",
+      "sha256": "ea93e817958aaf6aef399b43ab6953613e4ad119f33ee0d7ee900d91226485f8",
+      "caixas_xyxy": [
+        [
+          0.1230769,
+          0.3089888,
+          0.5923077,
+          0.4719101
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-1090.jpg",
+      "sha256": "ee8432126bacd815a910f2c5a13fb7c1de9178eec0bbde68a175512f7acbfd2e",
+      "caixas_xyxy": [
+        [
+          0.1538462,
+          0.1966292,
+          0.6769231,
+          0.9044944
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-1113.jpg",
+      "sha256": "25022c24f5634f3b765bd1ee6bb6826b01b0f100531dc0a41474ef7b72c44aba",
+      "caixas_xyxy": [
+        [
+          0.2961538,
+          0.2977528,
+          0.7692308,
+          0.5898876
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-2023.jpg",
+      "sha256": "155f05b9199d180f875f646bbeae55790b86752d6bbadc8313f8dbed6769bbc1",
+      "caixas_xyxy": [
+        [
+          0.2307692,
+          0.2696629,
+          0.8769231,
+          0.6292135
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-3036.jpg",
+      "sha256": "29a13443b96dd9b9cdcd03111da62563851de6e5966b79480be793637cccefba",
+      "caixas_xyxy": [
+        [
+          0.1538462,
+          0.247191,
+          0.6538462,
+          1.0
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-3064.jpg",
+      "sha256": "d6ad56b2f72bb31dfe7de82e61af90b594846f71b37c15d6b0e99bcc1d6eba7e",
+      "caixas_xyxy": [
+        [
+          0.4192308,
+          0.6123596,
+          0.5384615,
+          0.7921348
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-6016.jpg",
+      "sha256": "a64fe360eeae610554e8488050b4cf7e5e73d237cb07bf1203a6baaa0b518905",
+      "caixas_xyxy": [
+        [
+          0.4230769,
+          0.4494382,
+          0.6807692,
+          0.7752809
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-6054.jpg",
+      "sha256": "a816df2227dde80d9ece62b06df359976d4d72633562d5ee13c673f3a41313c1",
+      "caixas_xyxy": [
+        [
+          0.3192308,
+          0.4269663,
+          0.5,
+          0.6348315
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-7019.jpg",
+      "sha256": "275470faeb757b65700aedab3800d0bdc3c19e53715fa2cb8c2b37c1fb8c1f60",
+      "caixas_xyxy": [
+        [
+          0.3384615,
+          0.6067416,
+          0.7038462,
+          0.8426966
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-KGD02064.jpg",
+      "sha256": "c68b0985166c28f1adb272b714cea38c4c9906cb1a5622ae9d0e0db027c3a01d",
+      "caixas_xyxy": [
+        [
+          0.4538462,
+          0.3146067,
+          0.6692308,
+          0.4775281
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-KGD02197.jpg",
+      "sha256": "1d168095e20a1c3f6e9b6cbab939c356176f7177d2559492b04fd61b7191a9eb",
+      "caixas_xyxy": [
+        [
+          0.0461538,
+          0.3258427,
+          0.8576923,
+          0.8089888
+        ]
+      ]
+    },
+    {
+      "split": "train",
+      "imagem": "pune-2018.jpg",
+      "sha256": "72f8f7c51ea4d979fd1ddfdd87400c9a196f94c29b09c18cba0469f96dca7376",
+      "caixas_xyxy": [
+        [
+          0.0884615,
+          0.3146067,
+          0.7115385,
+          0.7921348
+        ]
+      ]
+    },
+    {
+      "split": "val",
+      "imagem": "pune-1024.jpg",
+      "sha256": "dac21719bdb4e7fe6d0eb7749cca09f2c4c60fc47b18b277333d3dfd251fbd3e",
+      "caixas_xyxy": [
+        [
+          0.3423077,
+          0.3146067,
+          0.5461538,
+          0.6797753
+        ]
+      ]
+    },
+    {
+      "split": "val",
+      "imagem": "pune-6090.jpg",
+      "sha256": "d2e393b11e615d2ebbeae1f6609ecd1c95c521f2886d02da46a2d99f1c6ecdfb",
+      "caixas_xyxy": [
+        [
+          0.3038462,
+          0.2640449,
+          0.7230769,
+          0.9325843
+        ]
+      ]
+    },
+    {
+      "split": "val",
+      "imagem": "pune-1054.jpg",
+      "sha256": "960b99e7ee6e8c4325971a21a8494c591388505cc357a4deef466a45957beabb",
+      "caixas_xyxy": [
+        [
+          0.1115385,
+          0.2752809,
+          0.5692308,
+          0.5955056
+        ]
+      ]
+    },
+    {
+      "split": "val",
+      "imagem": "pune-3003.jpg",
+      "sha256": "263d08c0ae21587b71675fc72f097d7f3abcb9e3bda0498b9a3ea0c5bfdba60d",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "val",
+      "imagem": "pune-1032.jpg",
+      "sha256": "77080b942517224defb9c0e8d67f0c25134bf1aa9b25770121a63e2da12fe4a0",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "val",
+      "imagem": "pune-3031.jpg",
+      "sha256": "000fe6ddacafb17c8d2c0ff5addb140bce2aa2b93ef2560687243e51a1a0ec2e",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "val",
+      "imagem": "pune-1109.jpg",
+      "sha256": "ea1cb962ab6aedc270e8f7c834944c266177e9c848b3b42c34a7be0b4484442c",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "test",
+      "imagem": "pune-1083.jpg",
+      "sha256": "cc9f111ee79e721ff02d6f9e1f11e3bd144c17650f626c4787650acd90111c82",
+      "caixas_xyxy": [
+        [
+          0.2115385,
+          0.6179775,
+          0.5269231,
+          0.994382
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "imagem": "pune-6009.jpg",
+      "sha256": "a3062b8b47e0f6da3560379251d4bdde9a7ac13e06a1bcae727e4ce6f747edc6",
+      "caixas_xyxy": [
+        [
+          0.0653846,
+          0.2865169,
+          0.7769231,
+          1.0
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "imagem": "pune-6079.jpg",
+      "sha256": "f753e4c80bc1b10b75da5ead17c700d898fcd93d4ebd0156b8ef0af8c2230f80",
+      "caixas_xyxy": [
+        [
+          0.1269231,
+          0.0842697,
+          0.9038462,
+          0.8764045
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "imagem": "pune-1100.jpg",
+      "sha256": "2bf9b0694ac26d6cb717cc358b7606dd3cf3c239c5b419f8e6dcff86a2170805",
+      "caixas_xyxy": [
+        [
+          0.0884615,
+          0.1179775,
+          0.6192308,
+          0.9662921
+        ]
+      ]
+    },
+    {
+      "split": "test",
+      "imagem": "pune-1099.jpg",
+      "sha256": "7d3f3d5bded9adee5d2837ce1667994f86e94a7858044ce5b39f7aa079b53922",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "test",
+      "imagem": "pune-2012.jpg",
+      "sha256": "b39a46a7c69f0c36649fc0b8c8a617293b57d5b8c823cac8a92c1c28975300c6",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "test",
+      "imagem": "pune-7044.jpg",
+      "sha256": "4aa2814ad99e1bb1b670ea4505d59db13163b12520f55b3e94c3c0b3a9a35d80",
+      "caixas_xyxy": []
+    },
+    {
+      "split": "test",
+      "imagem": "pune-4027.jpg",
+      "sha256": "9689bbe3deef00a557e739e80730a31bfca15fdd8dab9285f0a57c4c778df220",
+      "caixas_xyxy": []
+    }
+  ]
+}

@@ -1,0 +1,1505 @@
+Creating new Ultralytics Settings v0.0.8 file ✅ 
+View Ultralytics Settings with 'yolo settings' or at '/home/agent/.config/Ultralytics/settings.json'
+Update Settings with 'yolo settings key=value', i.e. 'yolo settings runs_dir=path/to/dir'. For help see https://docs.ultralytics.com/usage/settings
+Ultralytics 8.4.212 🚀 Python-3.12.14 torch-2.15.0+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+engine/trainer: agnostic_nms=False, amp=False, angle=1.0, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, channels_last=None, classes=None, close_mosaic=10, cls=0.5, cls_pw=0.0, cls_remap=True, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=/workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/dados-execucao.yaml, degrees=5, deterministic=True, device=cpu, dfl=1.5, dgrad=0.5, dis=6.0, distill_model=None, dlam=1.0, dlog=1.0, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=30, erasing=0.4, exist_ok=False, fliplr=0.5, flipud=0.0, format=torchscript, fraction=1.0, freeze=10, hsv_h=0.01, hsv_s=0.25, hsv_v=0.25, imgsz=416, iou=None, kobj=1.0, line_width=None, lr0=0.001, lrf=0.1, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=/workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/treino-publico/best.pt, momentum=0.937, mosaic=0.0, multi_scale=0.0, name=treino, nbs=64, nms=None, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=10, perspective=0.0, plots=True, pose=12.0, pretrained=True, profile=False, project=/workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6, quantize=None, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=/workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.2, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, tile=False, time=None, tracker=tracktrack.yaml, translate=0.05, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.1, warmup_epochs=1, warmup_momentum=0.8, weight_decay=0.0005, workers=0, workspace=None
+Overriding model.yaml nc=3 with nc=1
+
+                   from  n    params  module                                       arguments                     
+  0                  -1  1       464  ultralytics.nn.modules.conv.Conv             [3, 16, 3, 2]                 
+  1                  -1  1      4672  ultralytics.nn.modules.conv.Conv             [16, 32, 3, 2]                
+  2                  -1  1      6640  ultralytics.nn.modules.block.C3k2            [32, 64, 1, False, 0.25]      
+  3                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+  4                  -1  1     26080  ultralytics.nn.modules.block.C3k2            [64, 128, 1, False, 0.25]     
+  5                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+  6                  -1  1     87040  ultralytics.nn.modules.block.C3k2            [128, 128, 1, True]           
+  7                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              
+  8                  -1  1    346112  ultralytics.nn.modules.block.C3k2            [256, 256, 1, True]           
+  9                  -1  1    164608  ultralytics.nn.modules.block.SPPF            [256, 256, 5]                 
+ 10                  -1  1    249728  ultralytics.nn.modules.block.C2PSA           [256, 256, 1]                 
+ 11                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 12             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 13                  -1  1    111296  ultralytics.nn.modules.block.C3k2            [384, 128, 1, False]          
+ 14                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          
+ 15             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 16                  -1  1     32096  ultralytics.nn.modules.block.C3k2            [256, 64, 1, False]           
+ 17                  -1  1     36992  ultralytics.nn.modules.conv.Conv             [64, 64, 3, 2]                
+ 18            [-1, 13]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 19                  -1  1     86720  ultralytics.nn.modules.block.C3k2            [192, 128, 1, False]          
+ 20                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              
+ 21            [-1, 10]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           
+ 22                  -1  1    378880  ultralytics.nn.modules.block.C3k2            [384, 256, 1, True]           
+ 23        [16, 19, 22]  1    430867  ultralytics.nn.modules.head.Detect           [1, 16, None, [64, 128, 256]] 
+YOLO11n summary: 181 layers, 2,590,035 parameters, 2,590,019 gradients, 6.5 GFLOPs
+
+Remapped 1/1 cls head rows from pretrained weights by class name
+Transferred 499/499 items from pretrained weights
+Freezing layer 'model.0.conv.weight'
+Freezing layer 'model.0.bn.weight'
+Freezing layer 'model.0.bn.bias'
+Freezing layer 'model.1.conv.weight'
+Freezing layer 'model.1.bn.weight'
+Freezing layer 'model.1.bn.bias'
+Freezing layer 'model.2.cv1.conv.weight'
+Freezing layer 'model.2.cv1.bn.weight'
+Freezing layer 'model.2.cv1.bn.bias'
+Freezing layer 'model.2.cv2.conv.weight'
+Freezing layer 'model.2.cv2.bn.weight'
+Freezing layer 'model.2.cv2.bn.bias'
+Freezing layer 'model.2.m.0.cv1.conv.weight'
+Freezing layer 'model.2.m.0.cv1.bn.weight'
+Freezing layer 'model.2.m.0.cv1.bn.bias'
+Freezing layer 'model.2.m.0.cv2.conv.weight'
+Freezing layer 'model.2.m.0.cv2.bn.weight'
+Freezing layer 'model.2.m.0.cv2.bn.bias'
+Freezing layer 'model.3.conv.weight'
+Freezing layer 'model.3.bn.weight'
+Freezing layer 'model.3.bn.bias'
+Freezing layer 'model.4.cv1.conv.weight'
+Freezing layer 'model.4.cv1.bn.weight'
+Freezing layer 'model.4.cv1.bn.bias'
+Freezing layer 'model.4.cv2.conv.weight'
+Freezing layer 'model.4.cv2.bn.weight'
+Freezing layer 'model.4.cv2.bn.bias'
+Freezing layer 'model.4.m.0.cv1.conv.weight'
+Freezing layer 'model.4.m.0.cv1.bn.weight'
+Freezing layer 'model.4.m.0.cv1.bn.bias'
+Freezing layer 'model.4.m.0.cv2.conv.weight'
+Freezing layer 'model.4.m.0.cv2.bn.weight'
+Freezing layer 'model.4.m.0.cv2.bn.bias'
+Freezing layer 'model.5.conv.weight'
+Freezing layer 'model.5.bn.weight'
+Freezing layer 'model.5.bn.bias'
+Freezing layer 'model.6.cv1.conv.weight'
+Freezing layer 'model.6.cv1.bn.weight'
+Freezing layer 'model.6.cv1.bn.bias'
+Freezing layer 'model.6.cv2.conv.weight'
+Freezing layer 'model.6.cv2.bn.weight'
+Freezing layer 'model.6.cv2.bn.bias'
+Freezing layer 'model.6.m.0.cv1.conv.weight'
+Freezing layer 'model.6.m.0.cv1.bn.weight'
+Freezing layer 'model.6.m.0.cv1.bn.bias'
+Freezing layer 'model.6.m.0.cv2.conv.weight'
+Freezing layer 'model.6.m.0.cv2.bn.weight'
+Freezing layer 'model.6.m.0.cv2.bn.bias'
+Freezing layer 'model.6.m.0.cv3.conv.weight'
+Freezing layer 'model.6.m.0.cv3.bn.weight'
+Freezing layer 'model.6.m.0.cv3.bn.bias'
+Freezing layer 'model.6.m.0.m.0.cv1.conv.weight'
+Freezing layer 'model.6.m.0.m.0.cv1.bn.weight'
+Freezing layer 'model.6.m.0.m.0.cv1.bn.bias'
+Freezing layer 'model.6.m.0.m.0.cv2.conv.weight'
+Freezing layer 'model.6.m.0.m.0.cv2.bn.weight'
+Freezing layer 'model.6.m.0.m.0.cv2.bn.bias'
+Freezing layer 'model.6.m.0.m.1.cv1.conv.weight'
+Freezing layer 'model.6.m.0.m.1.cv1.bn.weight'
+Freezing layer 'model.6.m.0.m.1.cv1.bn.bias'
+Freezing layer 'model.6.m.0.m.1.cv2.conv.weight'
+Freezing layer 'model.6.m.0.m.1.cv2.bn.weight'
+Freezing layer 'model.6.m.0.m.1.cv2.bn.bias'
+Freezing layer 'model.7.conv.weight'
+Freezing layer 'model.7.bn.weight'
+Freezing layer 'model.7.bn.bias'
+Freezing layer 'model.8.cv1.conv.weight'
+Freezing layer 'model.8.cv1.bn.weight'
+Freezing layer 'model.8.cv1.bn.bias'
+Freezing layer 'model.8.cv2.conv.weight'
+Freezing layer 'model.8.cv2.bn.weight'
+Freezing layer 'model.8.cv2.bn.bias'
+Freezing layer 'model.8.m.0.cv1.conv.weight'
+Freezing layer 'model.8.m.0.cv1.bn.weight'
+Freezing layer 'model.8.m.0.cv1.bn.bias'
+Freezing layer 'model.8.m.0.cv2.conv.weight'
+Freezing layer 'model.8.m.0.cv2.bn.weight'
+Freezing layer 'model.8.m.0.cv2.bn.bias'
+Freezing layer 'model.8.m.0.cv3.conv.weight'
+Freezing layer 'model.8.m.0.cv3.bn.weight'
+Freezing layer 'model.8.m.0.cv3.bn.bias'
+Freezing layer 'model.8.m.0.m.0.cv1.conv.weight'
+Freezing layer 'model.8.m.0.m.0.cv1.bn.weight'
+Freezing layer 'model.8.m.0.m.0.cv1.bn.bias'
+Freezing layer 'model.8.m.0.m.0.cv2.conv.weight'
+Freezing layer 'model.8.m.0.m.0.cv2.bn.weight'
+Freezing layer 'model.8.m.0.m.0.cv2.bn.bias'
+Freezing layer 'model.8.m.0.m.1.cv1.conv.weight'
+Freezing layer 'model.8.m.0.m.1.cv1.bn.weight'
+Freezing layer 'model.8.m.0.m.1.cv1.bn.bias'
+Freezing layer 'model.8.m.0.m.1.cv2.conv.weight'
+Freezing layer 'model.8.m.0.m.1.cv2.bn.weight'
+Freezing layer 'model.8.m.0.m.1.cv2.bn.bias'
+Freezing layer 'model.9.cv1.conv.weight'
+Freezing layer 'model.9.cv1.bn.weight'
+Freezing layer 'model.9.cv1.bn.bias'
+Freezing layer 'model.9.cv2.conv.weight'
+Freezing layer 'model.9.cv2.bn.weight'
+Freezing layer 'model.9.cv2.bn.bias'
+Freezing layer 'model.23.dfl.conv.weight'
+train: Fast image access ✅ (ping: 0.0±0.0 ms, read: 2737.6±1255.0 MB/s, size: 35.3 KB)
+
+train: Scanning /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/dados/roboflow-v6/train/labels... 275 images, 167 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 275/275 3.0Kit/s 0.1s
+train: New cache created: /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/dados/roboflow-v6/train/labels.cache
+val: Fast image access ✅ (ping: 0.0±0.0 ms, read: 4243.8±1632.1 MB/s, size: 51.6 KB)
+
+val: Scanning /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/dados/roboflow-v6/valid/labels... 76 images, 45 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 76/76 2.4Kit/s 0.0s
+val: New cache created: /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/dados/roboflow-v6/valid/labels.cache
+optimizer: AdamW(lr=0.001, momentum=0.937) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0005), 87 bias(decay=0.0)
+Plotting labels to /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino/labels.jpg... 
+Using 275 train, 76 val images for fraction=1.0 at imgsz=416
+Using 0 dataloader workers
+Logging results to /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino
+Starting training for 30 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       1/30         0G      2.902      4.778      1.978         22        416: 0% ──────────── 0/35  0.5s
+       1/30         0G      3.451      5.409       2.34          3        416: 2% ──────────── 1/35 1.0s/it 0.8s<34.4s
+       1/30         0G      3.436      5.164      2.433          8        416: 5% ╸─────────── 2/35 1.8it/s 1.1s<18.2s
+       1/30         0G      3.244      5.128      2.349          2        416: 8% ━─────────── 3/35 2.7it/s 1.3s<12.0s
+       1/30         0G      3.236      4.909      2.369         13        416: 11% ━─────────── 4/35 3.1it/s 1.5s<9.9s
+       1/30         0G        3.3      4.899      2.439          8        416: 14% ━╸────────── 5/35 3.5it/s 1.8s<8.7s
+       1/30         0G      3.257      4.825      2.388          3        416: 17% ━━────────── 6/35 3.8it/s 2.0s<7.7s
+       1/30         0G      3.227       4.68      2.347         19        416: 20% ━━────────── 7/35 4.0it/s 2.2s<7.0s
+       1/30         0G      3.244      4.618      2.344          4        416: 22% ━━╸───────── 8/35 4.3it/s 2.4s<6.3s
+       1/30         0G      3.218      4.534      2.317         53        416: 25% ━━━───────── 9/35 4.3it/s 2.6s<6.0s
+       1/30         0G      3.156      4.478      2.289          8        416: 28% ━━━───────── 10/35 4.1it/s 2.9s<6.1s
+       1/30         0G      3.178      4.453      2.273         31        416: 31% ━━━╸──────── 11/35 3.9it/s 3.2s<6.2s
+       1/30         0G      3.175      4.397       2.28         32        416: 34% ━━━━──────── 12/35 4.1it/s 3.4s<5.7s
+       1/30         0G      3.189      4.461      2.277          1        416: 37% ━━━━──────── 13/35 4.0it/s 3.7s<5.5s
+       1/30         0G      2.976      4.519      2.125          0        416: 40% ━━━━╸─────── 14/35 3.8it/s 4.0s<5.5s
+       1/30         0G       3.03      4.595      2.163          5        416: 42% ━━━━━─────── 15/35 3.7it/s 4.3s<5.5s
+       1/30         0G      3.015      4.504      2.157         19        416: 45% ━━━━━─────── 16/35 3.9it/s 4.5s<4.9s
+       1/30         0G      3.009       4.48      2.164         11        416: 48% ━━━━━╸────── 17/35 3.6it/s 4.9s<5.0s
+       1/30         0G      3.067      4.458      2.211          3        416: 51% ━━━━━━────── 18/35 3.5it/s 5.2s<4.8s
+       1/30         0G      3.067      4.423      2.214         12        416: 54% ━━━━━━╸───── 19/35 3.5it/s 5.5s<4.6s
+       1/30         0G      3.063      4.382      2.206         13        416: 57% ━━━━━━╸───── 20/35 3.4it/s 5.8s<4.4s
+       1/30         0G      3.069      4.408      2.204          2        416: 60% ━━━━━━━───── 21/35 3.6it/s 6.0s<3.9s
+       1/30         0G      3.083      4.404      2.215         11        416: 62% ━━━━━━━╸──── 22/35 3.6it/s 6.3s<3.6s
+       1/30         0G      3.085       4.38      2.216         11        416: 65% ━━━━━━━╸──── 23/35 3.9it/s 6.5s<3.1s
+       1/30         0G      3.074      4.407      2.207          6        416: 68% ━━━━━━━━──── 24/35 4.0it/s 6.7s<2.7s
+       1/30         0G      3.076      4.386      2.215         21        416: 71% ━━━━━━━━╸─── 25/35 3.9it/s 7.0s<2.6s
+       1/30         0G      3.069      4.389      2.222         12        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 7.2s<2.2s
+       1/30         0G      3.075      4.388      2.239          6        416: 77% ━━━━━━━━━─── 27/35 4.0it/s 7.5s<2.0s
+       1/30         0G      3.077      4.387      2.231          3        416: 80% ━━━━━━━━━╸── 28/35 4.1it/s 7.7s<1.7s
+       1/30         0G      3.058      4.391      2.226          9        416: 82% ━━━━━━━━━╸── 29/35 4.1it/s 8.0s<1.4s
+       1/30         0G      3.055      4.368      2.229         13        416: 85% ━━━━━━━━━━── 30/35 4.1it/s 8.2s<1.2s
+       1/30         0G      3.047      4.331       2.22         37        416: 88% ━━━━━━━━━━╸─ 31/35 4.1it/s 8.5s<1.0s
+       1/30         0G      3.067      4.331       2.22          4        416: 91% ━━━━━━━━━━╸─ 32/35 4.2it/s 8.7s<0.7s
+       1/30         0G      3.042      4.314      2.209          4        416: 94% ━━━━━━━━━━━─ 33/35 3.8it/s 9.0s<0.5s
+       1/30         0G      2.955      4.224      2.146          0        416: 97% ━━━━━━━━━━━╸ 34/35 4.1it/s 9.2s<0.2s
+       1/30         0G      2.955      4.224      2.146          0        416: 100% ━━━━━━━━━━━━ 35/35 3.8it/s 9.2s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 2.3s/it 0.7s<9.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.2s/it 1.3s<3.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.0it/s 1.9s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.1it/s 2.7s<0.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 1.6it/s 3.1s
+                   all         76        118    0.00378      0.195    0.00183   0.000334
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       2/30         0G      3.758      4.104      2.671          8        416: 0% ──────────── 0/35  0.3s
+       2/30         0G      3.397      3.925      2.503         14        416: 2% ──────────── 1/35 1.4s/it 0.7s<46.9s
+       2/30         0G      3.308      3.957      2.548          6        416: 5% ╸─────────── 2/35 1.7it/s 1.0s<19.8s
+       2/30         0G      3.176      3.773      2.408          9        416: 8% ━─────────── 3/35 2.1it/s 1.3s<15.4s
+       2/30         0G      3.198      3.912       2.37          4        416: 11% ━─────────── 4/35 2.4it/s 1.6s<13.1s
+       2/30         0G      3.073      3.869      2.307         29        416: 14% ━╸────────── 5/35 2.6it/s 2.0s<11.5s
+       2/30         0G      3.052      3.901      2.324          7        416: 17% ━━────────── 6/35 2.8it/s 2.3s<10.5s
+       2/30         0G      2.944      4.066      2.274          1        416: 20% ━━────────── 7/35 2.8it/s 2.6s<10.0s
+       2/30         0G      2.912      4.021      2.215         16        416: 22% ━━╸───────── 8/35 2.9it/s 3.0s<9.4s
+       2/30         0G      2.925      3.992      2.242          9        416: 25% ━━━───────── 9/35 3.2it/s 3.2s<8.2s
+       2/30         0G      2.959      4.017      2.229          8        416: 28% ━━━───────── 10/35 3.6it/s 3.4s<6.9s
+       2/30         0G      3.029      3.983      2.263          7        416: 31% ━━━╸──────── 11/35 3.8it/s 3.7s<6.4s
+       2/30         0G      3.011      3.988      2.242          7        416: 34% ━━━━──────── 12/35 3.8it/s 3.9s<6.0s
+       2/30         0G      2.992       3.94      2.215          9        416: 37% ━━━━──────── 13/35 4.1it/s 4.1s<5.4s
+       2/30         0G      2.973      3.911      2.203         22        416: 40% ━━━━╸─────── 14/35 4.1it/s 4.4s<5.2s
+       2/30         0G      2.976      3.894      2.206         22        416: 42% ━━━━━─────── 15/35 4.0it/s 4.6s<5.0s
+       2/30         0G      2.973      3.888       2.21         12        416: 45% ━━━━━─────── 16/35 3.9it/s 4.9s<4.9s
+       2/30         0G      2.976      3.901       2.19          6        416: 48% ━━━━━╸────── 17/35 3.8it/s 5.2s<4.8s
+       2/30         0G      2.954      3.881      2.175         16        416: 51% ━━━━━━────── 18/35 4.0it/s 5.4s<4.3s
+       2/30         0G      2.987      3.871       2.18          5        416: 54% ━━━━━━╸───── 19/35 4.1it/s 5.7s<3.9s
+       2/30         0G      2.963      3.854      2.157          9        416: 57% ━━━━━━╸───── 20/35 4.0it/s 5.9s<3.7s
+       2/30         0G      2.967      3.828      2.163         18        416: 60% ━━━━━━━───── 21/35 3.7it/s 6.3s<3.8s
+       2/30         0G      2.954      3.805      2.166         31        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 6.5s<3.3s
+       2/30         0G      2.947      3.825       2.16          1        416: 65% ━━━━━━━╸──── 23/35 3.6it/s 6.8s<3.3s
+       2/30         0G      2.941      3.829      2.167          3        416: 68% ━━━━━━━━──── 24/35 3.8it/s 7.1s<2.9s
+       2/30         0G      2.946      3.813      2.168         31        416: 71% ━━━━━━━━╸─── 25/35 4.0it/s 7.3s<2.5s
+       2/30         0G      2.954      3.805      2.169         15        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 7.5s<2.2s
+       2/30         0G      2.945      3.787      2.169         17        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 7.8s<2.0s
+       2/30         0G      2.948      3.825      2.211          1        416: 80% ━━━━━━━━━╸── 28/35 4.0it/s 8.1s<1.8s
+       2/30         0G      2.948      3.816      2.216         17        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 8.3s<1.4s
+       2/30         0G      2.945      3.813      2.211          8        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 8.5s<1.2s
+       2/30         0G       2.95      3.822      2.215          5        416: 88% ━━━━━━━━━━╸─ 31/35 3.9it/s 8.8s<1.0s
+       2/30         0G      2.957      3.814      2.226         18        416: 91% ━━━━━━━━━━╸─ 32/35 3.6it/s 9.2s<0.8s
+       2/30         0G      2.956      3.806      2.225         16        416: 94% ━━━━━━━━━━━─ 33/35 3.6it/s 9.4s<0.6s
+       2/30         0G      2.872      3.762      2.161          0        416: 97% ━━━━━━━━━━━╸ 34/35 5.0it/s 9.6s<0.2s
+       2/30         0G      2.872      3.762      2.161          0        416: 100% ━━━━━━━━━━━━ 35/35 3.7it/s 9.6s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.8s/it 0.6s<7.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.1it/s 1.0s<2.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.2it/s 1.6s<1.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.4it/s 2.1s<0.7s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.0it/s 2.5s
+                   all         76        118    0.00584      0.203    0.00254    0.00059
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       3/30         0G      3.444      4.562      2.627          5        416: 0% ──────────── 0/35  0.3s
+       3/30         0G      3.496      4.192      2.368          6        416: 2% ──────────── 1/35 1.2s/it 0.6s<39.3s
+       3/30         0G      3.365      3.922       2.39         10        416: 5% ╸─────────── 2/35 1.9it/s 0.8s<17.4s
+       3/30         0G      3.165      3.683      2.235          9        416: 8% ━─────────── 3/35 2.4it/s 1.1s<13.2s
+       3/30         0G      3.052      3.612       2.15         34        416: 11% ━─────────── 4/35 2.7it/s 1.4s<11.6s
+       3/30         0G      2.985      3.639      2.131         11        416: 14% ━╸────────── 5/35 3.0it/s 1.7s<9.8s
+       3/30         0G      3.048      3.585      2.145          6        416: 17% ━━────────── 6/35 3.0it/s 2.0s<9.5s
+       3/30         0G      3.017      3.552      2.165         10        416: 20% ━━────────── 7/35 3.1it/s 2.3s<9.0s
+       3/30         0G      3.006      3.498       2.19         15        416: 22% ━━╸───────── 8/35 3.0it/s 2.7s<9.1s
+       3/30         0G      3.081      3.496      2.241          9        416: 25% ━━━───────── 9/35 3.1it/s 3.0s<8.3s
+       3/30         0G      3.062      3.669      2.239          1        416: 28% ━━━───────── 10/35 3.3it/s 3.2s<7.5s
+       3/30         0G      3.141      4.383      2.377          1        416: 31% ━━━╸──────── 11/35 3.6it/s 3.5s<6.6s
+       3/30         0G      3.122      4.292      2.353         12        416: 34% ━━━━──────── 12/35 3.7it/s 3.7s<6.1s
+       3/30         0G      3.102      4.233      2.331          6        416: 37% ━━━━──────── 13/35 3.7it/s 4.0s<5.9s
+       3/30         0G      3.094      4.141      2.313         16        416: 40% ━━━━╸─────── 14/35 3.8it/s 4.2s<5.5s
+       3/30         0G      3.058      4.091      2.279         16        416: 42% ━━━━━─────── 15/35 3.7it/s 4.5s<5.4s
+       3/30         0G      3.028      4.081      2.241          4        416: 45% ━━━━━─────── 16/35 3.4it/s 4.9s<5.6s
+       3/30         0G      3.043      4.028      2.235         14        416: 48% ━━━━━╸────── 17/35 3.2it/s 5.3s<5.6s
+       3/30         0G      3.017      4.139      2.236          2        416: 51% ━━━━━━────── 18/35 3.3it/s 5.6s<5.2s
+       3/30         0G      3.001      4.074      2.222         19        416: 54% ━━━━━━╸───── 19/35 3.5it/s 5.8s<4.6s
+       3/30         0G       2.97      4.029      2.208         27        416: 57% ━━━━━━╸───── 20/35 3.8it/s 6.0s<3.9s
+       3/30         0G      2.968      3.992      2.215          9        416: 60% ━━━━━━━───── 21/35 3.9it/s 6.3s<3.6s
+       3/30         0G      2.988       3.97      2.206          7        416: 62% ━━━━━━━╸──── 22/35 4.0it/s 6.5s<3.3s
+       3/30         0G      2.978      3.952      2.198         13        416: 65% ━━━━━━━╸──── 23/35 3.9it/s 6.8s<3.0s
+       3/30         0G      2.975      3.954      2.202          2        416: 68% ━━━━━━━━──── 24/35 4.0it/s 7.0s<2.7s
+       3/30         0G      2.967      3.912      2.197         34        416: 71% ━━━━━━━━╸─── 25/35 4.2it/s 7.2s<2.4s
+       3/30         0G      2.977      3.895      2.203          7        416: 74% ━━━━━━━━╸─── 26/35 4.1it/s 7.5s<2.2s
+       3/30         0G      2.991      3.876      2.205          5        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 7.7s<2.0s
+       3/30         0G      2.983       3.89      2.195          5        416: 80% ━━━━━━━━━╸── 28/35 4.3it/s 7.9s<1.6s
+       3/30         0G      2.954      3.881       2.18          5        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 8.2s<1.4s
+       3/30         0G      2.944      3.858      2.177          9        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 8.4s<1.2s
+       3/30         0G      2.937      3.855      2.178         11        416: 88% ━━━━━━━━━━╸─ 31/35 4.1it/s 8.7s<1.0s
+       3/30         0G      2.941      3.844       2.18         15        416: 91% ━━━━━━━━━━╸─ 32/35 3.7it/s 9.0s<0.8s
+       3/30         0G      2.949      3.818      2.175         52        416: 94% ━━━━━━━━━━━─ 33/35 3.6it/s 9.3s<0.6s
+       3/30         0G      2.952      3.801       2.19          5        416: 97% ━━━━━━━━━━━╸ 34/35 4.6it/s 9.5s<0.2s
+       3/30         0G      2.952      3.801       2.19          5        416: 100% ━━━━━━━━━━━━ 35/35 3.7it/s 9.5s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.6s/it 0.5s<6.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.8s<2.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.8it/s 1.2s<1.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.9it/s 1.7s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.7it/s 1.9s
+                   all         76        118    0.00263      0.441    0.00395   0.000984
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       4/30         0G      3.152       4.05      2.048          4        416: 0% ──────────── 0/35  0.2s
+       4/30         0G      2.728      4.028       1.99          7        416: 2% ──────────── 1/35 1.4it/s 0.4s<24.0s
+       4/30         0G       2.69      3.684      1.923          7        416: 5% ╸─────────── 2/35 2.3it/s 0.7s<14.1s
+       4/30         0G      2.765      3.525      1.947         12        416: 8% ━─────────── 3/35 3.1it/s 0.9s<10.3s
+       4/30         0G      2.693      3.418      1.936         24        416: 11% ━─────────── 4/35 3.5it/s 1.1s<8.8s
+       4/30         0G      2.678      3.427      1.926          8        416: 14% ━╸────────── 5/35 3.7it/s 1.3s<8.1s
+       4/30         0G      2.761       3.41      1.971         11        416: 17% ━━────────── 6/35 3.4it/s 1.7s<8.6s
+       4/30         0G       2.74      3.338      1.966         18        416: 20% ━━────────── 7/35 3.6it/s 2.0s<7.9s
+       4/30         0G      2.718      3.341      1.961         12        416: 22% ━━╸───────── 8/35 3.7it/s 2.2s<7.2s
+       4/30         0G      2.734      3.341      1.985          8        416: 25% ━━━───────── 9/35 3.6it/s 2.5s<7.2s
+       4/30         0G       2.82      3.345      2.049          6        416: 28% ━━━───────── 10/35 3.5it/s 2.8s<7.2s
+       4/30         0G      2.825      3.333      2.041          6        416: 31% ━━━╸──────── 11/35 3.6it/s 3.1s<6.8s
+       4/30         0G      2.823      3.309       2.05         12        416: 34% ━━━━──────── 12/35 3.8it/s 3.3s<6.1s
+       4/30         0G      2.811       3.32      2.028          6        416: 37% ━━━━──────── 13/35 3.9it/s 3.6s<5.6s
+       4/30         0G      2.624      3.455      1.893          0        416: 40% ━━━━╸─────── 14/35 4.0it/s 3.8s<5.2s
+       4/30         0G      2.595      3.462      1.886          9        416: 42% ━━━━━─────── 15/35 4.0it/s 4.0s<5.0s
+       4/30         0G      2.608      3.434      1.899         30        416: 45% ━━━━━─────── 16/35 3.8it/s 4.4s<5.0s
+       4/30         0G      2.628      3.404      1.906         15        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.6s<4.7s
+       4/30         0G      2.665      3.459      1.921          1        416: 51% ━━━━━━────── 18/35 3.7it/s 4.9s<4.6s
+       4/30         0G      2.682      3.481      1.913         25        416: 54% ━━━━━━╸───── 19/35 3.8it/s 5.1s<4.2s
+       4/30         0G      2.697       3.46      1.913         26        416: 57% ━━━━━━╸───── 20/35 4.0it/s 5.4s<3.7s
+       4/30         0G      2.708      3.476      1.934          5        416: 60% ━━━━━━━───── 21/35 4.0it/s 5.6s<3.5s
+       4/30         0G      2.718      3.475      1.935         21        416: 62% ━━━━━━━╸──── 22/35 4.0it/s 5.9s<3.2s
+       4/30         0G      2.716      3.479      1.936          7        416: 65% ━━━━━━━╸──── 23/35 4.0it/s 6.1s<3.0s
+       4/30         0G       2.72      3.467      1.945         15        416: 68% ━━━━━━━━──── 24/35 4.2it/s 6.3s<2.6s
+       4/30         0G       2.72      3.461      1.949         19        416: 71% ━━━━━━━━╸─── 25/35 4.2it/s 6.6s<2.4s
+       4/30         0G      2.729      3.459      1.954          9        416: 74% ━━━━━━━━╸─── 26/35 4.2it/s 6.8s<2.1s
+       4/30         0G      2.738      3.437      1.961         11        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 7.1s<1.9s
+       4/30         0G      2.745      3.428      1.962         16        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 7.3s<1.7s
+       4/30         0G      2.755      3.453      1.962          3        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 7.5s<1.4s
+       4/30         0G      2.762      3.465      1.972         10        416: 85% ━━━━━━━━━━── 30/35 3.8it/s 7.9s<1.3s
+       4/30         0G       2.76      3.459      1.974         11        416: 88% ━━━━━━━━━━╸─ 31/35 3.7it/s 8.2s<1.1s
+       4/30         0G       2.76      3.441      1.968         25        416: 91% ━━━━━━━━━━╸─ 32/35 3.9it/s 8.4s<0.8s
+       4/30         0G      2.768      3.449      1.968          6        416: 94% ━━━━━━━━━━━─ 33/35 4.0it/s 8.6s<0.5s
+       4/30         0G      2.771      3.453      1.984          1        416: 97% ━━━━━━━━━━━╸ 34/35 4.9it/s 8.8s<0.2s
+       4/30         0G      2.771      3.453      1.984          1        416: 100% ━━━━━━━━━━━━ 35/35 4.0it/s 8.8s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.5s<6.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.7s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.9it/s 1.1s<1.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.3it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118    0.00319      0.508     0.0037   0.000948
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       5/30         0G      3.907      4.967      2.282          4        416: 0% ──────────── 0/35  0.2s
+       5/30         0G      3.183      4.027      2.073          8        416: 2% ──────────── 1/35 1.3it/s 0.4s<27.0s
+       5/30         0G      3.148      3.916      2.077          5        416: 5% ╸─────────── 2/35 2.1it/s 0.7s<15.8s
+       5/30         0G      3.481       4.77      2.279          3        416: 8% ━─────────── 3/35 2.9it/s 0.9s<11.0s
+       5/30         0G      3.329      4.464      2.263         10        416: 11% ━─────────── 4/35 3.5it/s 1.1s<9.0s
+       5/30         0G      3.356      4.273      2.278          8        416: 14% ━╸────────── 5/35 3.3it/s 1.4s<9.0s
+       5/30         0G      3.283       4.16      2.259         13        416: 17% ━━────────── 6/35 3.7it/s 1.7s<7.8s
+       5/30         0G      3.246      4.032      2.236         35        416: 20% ━━────────── 7/35 4.0it/s 1.9s<7.0s
+       5/30         0G      3.213      3.901      2.219         31        416: 22% ━━╸───────── 8/35 4.1it/s 2.1s<6.6s
+       5/30         0G      3.168      3.882      2.203          8        416: 25% ━━━───────── 9/35 4.3it/s 2.3s<6.0s
+       5/30         0G      3.119      3.808      2.157         12        416: 28% ━━━───────── 10/35 4.3it/s 2.5s<5.8s
+       5/30         0G      3.076      3.765      2.116          7        416: 31% ━━━╸──────── 11/35 4.4it/s 2.8s<5.4s
+       5/30         0G      3.034      3.693      2.091         29        416: 34% ━━━━──────── 12/35 4.6it/s 3.0s<5.0s
+       5/30         0G      3.001      3.674      2.089          4        416: 37% ━━━━──────── 13/35 4.4it/s 3.2s<5.0s
+       5/30         0G      2.994      3.633      2.088          6        416: 40% ━━━━╸─────── 14/35 4.0it/s 3.5s<5.3s
+       5/30         0G      2.981      3.608       2.08         43        416: 42% ━━━━━─────── 15/35 3.8it/s 3.8s<5.3s
+       5/30         0G      2.954      3.595      2.054          3        416: 45% ━━━━━─────── 16/35 3.9it/s 4.1s<4.9s
+       5/30         0G      2.947      3.561      2.042         23        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.3s<4.6s
+       5/30         0G      2.927      3.536      2.033          9        416: 51% ━━━━━━────── 18/35 4.0it/s 4.6s<4.3s
+       5/30         0G      2.935       3.54      2.046         11        416: 54% ━━━━━━╸───── 19/35 4.3it/s 4.8s<3.7s
+       5/30         0G      2.941      3.533       2.05         27        416: 57% ━━━━━━╸───── 20/35 4.4it/s 5.0s<3.4s
+       5/30         0G      2.946      3.513      2.056         17        416: 60% ━━━━━━━───── 21/35 4.0it/s 5.3s<3.5s
+       5/30         0G      2.818      3.671      1.967          0        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 5.6s<3.4s
+       5/30         0G      2.824      3.637      1.975         12        416: 65% ━━━━━━━╸──── 23/35 3.7it/s 5.9s<3.2s
+       5/30         0G      2.824      3.679      1.983          1        416: 68% ━━━━━━━━──── 24/35 3.7it/s 6.2s<3.0s
+       5/30         0G      2.816       3.63      1.979         17        416: 71% ━━━━━━━━╸─── 25/35 3.6it/s 6.5s<2.8s
+       5/30         0G      2.806       3.62       1.98          6        416: 74% ━━━━━━━━╸─── 26/35 3.7it/s 6.7s<2.4s
+       5/30         0G      2.803      3.604      1.984         11        416: 77% ━━━━━━━━━─── 27/35 3.9it/s 7.0s<2.1s
+       5/30         0G      2.804       3.61      1.987          4        416: 80% ━━━━━━━━━╸── 28/35 3.8it/s 7.2s<1.8s
+       5/30         0G      2.792      3.591      1.981          6        416: 82% ━━━━━━━━━╸── 29/35 3.5it/s 7.6s<1.7s
+       5/30         0G      2.807      3.622      1.967          3        416: 85% ━━━━━━━━━━── 30/35 3.5it/s 7.9s<1.4s
+       5/30         0G      2.795      3.616      1.951          4        416: 88% ━━━━━━━━━━╸─ 31/35 3.4it/s 8.2s<1.2s
+       5/30         0G      2.787      3.592      1.951         18        416: 91% ━━━━━━━━━━╸─ 32/35 3.7it/s 8.4s<0.8s
+       5/30         0G      2.796      3.587      1.948          6        416: 94% ━━━━━━━━━━━─ 33/35 3.6it/s 8.7s<0.5s
+       5/30         0G      2.794      3.562      1.956          2        416: 97% ━━━━━━━━━━━╸ 34/35 4.6it/s 8.8s<0.2s
+       5/30         0G      2.794      3.562      1.956          2        416: 100% ━━━━━━━━━━━━ 35/35 4.0it/s 8.9s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.4s/it 0.4s<5.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.7s<2.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.7it/s 1.2s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.5s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.8it/s 1.8s
+                   all         76        118     0.0105       0.22    0.00739    0.00164
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       6/30         0G      3.645      3.837      1.932          4        416: 0% ──────────── 0/35  0.3s
+       6/30         0G      3.061      3.563       1.93          6        416: 2% ──────────── 1/35 1.1it/s 0.6s<30.5s
+       6/30         0G      2.851      3.482      1.856          9        416: 5% ╸─────────── 2/35 1.6it/s 0.9s<21.2s
+       6/30         0G      2.823      3.522      1.854          6        416: 8% ━─────────── 3/35 2.1it/s 1.2s<15.5s
+       6/30         0G      2.894      3.393      1.885         16        416: 11% ━─────────── 4/35 2.6it/s 1.5s<11.8s
+       6/30         0G      2.773      3.548      1.847          1        416: 14% ━╸────────── 5/35 3.1it/s 1.7s<9.7s
+       6/30         0G      2.842      3.613      1.898          7        416: 17% ━━────────── 6/35 3.4it/s 2.0s<8.6s
+       6/30         0G      2.868      3.568      1.914          6        416: 20% ━━────────── 7/35 3.8it/s 2.2s<7.4s
+       6/30         0G      2.837      3.521       1.94          7        416: 22% ━━╸───────── 8/35 4.1it/s 2.4s<6.6s
+       6/30         0G      2.844      3.506      1.945         23        416: 25% ━━━───────── 9/35 4.1it/s 2.7s<6.4s
+       6/30         0G      2.813      3.532      1.941          1        416: 28% ━━━───────── 10/35 3.7it/s 3.0s<6.7s
+       6/30         0G      2.836        3.5      1.956          4        416: 31% ━━━╸──────── 11/35 3.8it/s 3.2s<6.3s
+       6/30         0G      2.844      3.481      1.949         15        416: 34% ━━━━──────── 12/35 3.7it/s 3.5s<6.2s
+       6/30         0G      2.821      3.489      1.942          8        416: 37% ━━━━──────── 13/35 3.8it/s 3.8s<5.8s
+       6/30         0G      2.897      3.518      1.981          3        416: 40% ━━━━╸─────── 14/35 3.9it/s 4.0s<5.4s
+       6/30         0G      2.901      3.482      1.982         32        416: 42% ━━━━━─────── 15/35 3.9it/s 4.3s<5.1s
+       6/30         0G      2.901      3.453      1.969          7        416: 45% ━━━━━─────── 16/35 4.1it/s 4.5s<4.6s
+       6/30         0G      2.887      3.427       1.96         13        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.7s<4.4s
+       6/30         0G      2.904      3.547      1.954          3        416: 51% ━━━━━━────── 18/35 4.0it/s 5.0s<4.2s
+       6/30         0G      2.898      3.526      1.951          2        416: 54% ━━━━━━╸───── 19/35 4.1it/s 5.2s<3.9s
+       6/30         0G       2.86      3.495      1.942         10        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.5s<3.6s
+       6/30         0G      2.829      3.438      1.931         10        416: 60% ━━━━━━━───── 21/35 4.0it/s 5.7s<3.5s
+       6/30         0G      2.824      3.412      1.931         57        416: 62% ━━━━━━━╸──── 22/35 4.2it/s 6.0s<3.1s
+       6/30         0G      2.823      3.402      1.935         17        416: 65% ━━━━━━━╸──── 23/35 4.4it/s 6.2s<2.7s
+       6/30         0G      2.841      3.395      1.948          6        416: 68% ━━━━━━━━──── 24/35 4.2it/s 6.4s<2.6s
+       6/30         0G      2.829      3.388      1.952         11        416: 71% ━━━━━━━━╸─── 25/35 4.3it/s 6.6s<2.3s
+       6/30         0G      2.816      3.379      1.946         24        416: 74% ━━━━━━━━╸─── 26/35 3.9it/s 7.0s<2.3s
+       6/30         0G      2.823      3.393      1.952          8        416: 77% ━━━━━━━━━─── 27/35 3.8it/s 7.3s<2.1s
+       6/30         0G      2.824      3.377      1.946          4        416: 80% ━━━━━━━━━╸── 28/35 3.7it/s 7.6s<1.9s
+       6/30         0G      2.818      3.373      1.949          9        416: 82% ━━━━━━━━━╸── 29/35 3.7it/s 7.8s<1.6s
+       6/30         0G      2.809      3.364      1.952         22        416: 85% ━━━━━━━━━━── 30/35 3.7it/s 8.1s<1.4s
+       6/30         0G      2.783      3.358      1.944          2        416: 88% ━━━━━━━━━━╸─ 31/35 3.7it/s 8.4s<1.1s
+       6/30         0G      2.773      3.365      1.943         22        416: 91% ━━━━━━━━━━╸─ 32/35 3.7it/s 8.7s<0.8s
+       6/30         0G      2.774      3.356      1.945         28        416: 94% ━━━━━━━━━━━─ 33/35 3.6it/s 8.9s<0.6s
+       6/30         0G      2.772      3.358      1.928          1        416: 97% ━━━━━━━━━━━╸ 34/35 4.5it/s 9.1s<0.2s
+       6/30         0G      2.772      3.358      1.928          1        416: 100% ━━━━━━━━━━━━ 35/35 3.8it/s 9.1s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.8s/it 0.5s<7.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.3it/s 0.8s<2.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.9it/s 1.2s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.4it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.0it/s 1.7s
+                   all         76        118    0.00956      0.339    0.00917    0.00219
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       7/30         0G      2.615      3.006      1.893         33        416: 0% ──────────── 0/35  0.4s
+       7/30         0G      2.678      3.545      1.851          4        416: 2% ──────────── 1/35 1.1it/s 0.6s<30.2s
+       7/30         0G      2.549      3.471      1.879          9        416: 5% ╸─────────── 2/35 2.2it/s 0.9s<15.0s
+       7/30         0G      2.634      3.417       1.89          9        416: 8% ━─────────── 3/35 2.9it/s 1.1s<11.1s
+       7/30         0G      2.675      3.356      1.896         18        416: 11% ━─────────── 4/35 3.4it/s 1.3s<9.1s
+       7/30         0G      2.647      3.417       1.93          7        416: 14% ━╸────────── 5/35 3.7it/s 1.5s<8.0s
+       7/30         0G      2.786      3.395      1.965          3        416: 17% ━━────────── 6/35 4.0it/s 1.7s<7.2s
+       7/30         0G      2.762      3.454       1.96          5        416: 20% ━━────────── 7/35 4.2it/s 1.9s<6.6s
+       7/30         0G      2.668      3.364       1.96          1        416: 22% ━━╸───────── 8/35 3.9it/s 2.2s<6.8s
+       7/30         0G      2.674      3.368      1.942          7        416: 25% ━━━───────── 9/35 4.0it/s 2.5s<6.5s
+       7/30         0G       2.64      3.293      1.926         26        416: 28% ━━━───────── 10/35 4.0it/s 2.7s<6.3s
+       7/30         0G      2.644      3.286      1.932         20        416: 31% ━━━╸──────── 11/35 4.1it/s 3.0s<5.9s
+       7/30         0G      2.658       3.24      1.935         10        416: 34% ━━━━──────── 12/35 4.3it/s 3.2s<5.4s
+       7/30         0G      2.672      3.237       1.93         20        416: 37% ━━━━──────── 13/35 4.4it/s 3.4s<4.9s
+       7/30         0G      2.704      3.211      1.945          9        416: 40% ━━━━╸─────── 14/35 4.3it/s 3.6s<4.9s
+       7/30         0G      2.653      3.166      1.921          3        416: 42% ━━━━━─────── 15/35 4.2it/s 3.9s<4.8s
+       7/30         0G      2.658      3.153      1.928         33        416: 45% ━━━━━─────── 16/35 4.0it/s 4.2s<4.7s
+       7/30         0G      2.696      3.139      1.928         16        416: 48% ━━━━━╸────── 17/35 3.8it/s 4.5s<4.7s
+       7/30         0G      2.712      3.287      1.941          1        416: 51% ━━━━━━────── 18/35 3.9it/s 4.7s<4.4s
+       7/30         0G      2.744      3.286      1.958         16        416: 54% ━━━━━━╸───── 19/35 3.9it/s 5.0s<4.1s
+       7/30         0G      2.738      3.259      1.963         15        416: 57% ━━━━━━╸───── 20/35 3.5it/s 5.4s<4.3s
+       7/30         0G      2.731      3.219      1.964         33        416: 60% ━━━━━━━───── 21/35 3.3it/s 5.7s<4.2s
+       7/30         0G      2.699      3.257      1.954          2        416: 62% ━━━━━━━╸──── 22/35 3.2it/s 6.0s<4.0s
+       7/30         0G      2.698       3.22      1.955         19        416: 65% ━━━━━━━╸──── 23/35 3.2it/s 6.3s<3.7s
+       7/30         0G      2.672      3.222      1.945          7        416: 68% ━━━━━━━━──── 24/35 3.1it/s 6.7s<3.6s
+       7/30         0G      2.672      3.211       1.95          9        416: 71% ━━━━━━━━╸─── 25/35 3.1it/s 7.0s<3.2s
+       7/30         0G      2.659      3.195      1.945          6        416: 74% ━━━━━━━━╸─── 26/35 3.2it/s 7.3s<2.8s
+       7/30         0G      2.664      3.208      1.927          3        416: 77% ━━━━━━━━━─── 27/35 3.3it/s 7.6s<2.5s
+       7/30         0G      2.663        3.2      1.922         19        416: 80% ━━━━━━━━━╸── 28/35 2.9it/s 8.1s<2.4s
+       7/30         0G      2.672      3.242      1.913          3        416: 82% ━━━━━━━━━╸── 29/35 2.8it/s 8.5s<2.2s
+       7/30         0G      2.663      3.229      1.911          8        416: 85% ━━━━━━━━━━── 30/35 2.9it/s 8.8s<1.7s
+       7/30         0G       2.67      3.257      1.919          6        416: 88% ━━━━━━━━━━╸─ 31/35 2.9it/s 9.2s<1.4s
+       7/30         0G      2.667      3.282      1.915          5        416: 91% ━━━━━━━━━━╸─ 32/35 3.0it/s 9.5s<1.0s
+       7/30         0G       2.68      3.268      1.924         15        416: 94% ━━━━━━━━━━━─ 33/35 3.0it/s 9.8s<0.7s
+       7/30         0G      2.703      3.307      1.925          3        416: 97% ━━━━━━━━━━━╸ 34/35 4.0it/s 10.0s<0.2s
+       7/30         0G      2.703      3.307      1.925          3        416: 100% ━━━━━━━━━━━━ 35/35 3.5it/s 10.0s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 2.3s/it 0.7s<9.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.0s/it 1.2s<3.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.3it/s 1.6s<1.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.7it/s 2.0s<0.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.2it/s 2.3s
+                   all         76        118     0.0212     0.0593    0.00666    0.00164
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       8/30         0G      2.547      3.417      1.796         11        416: 0% ──────────── 0/35  0.5s
+       8/30         0G      2.916      3.237       2.05          5        416: 2% ──────────── 1/35 1.1s/it 0.8s<38.8s
+       8/30         0G      2.896      3.317      1.937         11        416: 5% ╸─────────── 2/35 1.6it/s 1.1s<20.4s
+       8/30         0G      2.769      3.456      1.911          6        416: 8% ━─────────── 3/35 2.2it/s 1.4s<14.6s
+       8/30         0G        2.7      3.194      1.886         18        416: 11% ━─────────── 4/35 2.5it/s 1.7s<12.3s
+       8/30         0G      2.684      3.318      1.947          9        416: 14% ━╸────────── 5/35 2.9it/s 2.0s<10.5s
+       8/30         0G      2.712      3.188      1.951         11        416: 17% ━━────────── 6/35 2.9it/s 2.3s<10.1s
+       8/30         0G      2.659      3.195      1.932         16        416: 20% ━━────────── 7/35 3.2it/s 2.6s<8.7s
+       8/30         0G      2.598      3.209      1.908          7        416: 22% ━━╸───────── 8/35 3.5it/s 2.8s<7.8s
+       8/30         0G      2.578      3.171      1.893          6        416: 25% ━━━───────── 9/35 3.4it/s 3.1s<7.6s
+       8/30         0G      2.615      3.152      1.892         56        416: 28% ━━━───────── 10/35 3.3it/s 3.4s<7.6s
+       8/30         0G      2.618      3.153      1.905          6        416: 31% ━━━╸──────── 11/35 3.3it/s 3.7s<7.2s
+       8/30         0G       2.64      3.175      1.924          6        416: 34% ━━━━──────── 12/35 3.4it/s 4.0s<6.8s
+       8/30         0G      2.656      3.117      1.918         29        416: 37% ━━━━──────── 13/35 3.2it/s 4.4s<6.9s
+       8/30         0G      2.676      3.137      1.929          5        416: 40% ━━━━╸─────── 14/35 3.3it/s 4.7s<6.4s
+       8/30         0G      2.669      3.186      1.947          3        416: 42% ━━━━━─────── 15/35 3.7it/s 4.9s<5.4s
+       8/30         0G      2.674      3.177      1.952         22        416: 45% ━━━━━─────── 16/35 3.9it/s 5.1s<4.9s
+       8/30         0G      2.714      3.274      1.977          3        416: 48% ━━━━━╸────── 17/35 3.9it/s 5.4s<4.6s
+       8/30         0G       2.71      3.323      1.979          6        416: 51% ━━━━━━────── 18/35 3.9it/s 5.6s<4.3s
+       8/30         0G      2.681      3.296      1.964          7        416: 54% ━━━━━━╸───── 19/35 4.0it/s 5.8s<4.0s
+       8/30         0G      2.693      3.278       1.96         45        416: 57% ━━━━━━╸───── 20/35 4.1it/s 6.1s<3.7s
+       8/30         0G      2.684      3.253      1.967          7        416: 60% ━━━━━━━───── 21/35 4.1it/s 6.3s<3.5s
+       8/30         0G      2.668      3.442      1.932          1        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 6.6s<3.3s
+       8/30         0G      2.689      3.417      1.932         17        416: 65% ━━━━━━━╸──── 23/35 4.1it/s 6.8s<2.9s
+       8/30         0G      2.649      3.412      1.919          1        416: 68% ━━━━━━━━──── 24/35 4.3it/s 7.0s<2.6s
+       8/30         0G      2.641       3.39      1.922         26        416: 71% ━━━━━━━━╸─── 25/35 4.3it/s 7.3s<2.3s
+       8/30         0G      2.645      3.392      1.921          8        416: 74% ━━━━━━━━╸─── 26/35 4.4it/s 7.5s<2.0s
+       8/30         0G      2.651      3.374      1.925         11        416: 77% ━━━━━━━━━─── 27/35 4.3it/s 7.7s<1.8s
+       8/30         0G      2.559      3.437      1.859          0        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 8.0s<1.7s
+       8/30         0G      2.572       3.44      1.872         10        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 8.2s<1.4s
+       8/30         0G      2.602      3.481      1.878          3        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 8.5s<1.2s
+       8/30         0G       2.61      3.466      1.879          7        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 8.7s<0.9s
+       8/30         0G      2.617      3.454      1.889         12        416: 91% ━━━━━━━━━━╸─ 32/35 4.3it/s 8.9s<0.7s
+       8/30         0G      2.617      3.426      1.888         14        416: 94% ━━━━━━━━━━━─ 33/35 4.3it/s 9.2s<0.5s
+       8/30         0G      2.616      3.435      1.902          4        416: 97% ━━━━━━━━━━━╸ 34/35 5.5it/s 9.3s<0.2s
+       8/30         0G      2.616      3.435      1.902          4        416: 100% ━━━━━━━━━━━━ 35/35 3.8it/s 9.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.4s<5.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.7s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.7it/s 1.2s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.9it/s 1.6s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.7it/s 1.9s
+                   all         76        118     0.0219     0.0508     0.0075    0.00192
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+       9/30         0G      2.464       2.69      2.007         10        416: 0% ──────────── 0/35  0.3s
+       9/30         0G      2.319      2.936       1.83          4        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.5s
+       9/30         0G      2.279      2.694      1.719         12        416: 5% ╸─────────── 2/35 2.4it/s 0.7s<13.9s
+       9/30         0G      2.388      2.831      1.854          6        416: 8% ━─────────── 3/35 3.1it/s 0.9s<10.5s
+       9/30         0G      2.418      2.854      1.834         26        416: 11% ━─────────── 4/35 3.5it/s 1.1s<8.9s
+       9/30         0G      2.483      2.906      1.822         19        416: 14% ━╸────────── 5/35 3.4it/s 1.5s<8.9s
+       9/30         0G      2.507      2.841      1.821          5        416: 17% ━━────────── 6/35 3.5it/s 1.7s<8.3s
+       9/30         0G       2.58      2.894      1.833         17        416: 20% ━━────────── 7/35 3.4it/s 2.0s<8.3s
+       9/30         0G      2.585      3.032      1.864          3        416: 22% ━━╸───────── 8/35 3.5it/s 2.3s<7.8s
+       9/30         0G      2.601      3.052      1.856         12        416: 25% ━━━───────── 9/35 3.6it/s 2.6s<7.3s
+       9/30         0G      2.514      3.105      1.832          1        416: 28% ━━━───────── 10/35 3.7it/s 2.8s<6.8s
+       9/30         0G      2.502       3.03      1.824         20        416: 31% ━━━╸──────── 11/35 3.6it/s 3.1s<6.6s
+       9/30         0G      2.514      3.051      1.825         24        416: 34% ━━━━──────── 12/35 3.6it/s 3.4s<6.4s
+       9/30         0G      2.541      3.047       1.83         19        416: 37% ━━━━──────── 13/35 3.6it/s 3.7s<6.1s
+       9/30         0G      2.552      3.028      1.845         16        416: 40% ━━━━╸─────── 14/35 3.6it/s 3.9s<5.8s
+       9/30         0G      2.493      3.038      1.824          2        416: 42% ━━━━━─────── 15/35 3.6it/s 4.2s<5.6s
+       9/30         0G      2.507      3.052      1.812         21        416: 45% ━━━━━─────── 16/35 3.9it/s 4.4s<4.9s
+       9/30         0G      2.522      3.069      1.813         11        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.7s<4.4s
+       9/30         0G      2.512      3.053      1.812          9        416: 51% ━━━━━━────── 18/35 4.4it/s 4.9s<3.9s
+       9/30         0G      2.504      3.039       1.81          6        416: 54% ━━━━━━╸───── 19/35 4.3it/s 5.1s<3.7s
+       9/30         0G      2.506      3.047      1.807         22        416: 57% ━━━━━━╸───── 20/35 4.0it/s 5.4s<3.7s
+       9/30         0G      2.502      3.044      1.807         22        416: 60% ━━━━━━━───── 21/35 3.8it/s 5.7s<3.7s
+       9/30         0G      2.492      3.041      1.805          3        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 5.9s<3.3s
+       9/30         0G      2.521      3.041      1.812         27        416: 65% ━━━━━━━╸──── 23/35 4.1it/s 6.2s<3.0s
+       9/30         0G      2.522       3.04      1.812         14        416: 68% ━━━━━━━━──── 24/35 4.2it/s 6.4s<2.6s
+       9/30         0G      2.514      3.054      1.807          5        416: 71% ━━━━━━━━╸─── 25/35 4.1it/s 6.6s<2.4s
+       9/30         0G      2.512      3.061      1.813          9        416: 74% ━━━━━━━━╸─── 26/35 4.1it/s 6.9s<2.2s
+       9/30         0G      2.502      3.083      1.818         13        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 7.1s<2.0s
+       9/30         0G      2.535      3.098      1.831          3        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 7.4s<1.7s
+       9/30         0G       2.56      3.099      1.828          2        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 7.6s<1.4s
+       9/30         0G       2.57      3.082      1.834         27        416: 85% ━━━━━━━━━━── 30/35 4.3it/s 7.8s<1.2s
+       9/30         0G       2.57      3.075      1.832         15        416: 88% ━━━━━━━━━━╸─ 31/35 4.3it/s 8.1s<0.9s
+       9/30         0G      2.589      3.081      1.868          3        416: 91% ━━━━━━━━━━╸─ 32/35 4.4it/s 8.3s<0.7s
+       9/30         0G      2.587      3.084      1.872          5        416: 94% ━━━━━━━━━━━─ 33/35 4.6it/s 8.5s<0.4s
+       9/30         0G      2.567        3.1      1.863          1        416: 97% ━━━━━━━━━━━╸ 34/35 5.6it/s 8.6s<0.2s
+       9/30         0G      2.567        3.1      1.863          1        416: 100% ━━━━━━━━━━━━ 35/35 4.1it/s 8.6s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.4s<5.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.2it/s 0.9s<2.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.7it/s 1.2s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.5s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.9it/s 1.7s
+                   all         76        118     0.0247     0.0424    0.00921    0.00214
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      10/30         0G       2.11      5.367      1.838          1        416: 0% ──────────── 0/35  0.3s
+      10/30         0G      2.454      4.367      1.747          4        416: 2% ──────────── 1/35 1.3it/s 0.5s<25.7s
+      10/30         0G       2.52      3.907      1.832          7        416: 5% ╸─────────── 2/35 2.3it/s 0.7s<14.3s
+      10/30         0G      2.631      3.693      1.852          9        416: 8% ━─────────── 3/35 3.1it/s 0.9s<10.4s
+      10/30         0G       2.61      3.562      1.851         25        416: 11% ━─────────── 4/35 3.2it/s 1.2s<9.8s
+      10/30         0G      2.571      3.437      1.835         41        416: 14% ━╸────────── 5/35 3.3it/s 1.5s<9.0s
+      10/30         0G      2.549      3.272       1.82          7        416: 17% ━━────────── 6/35 3.6it/s 1.7s<8.1s
+      10/30         0G      2.542      3.279      1.829          6        416: 20% ━━────────── 7/35 3.8it/s 1.9s<7.3s
+      10/30         0G      2.582      3.288      1.888          6        416: 22% ━━╸───────── 8/35 4.0it/s 2.2s<6.8s
+      10/30         0G      2.559      3.232       1.84          5        416: 25% ━━━───────── 9/35 4.0it/s 2.4s<6.5s
+      10/30         0G      2.592      3.225      1.866         17        416: 28% ━━━───────── 10/35 4.2it/s 2.6s<6.0s
+      10/30         0G      2.609      3.195       1.88         25        416: 31% ━━━╸──────── 11/35 4.1it/s 2.9s<5.8s
+      10/30         0G      2.585      3.161      1.863          5        416: 34% ━━━━──────── 12/35 4.1it/s 3.1s<5.6s
+      10/30         0G      2.593      3.132      1.864          6        416: 37% ━━━━──────── 13/35 4.3it/s 3.3s<5.2s
+      10/30         0G       2.42      3.245      1.739          0        416: 40% ━━━━╸─────── 14/35 4.4it/s 3.6s<4.8s
+      10/30         0G      2.392      3.251       1.73          5        416: 42% ━━━━━─────── 15/35 4.4it/s 3.8s<4.6s
+      10/30         0G      2.409      3.257      1.726         13        416: 45% ━━━━━─────── 16/35 4.4it/s 4.0s<4.3s
+      10/30         0G      2.409      3.221      1.728          9        416: 48% ━━━━━╸────── 17/35 4.3it/s 4.2s<4.1s
+      10/30         0G      2.412      3.216      1.743         21        416: 51% ━━━━━━────── 18/35 4.4it/s 4.5s<3.9s
+      10/30         0G      2.427      3.215      1.755          6        416: 54% ━━━━━━╸───── 19/35 4.4it/s 4.7s<3.6s
+      10/30         0G      2.445      3.195      1.764         36        416: 57% ━━━━━━╸───── 20/35 4.3it/s 4.9s<3.5s
+      10/30         0G      2.493      3.211      1.771          3        416: 60% ━━━━━━━───── 21/35 4.2it/s 5.2s<3.3s
+      10/30         0G      2.488      3.192       1.77          9        416: 62% ━━━━━━━╸──── 22/35 4.2it/s 5.4s<3.1s
+      10/30         0G      2.532      3.216       1.77          5        416: 65% ━━━━━━━╸──── 23/35 4.0it/s 5.7s<3.0s
+      10/30         0G      2.552      3.206      1.784         12        416: 68% ━━━━━━━━──── 24/35 4.2it/s 5.9s<2.6s
+      10/30         0G      2.508       3.18       1.77          4        416: 71% ━━━━━━━━╸─── 25/35 4.3it/s 6.1s<2.3s
+      10/30         0G      2.518      3.188      1.778         11        416: 74% ━━━━━━━━╸─── 26/35 4.3it/s 6.4s<2.1s
+      10/30         0G      2.529      3.179      1.788          9        416: 77% ━━━━━━━━━─── 27/35 4.4it/s 6.6s<1.8s
+      10/30         0G      2.527      3.157      1.791         10        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 6.9s<1.7s
+      10/30         0G       2.54      3.166      1.789         12        416: 82% ━━━━━━━━━╸── 29/35 3.9it/s 7.2s<1.5s
+      10/30         0G      2.548       3.16      1.787         21        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 7.4s<1.3s
+      10/30         0G      2.537      3.159      1.786          6        416: 88% ━━━━━━━━━━╸─ 31/35 4.0it/s 7.7s<1.0s
+      10/30         0G      2.538      3.149      1.794         12        416: 91% ━━━━━━━━━━╸─ 32/35 3.9it/s 7.9s<0.8s
+      10/30         0G      2.552      3.161      1.801          9        416: 94% ━━━━━━━━━━━─ 33/35 4.0it/s 8.2s<0.5s
+      10/30         0G      2.558      3.157      1.804         25        416: 97% ━━━━━━━━━━━╸ 34/35 5.0it/s 8.3s<0.2s
+      10/30         0G      2.558      3.157      1.804         25        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.6it/s 0.7s<1.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.0it/s 1.0s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118     0.0309     0.0339     0.0113    0.00254
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      11/30         0G      2.262       3.16      1.686         17        416: 0% ──────────── 0/35  0.2s
+      11/30         0G      2.457       3.06      1.868         32        416: 2% ──────────── 1/35 1.3it/s 0.5s<25.7s
+      11/30         0G      2.533      3.091      1.862          5        416: 5% ╸─────────── 2/35 2.4it/s 0.7s<14.0s
+      11/30         0G      2.534        3.1      1.886          7        416: 8% ━─────────── 3/35 2.9it/s 0.9s<11.1s
+      11/30         0G      2.538      3.028      1.852         36        416: 11% ━─────────── 4/35 3.4it/s 1.1s<9.3s
+      11/30         0G       2.59      3.017      1.836          7        416: 14% ━╸────────── 5/35 3.2it/s 1.5s<9.2s
+      11/30         0G      2.555       2.94      1.846         16        416: 17% ━━────────── 6/35 3.5it/s 1.7s<8.3s
+      11/30         0G      2.557      2.996      1.875         17        416: 20% ━━────────── 7/35 3.6it/s 2.0s<7.8s
+      11/30         0G      2.542      3.483      1.889          1        416: 22% ━━╸───────── 8/35 4.0it/s 2.2s<6.8s
+      11/30         0G      2.525      3.415      1.882          9        416: 25% ━━━───────── 9/35 3.9it/s 2.4s<6.6s
+      11/30         0G      2.533      3.373      1.881          5        416: 28% ━━━───────── 10/35 4.0it/s 2.7s<6.3s
+      11/30         0G      2.551      3.373      1.897          5        416: 31% ━━━╸──────── 11/35 4.0it/s 2.9s<5.9s
+      11/30         0G      2.536      3.297      1.886         29        416: 34% ━━━━──────── 12/35 4.2it/s 3.1s<5.4s
+      11/30         0G      2.518      3.301      1.886          6        416: 37% ━━━━──────── 13/35 4.2it/s 3.4s<5.3s
+      11/30         0G      2.564      3.269      1.913          8        416: 40% ━━━━╸─────── 14/35 4.3it/s 3.6s<4.9s
+      11/30         0G      2.554      3.216      1.903         11        416: 42% ━━━━━─────── 15/35 4.2it/s 3.9s<4.8s
+      11/30         0G      2.562      3.155      1.889         18        416: 45% ━━━━━─────── 16/35 4.1it/s 4.1s<4.7s
+      11/30         0G      2.559      3.138      1.884          9        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.4s<4.6s
+      11/30         0G      2.559      3.123      1.891          5        416: 51% ━━━━━━────── 18/35 4.0it/s 4.6s<4.2s
+      11/30         0G      2.532      3.375      1.865          1        416: 54% ━━━━━━╸───── 19/35 4.0it/s 4.9s<4.0s
+      11/30         0G       2.52      3.311      1.844          3        416: 57% ━━━━━━╸───── 20/35 4.2it/s 5.1s<3.6s
+      11/30         0G      2.531        3.3      1.864         10        416: 60% ━━━━━━━───── 21/35 4.2it/s 5.3s<3.3s
+      11/30         0G      2.527       3.28      1.858         24        416: 62% ━━━━━━━╸──── 22/35 4.1it/s 5.6s<3.1s
+      11/30         0G      2.512       3.24       1.85          5        416: 65% ━━━━━━━╸──── 23/35 4.2it/s 5.8s<2.9s
+      11/30         0G      2.505      3.232      1.845          9        416: 68% ━━━━━━━━──── 24/35 4.3it/s 6.1s<2.6s
+      11/30         0G      2.515      3.221      1.844          7        416: 71% ━━━━━━━━╸─── 25/35 4.3it/s 6.3s<2.3s
+      11/30         0G      2.526      3.245      1.851          9        416: 74% ━━━━━━━━╸─── 26/35 4.1it/s 6.5s<2.2s
+      11/30         0G      2.435      3.337      1.785          0        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 6.8s<1.9s
+      11/30         0G      2.447      3.321      1.787         26        416: 80% ━━━━━━━━━╸── 28/35 4.1it/s 7.0s<1.7s
+      11/30         0G      2.456      3.293      1.793         13        416: 82% ━━━━━━━━━╸── 29/35 4.1it/s 7.3s<1.5s
+      11/30         0G      2.452      3.281      1.791          8        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 7.6s<1.3s
+      11/30         0G      2.467      3.271      1.791         24        416: 88% ━━━━━━━━━━╸─ 31/35 3.8it/s 7.8s<1.1s
+      11/30         0G      2.467      3.251      1.788          6        416: 91% ━━━━━━━━━━╸─ 32/35 3.6it/s 8.2s<0.8s
+      11/30         0G      2.461      3.244       1.79          8        416: 94% ━━━━━━━━━━━─ 33/35 3.6it/s 8.5s<0.6s
+      11/30         0G      2.461      3.243      1.784          5        416: 97% ━━━━━━━━━━━╸ 34/35 4.9it/s 8.6s<0.2s
+      11/30         0G      2.461      3.243      1.784          5        416: 100% ━━━━━━━━━━━━ 35/35 4.1it/s 8.6s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.5s<6.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.8s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.9it/s 1.1s<1.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.5s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.9it/s 1.7s
+                   all         76        118     0.0438     0.0763     0.0106     0.0022
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      12/30         0G      2.943      3.118      2.003         11        416: 0% ──────────── 0/35  0.2s
+      12/30         0G      2.787      2.881       1.96         14        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.7s
+      12/30         0G       2.61      2.789      1.907          5        416: 5% ╸─────────── 2/35 2.2it/s 0.7s<15.3s
+      12/30         0G      2.498      2.824      1.875          3        416: 8% ━─────────── 3/35 2.9it/s 0.9s<11.1s
+      12/30         0G      2.561      2.847      1.912         20        416: 11% ━─────────── 4/35 3.3it/s 1.2s<9.4s
+      12/30         0G      2.615      2.864      1.905         25        416: 14% ━╸────────── 5/35 3.4it/s 1.4s<8.7s
+      12/30         0G      2.614      2.948      1.879          3        416: 17% ━━────────── 6/35 3.4it/s 1.7s<8.5s
+      12/30         0G      2.637      2.943      1.861         25        416: 20% ━━────────── 7/35 3.6it/s 2.0s<7.9s
+      12/30         0G      2.623      2.917      1.865         24        416: 22% ━━╸───────── 8/35 3.6it/s 2.3s<7.5s
+      12/30         0G      2.597      2.929      1.892          3        416: 25% ━━━───────── 9/35 3.8it/s 2.5s<6.9s
+      12/30         0G      2.634      2.898      1.888          5        416: 28% ━━━───────── 10/35 3.7it/s 2.8s<6.8s
+      12/30         0G      2.607      2.911      1.868         10        416: 31% ━━━╸──────── 11/35 3.8it/s 3.0s<6.4s
+      12/30         0G      2.594      2.908      1.851         38        416: 34% ━━━━──────── 12/35 3.7it/s 3.3s<6.2s
+      12/30         0G      2.606      2.912      1.849         15        416: 37% ━━━━──────── 13/35 3.8it/s 3.6s<5.8s
+      12/30         0G      2.567      2.865      1.836          7        416: 40% ━━━━╸─────── 14/35 3.9it/s 3.8s<5.4s
+      12/30         0G      2.567      2.823      1.833          8        416: 42% ━━━━━─────── 15/35 3.9it/s 4.1s<5.1s
+      12/30         0G      2.571      2.861      1.853         11        416: 45% ━━━━━─────── 16/35 3.9it/s 4.3s<4.8s
+      12/30         0G      2.561      2.856       1.84          6        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.6s<4.6s
+      12/30         0G      2.571      2.858      1.838         11        416: 51% ━━━━━━────── 18/35 4.0it/s 4.8s<4.3s
+      12/30         0G      2.551      2.864      1.832          4        416: 54% ━━━━━━╸───── 19/35 4.2it/s 5.0s<3.8s
+      12/30         0G      2.669      2.974      1.871          1        416: 57% ━━━━━━╸───── 20/35 4.2it/s 5.3s<3.6s
+      12/30         0G      2.649      2.987      1.867          3        416: 60% ━━━━━━━───── 21/35 4.4it/s 5.5s<3.2s
+      12/30         0G      2.663       2.99      1.874          6        416: 62% ━━━━━━━╸──── 22/35 4.5it/s 5.7s<2.9s
+      12/30         0G      2.674      2.991      1.872         11        416: 65% ━━━━━━━╸──── 23/35 4.7it/s 5.9s<2.6s
+      12/30         0G      2.675      2.979      1.861          5        416: 68% ━━━━━━━━──── 24/35 4.6it/s 6.1s<2.4s
+      12/30         0G      2.661       2.95       1.86         21        416: 71% ━━━━━━━━╸─── 25/35 4.8it/s 6.3s<2.1s
+      12/30         0G      2.663      2.957      1.873         10        416: 74% ━━━━━━━━╸─── 26/35 4.5it/s 6.5s<2.0s
+      12/30         0G       2.69      2.965      1.878          5        416: 77% ━━━━━━━━━─── 27/35 4.5it/s 6.8s<1.8s
+      12/30         0G      2.688      2.949      1.883         26        416: 80% ━━━━━━━━━╸── 28/35 4.6it/s 7.0s<1.5s
+      12/30         0G      2.682      2.941      1.877         11        416: 82% ━━━━━━━━━╸── 29/35 4.6it/s 7.2s<1.3s
+      12/30         0G      2.664      2.942      1.876          9        416: 85% ━━━━━━━━━━── 30/35 4.4it/s 7.5s<1.1s
+      12/30         0G      2.653      2.929      1.872         27        416: 88% ━━━━━━━━━━╸─ 31/35 4.5it/s 7.7s<0.9s
+      12/30         0G      2.644      2.913      1.869         20        416: 91% ━━━━━━━━━━╸─ 32/35 4.5it/s 7.9s<0.7s
+      12/30         0G      2.645      2.993       1.87          2        416: 94% ━━━━━━━━━━━─ 33/35 4.4it/s 8.1s<0.5s
+      12/30         0G      2.625      3.008      1.866          2        416: 97% ━━━━━━━━━━━╸ 34/35 5.5it/s 8.2s<0.2s
+      12/30         0G      2.625      3.008      1.866          2        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.2s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.6it/s 0.7s<1.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.0s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.4s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118     0.0437     0.0763     0.0128    0.00351
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      13/30         0G      2.741      2.682      1.603         21        416: 0% ──────────── 0/35  0.3s
+      13/30         0G      2.364      2.317      1.448          2        416: 2% ──────────── 1/35 1.4it/s 0.5s<24.0s
+      13/30         0G      2.534      2.626      1.592          6        416: 5% ╸─────────── 2/35 2.4it/s 0.7s<13.9s
+      13/30         0G      2.535      2.633      1.618         26        416: 8% ━─────────── 3/35 2.6it/s 1.0s<12.1s
+      13/30         0G      2.482       2.62       1.64         10        416: 11% ━─────────── 4/35 2.9it/s 1.3s<10.6s
+      13/30         0G      2.502      2.725      1.675          8        416: 14% ━╸────────── 5/35 3.3it/s 1.5s<9.2s
+      13/30         0G      2.525      2.766      1.731         12        416: 17% ━━────────── 6/35 3.3it/s 1.8s<8.7s
+      13/30         0G      2.596      2.827      1.758         10        416: 20% ━━────────── 7/35 3.5it/s 2.1s<7.9s
+      13/30         0G      2.618      3.488      1.737          1        416: 22% ━━╸───────── 8/35 3.7it/s 2.3s<7.4s
+      13/30         0G      2.609      3.404      1.761          7        416: 25% ━━━───────── 9/35 3.8it/s 2.5s<6.8s
+      13/30         0G      2.604      3.356      1.749         33        416: 28% ━━━───────── 10/35 3.9it/s 2.8s<6.4s
+      13/30         0G       2.54      3.261      1.723          5        416: 31% ━━━╸──────── 11/35 3.9it/s 3.1s<6.2s
+      13/30         0G      2.554      3.219      1.742         42        416: 34% ━━━━──────── 12/35 3.7it/s 3.3s<6.1s
+      13/30         0G      2.532      3.197      1.733         10        416: 37% ━━━━──────── 13/35 3.9it/s 3.6s<5.7s
+      13/30         0G      2.499      3.141      1.715          6        416: 40% ━━━━╸─────── 14/35 4.0it/s 3.8s<5.2s
+      13/30         0G       2.49      3.135      1.728          5        416: 42% ━━━━━─────── 15/35 4.1it/s 4.0s<4.9s
+      13/30         0G      2.499        3.1      1.729         14        416: 45% ━━━━━─────── 16/35 4.2it/s 4.3s<4.6s
+      13/30         0G      2.498      3.122      1.745          7        416: 48% ━━━━━╸────── 17/35 4.2it/s 4.5s<4.3s
+      13/30         0G      2.499      3.126      1.748          8        416: 51% ━━━━━━────── 18/35 4.4it/s 4.7s<3.9s
+      13/30         0G      2.505      3.113      1.749         28        416: 54% ━━━━━━╸───── 19/35 4.5it/s 4.9s<3.5s
+      13/30         0G      2.496      3.088      1.759         11        416: 57% ━━━━━━╸───── 20/35 4.6it/s 5.1s<3.2s
+      13/30         0G      2.479      3.073      1.759         12        416: 60% ━━━━━━━───── 21/35 4.6it/s 5.3s<3.0s
+      13/30         0G      2.468      3.048      1.749          7        416: 62% ━━━━━━━╸──── 22/35 4.6it/s 5.6s<2.8s
+      13/30         0G      2.499      3.088      1.763          2        416: 65% ━━━━━━━╸──── 23/35 4.4it/s 5.8s<2.7s
+      13/30         0G      2.519      3.069      1.767          5        416: 68% ━━━━━━━━──── 24/35 4.4it/s 6.0s<2.5s
+      13/30         0G      2.529      3.056       1.77         23        416: 71% ━━━━━━━━╸─── 25/35 4.5it/s 6.3s<2.2s
+      13/30         0G       2.52      3.025      1.768         28        416: 74% ━━━━━━━━╸─── 26/35 4.6it/s 6.5s<2.0s
+      13/30         0G      2.544      3.021      1.784         14        416: 77% ━━━━━━━━━─── 27/35 4.4it/s 6.7s<1.8s
+      13/30         0G      2.534      3.012       1.78         12        416: 80% ━━━━━━━━━╸── 28/35 4.4it/s 6.9s<1.6s
+      13/30         0G      2.555      3.015      1.812          2        416: 82% ━━━━━━━━━╸── 29/35 4.4it/s 7.2s<1.3s
+      13/30         0G       2.55      2.983      1.804          7        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 7.4s<1.2s
+      13/30         0G      2.547      2.968      1.803          6        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 7.7s<0.9s
+      13/30         0G      2.552      2.976      1.808         21        416: 91% ━━━━━━━━━━╸─ 32/35 4.2it/s 7.9s<0.7s
+      13/30         0G      2.546      2.979      1.808          6        416: 94% ━━━━━━━━━━━─ 33/35 4.2it/s 8.2s<0.5s
+      13/30         0G      2.527      2.974      1.801          1        416: 97% ━━━━━━━━━━━╸ 34/35 4.9it/s 8.3s<0.2s
+      13/30         0G      2.527      2.974      1.801          1        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.4s/it 0.4s<5.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.7s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.0s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.4s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118     0.0727     0.0508     0.0158    0.00385
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      14/30         0G      2.762      2.484      1.792          5        416: 0% ──────────── 0/35  0.3s
+      14/30         0G      2.701      2.496      1.785         13        416: 2% ──────────── 1/35 1.5it/s 0.5s<22.6s
+      14/30         0G      2.579      2.589      1.712          5        416: 5% ╸─────────── 2/35 2.5it/s 0.7s<13.0s
+      14/30         0G      2.522       2.63      1.707          8        416: 8% ━─────────── 3/35 3.2it/s 0.9s<10.0s
+      14/30         0G      2.523      2.646       1.72         25        416: 11% ━─────────── 4/35 3.6it/s 1.1s<8.7s
+      14/30         0G      2.539      2.636      1.695          5        416: 14% ━╸────────── 5/35 3.8it/s 1.3s<7.9s
+      14/30         0G      2.565      2.654      1.731         13        416: 17% ━━────────── 6/35 3.6it/s 1.6s<8.0s
+      14/30         0G      2.568      2.618      1.748         29        416: 20% ━━────────── 7/35 3.7it/s 1.9s<7.5s
+      14/30         0G      2.518      2.563      1.707          4        416: 22% ━━╸───────── 8/35 3.9it/s 2.1s<7.0s
+      14/30         0G      2.506      2.742      1.706          2        416: 25% ━━━───────── 9/35 4.0it/s 2.4s<6.5s
+      14/30         0G        2.5      2.822      1.717          3        416: 28% ━━━───────── 10/35 3.9it/s 2.6s<6.4s
+      14/30         0G      2.452      2.837      1.713          4        416: 31% ━━━╸──────── 11/35 3.9it/s 2.9s<6.1s
+      14/30         0G      2.458      2.824      1.713         38        416: 34% ━━━━──────── 12/35 4.0it/s 3.1s<5.7s
+      14/30         0G      2.432        2.8      1.711          9        416: 37% ━━━━──────── 13/35 4.0it/s 3.4s<5.5s
+      14/30         0G      2.445      2.837      1.708          2        416: 40% ━━━━╸─────── 14/35 4.0it/s 3.6s<5.3s
+      14/30         0G      2.475      2.828      1.717          6        416: 42% ━━━━━─────── 15/35 4.0it/s 3.9s<4.9s
+      14/30         0G      2.457      2.808      1.713         16        416: 45% ━━━━━─────── 16/35 4.0it/s 4.1s<4.8s
+      14/30         0G      2.443      2.791      1.711         36        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.4s<4.4s
+      14/30         0G      2.443       2.78      1.713          5        416: 51% ━━━━━━────── 18/35 4.4it/s 4.6s<3.9s
+      14/30         0G      2.433      2.771      1.706          7        416: 54% ━━━━━━╸───── 19/35 4.5it/s 4.8s<3.5s
+      14/30         0G      2.422      2.772      1.708         12        416: 57% ━━━━━━╸───── 20/35 4.5it/s 5.0s<3.3s
+      14/30         0G       2.45       2.77      1.723         11        416: 60% ━━━━━━━───── 21/35 4.5it/s 5.2s<3.1s
+      14/30         0G      2.458      2.777      1.721         10        416: 62% ━━━━━━━╸──── 22/35 4.4it/s 5.4s<2.9s
+      14/30         0G      2.465      2.786      1.725          5        416: 65% ━━━━━━━╸──── 23/35 4.2it/s 5.7s<2.8s
+      14/30         0G      2.459       2.77      1.729         24        416: 68% ━━━━━━━━──── 24/35 4.3it/s 5.9s<2.5s
+      14/30         0G      2.474      2.764      1.737         11        416: 71% ━━━━━━━━╸─── 25/35 4.4it/s 6.2s<2.3s
+      14/30         0G      2.489      2.779      1.747         17        416: 74% ━━━━━━━━╸─── 26/35 4.4it/s 6.4s<2.0s
+      14/30         0G      2.491      2.791      1.753         18        416: 77% ━━━━━━━━━─── 27/35 4.2it/s 6.6s<1.9s
+      14/30         0G      2.501      2.792      1.763          8        416: 80% ━━━━━━━━━╸── 28/35 4.4it/s 6.9s<1.6s
+      14/30         0G      2.508      2.797      1.758         19        416: 82% ━━━━━━━━━╸── 29/35 3.9it/s 7.2s<1.5s
+      14/30         0G      2.503      2.804      1.764         13        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 7.4s<1.2s
+      14/30         0G      2.504      2.804      1.774         12        416: 88% ━━━━━━━━━━╸─ 31/35 3.9it/s 7.7s<1.0s
+      14/30         0G      2.428      2.877       1.72          0        416: 91% ━━━━━━━━━━╸─ 32/35 3.8it/s 8.0s<0.8s
+      14/30         0G      2.421      2.865      1.726          6        416: 94% ━━━━━━━━━━━─ 33/35 3.9it/s 8.2s<0.5s
+      14/30         0G      2.402      2.865      1.724          2        416: 97% ━━━━━━━━━━━╸ 34/35 5.4it/s 8.3s<0.2s
+      14/30         0G      2.402      2.865      1.724          2        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.4s/it 0.4s<5.7s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.7s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.0s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.5it/s 1.3s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.2it/s 1.5s
+                   all         76        118     0.0749     0.0678     0.0201    0.00463
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      15/30         0G       2.62      2.261      1.699         23        416: 0% ──────────── 0/35  0.3s
+      15/30         0G      2.424      3.033      1.532          3        416: 2% ──────────── 1/35 1.1it/s 0.5s<32.1s
+      15/30         0G      2.424      2.793       1.57         27        416: 5% ╸─────────── 2/35 1.8it/s 0.8s<18.2s
+      15/30         0G      2.412      2.736      1.633          7        416: 8% ━─────────── 3/35 2.2it/s 1.2s<14.9s
+      15/30         0G      2.483      2.792      1.665          7        416: 11% ━─────────── 4/35 2.5it/s 1.5s<12.5s
+      15/30         0G       2.41      2.945      1.657          4        416: 14% ━╸────────── 5/35 2.5it/s 1.9s<12.2s
+      15/30         0G      2.586      3.091      1.702          5        416: 17% ━━────────── 6/35 2.6it/s 2.2s<11.3s
+      15/30         0G      2.545      3.044      1.685          3        416: 20% ━━────────── 7/35 2.7it/s 2.6s<10.4s
+      15/30         0G      2.517      2.988      1.684         17        416: 22% ━━╸───────── 8/35 2.9it/s 2.9s<9.2s
+      15/30         0G      2.475      2.947      1.669          7        416: 25% ━━━───────── 9/35 3.4it/s 3.1s<7.7s
+      15/30         0G      2.461      2.898      1.691          3        416: 28% ━━━───────── 10/35 3.6it/s 3.3s<6.9s
+      15/30         0G      2.488      2.942      1.721          5        416: 31% ━━━╸──────── 11/35 3.9it/s 3.5s<6.1s
+      15/30         0G      2.511      2.968      1.773          2        416: 34% ━━━━──────── 12/35 3.9it/s 3.8s<5.9s
+      15/30         0G       2.52      3.046      1.791          4        416: 37% ━━━━──────── 13/35 4.1it/s 4.0s<5.3s
+      15/30         0G      2.556      3.088      1.803          2        416: 40% ━━━━╸─────── 14/35 4.0it/s 4.3s<5.2s
+      15/30         0G      2.547      3.083      1.797          9        416: 42% ━━━━━─────── 15/35 4.0it/s 4.5s<5.0s
+      15/30         0G       2.59      3.203      1.825          2        416: 45% ━━━━━─────── 16/35 4.1it/s 4.8s<4.7s
+      15/30         0G      2.611       3.22      1.822          3        416: 48% ━━━━━╸────── 17/35 4.2it/s 5.0s<4.3s
+      15/30         0G      2.601      3.213      1.836         22        416: 51% ━━━━━━────── 18/35 3.9it/s 5.3s<4.3s
+      15/30         0G      2.597      3.189      1.835         10        416: 54% ━━━━━━╸───── 19/35 4.1it/s 5.5s<3.9s
+      15/30         0G      2.621      3.172      1.839         14        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.8s<3.6s
+      15/30         0G      2.609      3.139      1.836         31        416: 60% ━━━━━━━───── 21/35 4.3it/s 6.0s<3.3s
+      15/30         0G      2.604      3.115      1.836          8        416: 62% ━━━━━━━╸──── 22/35 4.1it/s 6.2s<3.2s
+      15/30         0G      2.625      3.091      1.836          7        416: 65% ━━━━━━━╸──── 23/35 4.2it/s 6.5s<2.9s
+      15/30         0G      2.626      3.072      1.847         25        416: 68% ━━━━━━━━──── 24/35 4.2it/s 6.7s<2.6s
+      15/30         0G      2.594      3.056      1.832          1        416: 71% ━━━━━━━━╸─── 25/35 4.1it/s 7.0s<2.4s
+      15/30         0G      2.586      3.043      1.832         34        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 7.2s<2.3s
+      15/30         0G      2.558      3.066      1.829          1        416: 77% ━━━━━━━━━─── 27/35 4.2it/s 7.5s<1.9s
+      15/30         0G      2.541      3.048      1.826          9        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 7.7s<1.7s
+      15/30         0G      2.531      3.033      1.832          7        416: 82% ━━━━━━━━━╸── 29/35 4.3it/s 7.9s<1.4s
+      15/30         0G      2.529      3.012      1.829          7        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 8.2s<1.2s
+      15/30         0G      2.527      3.008      1.825          8        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 8.4s<0.9s
+      15/30         0G      2.533      2.999      1.827         55        416: 91% ━━━━━━━━━━╸─ 32/35 4.3it/s 8.6s<0.7s
+      15/30         0G      2.529      3.003      1.829         30        416: 94% ━━━━━━━━━━━─ 33/35 4.3it/s 8.9s<0.5s
+      15/30         0G      2.526      2.985      1.826          4        416: 97% ━━━━━━━━━━━╸ 34/35 5.4it/s 9.0s<0.2s
+      15/30         0G      2.526      2.985      1.826          4        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 9.0s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.4s<5.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.3it/s 0.8s<2.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.5it/s 1.3s<1.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.6s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.8it/s 1.8s
+                   all         76        118      0.107     0.0593     0.0186     0.0051
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      16/30         0G      2.464      2.408       1.89          7        416: 0% ──────────── 0/35  0.3s
+      16/30         0G      2.347       2.91      1.899         18        416: 2% ──────────── 1/35 1.2it/s 0.5s<28.3s
+      16/30         0G       2.27      2.734      1.816          7        416: 5% ╸─────────── 2/35 1.9it/s 0.8s<17.2s
+      16/30         0G       2.22      2.835      1.797          9        416: 8% ━─────────── 3/35 2.2it/s 1.2s<14.8s
+      16/30         0G      2.211      2.774      1.723          6        416: 11% ━─────────── 4/35 2.5it/s 1.5s<12.2s
+      16/30         0G      2.227      2.752      1.702         19        416: 14% ━╸────────── 5/35 3.1it/s 1.7s<9.7s
+      16/30         0G      2.471      2.939      1.866          2        416: 17% ━━────────── 6/35 3.3it/s 2.0s<8.8s
+      16/30         0G       2.46      2.833      1.858         11        416: 20% ━━────────── 7/35 3.6it/s 2.2s<7.9s
+      16/30         0G      2.443      2.892      1.854          3        416: 22% ━━╸───────── 8/35 3.7it/s 2.4s<7.3s
+      16/30         0G      2.481      2.816      1.844          3        416: 25% ━━━───────── 9/35 3.8it/s 2.7s<6.8s
+      16/30         0G      2.464      2.778      1.847          3        416: 28% ━━━───────── 10/35 4.0it/s 2.9s<6.2s
+      16/30         0G       2.44      2.776      1.842          6        416: 31% ━━━╸──────── 11/35 4.1it/s 3.1s<5.9s
+      16/30         0G      2.449      2.747       1.82         22        416: 34% ━━━━──────── 12/35 4.0it/s 3.4s<5.8s
+      16/30         0G      2.457      2.739       1.82          3        416: 37% ━━━━──────── 13/35 3.9it/s 3.7s<5.6s
+      16/30         0G      2.436      2.734      1.827          5        416: 40% ━━━━╸─────── 14/35 3.9it/s 3.9s<5.4s
+      16/30         0G      2.428      2.732      1.824         32        416: 42% ━━━━━─────── 15/35 4.0it/s 4.2s<5.0s
+      16/30         0G      2.433      2.736      1.822          5        416: 45% ━━━━━─────── 16/35 4.0it/s 4.4s<4.7s
+      16/30         0G      2.443      2.739       1.83         11        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.7s<4.4s
+      16/30         0G      2.465      2.748       1.82         35        416: 51% ━━━━━━────── 18/35 4.1it/s 4.9s<4.2s
+      16/30         0G      2.497      2.722       1.83          9        416: 54% ━━━━━━╸───── 19/35 4.2it/s 5.1s<3.8s
+      16/30         0G      2.506      2.704      1.824         23        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.4s<3.7s
+      16/30         0G        2.5      2.701      1.824         12        416: 60% ━━━━━━━───── 21/35 4.3it/s 5.6s<3.3s
+      16/30         0G      2.489      2.698      1.824          6        416: 62% ━━━━━━━╸──── 22/35 4.4it/s 5.8s<3.0s
+      16/30         0G      2.487      2.713      1.828         27        416: 65% ━━━━━━━╸──── 23/35 4.5it/s 6.0s<2.7s
+      16/30         0G      2.491       2.72      1.825         29        416: 68% ━━━━━━━━──── 24/35 4.1it/s 6.3s<2.7s
+      16/30         0G      2.495       2.72      1.822         21        416: 71% ━━━━━━━━╸─── 25/35 3.9it/s 6.6s<2.6s
+      16/30         0G      2.498      2.732      1.816         11        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 6.9s<2.3s
+      16/30         0G      2.482      2.737       1.81         16        416: 77% ━━━━━━━━━─── 27/35 4.2it/s 7.1s<1.9s
+      16/30         0G      2.469      2.723      1.805         16        416: 80% ━━━━━━━━━╸── 28/35 3.9it/s 7.4s<1.8s
+      16/30         0G      2.472      2.711      1.792          6        416: 82% ━━━━━━━━━╸── 29/35 4.0it/s 7.6s<1.5s
+      16/30         0G      2.468      2.696      1.793         13        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 7.9s<1.2s
+      16/30         0G      2.464      2.715      1.798          5        416: 88% ━━━━━━━━━━╸─ 31/35 4.1it/s 8.1s<1.0s
+      16/30         0G      2.461      2.711      1.793          1        416: 91% ━━━━━━━━━━╸─ 32/35 4.1it/s 8.3s<0.7s
+      16/30         0G       2.46      2.716      1.803          8        416: 94% ━━━━━━━━━━━─ 33/35 4.2it/s 8.6s<0.5s
+      16/30         0G      2.389       2.67      1.751          0        416: 97% ━━━━━━━━━━━╸ 34/35 5.3it/s 8.7s<0.2s
+      16/30         0G      2.389       2.67      1.751          0        416: 100% ━━━━━━━━━━━━ 35/35 4.0it/s 8.7s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.3it/s 0.8s<2.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.0it/s 1.1s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.3it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118     0.0902     0.0471     0.0244     0.0065
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      17/30         0G      2.393      2.503      1.979         12        416: 0% ──────────── 0/35  0.3s
+      17/30         0G      2.567      2.659      1.783         30        416: 2% ──────────── 1/35 1.1it/s 0.5s<31.5s
+      17/30         0G      2.702      2.451      1.775          8        416: 5% ╸─────────── 2/35 2.1it/s 0.8s<15.8s
+      17/30         0G      2.715      2.632      1.791          6        416: 8% ━─────────── 3/35 2.2it/s 1.2s<14.7s
+      17/30         0G      2.618      2.672      1.786          8        416: 11% ━─────────── 4/35 2.8it/s 1.4s<11.1s
+      17/30         0G      2.444      2.686      1.708          1        416: 14% ━╸────────── 5/35 3.2it/s 1.7s<9.5s
+      17/30         0G      2.442      2.616       1.69          3        416: 17% ━━────────── 6/35 3.3it/s 1.9s<8.8s
+      17/30         0G      2.454      2.609      1.714          5        416: 20% ━━────────── 7/35 3.5it/s 2.2s<7.9s
+      17/30         0G       2.38      2.588      1.683          6        416: 22% ━━╸───────── 8/35 3.8it/s 2.4s<7.1s
+      17/30         0G      2.407      2.586        1.7         41        416: 25% ━━━───────── 9/35 4.0it/s 2.6s<6.5s
+      17/30         0G      2.403      2.588      1.718         27        416: 28% ━━━───────── 10/35 4.2it/s 2.8s<5.9s
+      17/30         0G      2.436      2.634      1.734         11        416: 31% ━━━╸──────── 11/35 4.1it/s 3.1s<5.9s
+      17/30         0G       2.46      2.637      1.749         50        416: 34% ━━━━──────── 12/35 4.2it/s 3.3s<5.4s
+      17/30         0G      2.425      2.894      1.752          1        416: 37% ━━━━──────── 13/35 4.4it/s 3.5s<5.0s
+      17/30         0G      2.434      2.883      1.768          6        416: 40% ━━━━╸─────── 14/35 4.3it/s 3.8s<4.9s
+      17/30         0G      2.468      2.881      1.795          7        416: 42% ━━━━━─────── 15/35 4.2it/s 4.0s<4.7s
+      17/30         0G      2.456      2.894      1.788          4        416: 45% ━━━━━─────── 16/35 4.2it/s 4.3s<4.5s
+      17/30         0G      2.464      2.888      1.807          7        416: 48% ━━━━━╸────── 17/35 4.5it/s 4.5s<4.0s
+      17/30         0G      2.464      2.892      1.803         14        416: 51% ━━━━━━────── 18/35 4.6it/s 4.7s<3.7s
+      17/30         0G       2.46      2.884      1.798         15        416: 54% ━━━━━━╸───── 19/35 4.6it/s 4.9s<3.5s
+      17/30         0G      2.377      2.815      1.762          1        416: 57% ━━━━━━╸───── 20/35 4.5it/s 5.1s<3.3s
+      17/30         0G      2.363      2.834      1.758          5        416: 60% ━━━━━━━───── 21/35 4.6it/s 5.3s<3.0s
+      17/30         0G      2.426      2.946      1.768          3        416: 62% ━━━━━━━╸──── 22/35 4.6it/s 5.5s<2.8s
+      17/30         0G      2.429      2.954      1.765          9        416: 65% ━━━━━━━╸──── 23/35 4.6it/s 5.8s<2.6s
+      17/30         0G      2.419      2.949      1.765         27        416: 68% ━━━━━━━━──── 24/35 4.5it/s 6.0s<2.4s
+      17/30         0G      2.406      2.907      1.756          6        416: 71% ━━━━━━━━╸─── 25/35 4.6it/s 6.2s<2.2s
+      17/30         0G      2.413      2.881      1.759         12        416: 74% ━━━━━━━━╸─── 26/35 4.5it/s 6.4s<2.0s
+      17/30         0G      2.419      2.872      1.756         33        416: 77% ━━━━━━━━━─── 27/35 4.2it/s 6.7s<1.9s
+      17/30         0G      2.336       2.94      1.696          0        416: 80% ━━━━━━━━━╸── 28/35 4.1it/s 7.0s<1.7s
+      17/30         0G      2.331       2.93      1.691          8        416: 82% ━━━━━━━━━╸── 29/35 4.0it/s 7.3s<1.5s
+      17/30         0G      2.336      2.925      1.698         14        416: 85% ━━━━━━━━━━── 30/35 4.3it/s 7.5s<1.2s
+      17/30         0G      2.327      2.909      1.698          9        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 7.7s<1.0s
+      17/30         0G      2.324      2.916      1.706          7        416: 91% ━━━━━━━━━━╸─ 32/35 4.2it/s 7.9s<0.7s
+      17/30         0G      2.345      2.901       1.71          9        416: 94% ━━━━━━━━━━━─ 33/35 4.3it/s 8.2s<0.5s
+      17/30         0G      2.352      2.902      1.718         14        416: 97% ━━━━━━━━━━━╸ 34/35 5.4it/s 8.3s<0.2s
+      17/30         0G      2.352      2.902      1.718         14        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.6s/it 0.5s<6.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.8s<2.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.6it/s 1.3s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.6s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.8it/s 1.8s
+                   all         76        118      0.156     0.0266      0.024    0.00538
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      18/30         0G      2.696      2.318      2.106         12        416: 0% ──────────── 0/35  0.3s
+      18/30         0G      2.712      2.475      1.959         18        416: 2% ──────────── 1/35 1.2it/s 0.6s<27.9s
+      18/30         0G      2.461       2.56       1.87          6        416: 5% ╸─────────── 2/35 2.2it/s 0.8s<14.8s
+      18/30         0G       2.68      2.658      1.877         13        416: 8% ━─────────── 3/35 2.2it/s 1.3s<14.5s
+      18/30         0G      2.556      2.642      1.794          3        416: 11% ━─────────── 4/35 2.6it/s 1.5s<11.8s
+      18/30         0G      2.508      2.676      1.811          7        416: 14% ━╸────────── 5/35 3.0it/s 1.8s<10.1s
+      18/30         0G      2.473      2.573      1.779         18        416: 17% ━━────────── 6/35 3.1it/s 2.1s<9.2s
+      18/30         0G      2.416      2.577      1.769         25        416: 20% ━━────────── 7/35 3.4it/s 2.3s<8.1s
+      18/30         0G      2.457      2.654      1.803         14        416: 22% ━━╸───────── 8/35 3.7it/s 2.6s<7.2s
+      18/30         0G      2.431      2.648      1.781         18        416: 25% ━━━───────── 9/35 3.9it/s 2.8s<6.7s
+      18/30         0G      2.464      2.661      1.804         22        416: 28% ━━━───────── 10/35 4.1it/s 3.0s<6.1s
+      18/30         0G      2.412       2.71        1.8          3        416: 31% ━━━╸──────── 11/35 3.9it/s 3.3s<6.2s
+      18/30         0G      2.437      2.734      1.798          2        416: 34% ━━━━──────── 12/35 3.9it/s 3.6s<5.9s
+      18/30         0G      2.428      2.712      1.806          7        416: 37% ━━━━──────── 13/35 3.8it/s 3.9s<5.8s
+      18/30         0G      2.535      3.088      1.808          1        416: 40% ━━━━╸─────── 14/35 3.9it/s 4.1s<5.4s
+      18/30         0G       2.61      3.192      1.848          1        416: 42% ━━━━━─────── 15/35 3.9it/s 4.3s<5.1s
+      18/30         0G      2.607      3.157       1.85         37        416: 45% ━━━━━─────── 16/35 4.0it/s 4.6s<4.7s
+      18/30         0G      2.598      3.148      1.841         10        416: 48% ━━━━━╸────── 17/35 4.0it/s 4.8s<4.5s
+      18/30         0G      2.588      3.109      1.828         26        416: 51% ━━━━━━────── 18/35 3.9it/s 5.1s<4.4s
+      18/30         0G       2.56      3.063       1.82          5        416: 54% ━━━━━━╸───── 19/35 3.9it/s 5.4s<4.1s
+      18/30         0G      2.509      3.038      1.803          2        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.6s<3.7s
+      18/30         0G      2.511      3.013      1.798         10        416: 60% ━━━━━━━───── 21/35 4.1it/s 5.8s<3.4s
+      18/30         0G      2.515      2.987      1.789          8        416: 62% ━━━━━━━╸──── 22/35 4.1it/s 6.1s<3.2s
+      18/30         0G        2.5      2.959      1.774          8        416: 65% ━━━━━━━╸──── 23/35 4.1it/s 6.3s<2.9s
+      18/30         0G      2.482       2.94       1.77         12        416: 68% ━━━━━━━━──── 24/35 3.9it/s 6.6s<2.8s
+      18/30         0G      2.491      2.926      1.775          9        416: 71% ━━━━━━━━╸─── 25/35 4.0it/s 6.8s<2.5s
+      18/30         0G      2.483       2.91       1.77          7        416: 74% ━━━━━━━━╸─── 26/35 4.1it/s 7.1s<2.2s
+      18/30         0G      2.483      2.909      1.775         26        416: 77% ━━━━━━━━━─── 27/35 3.7it/s 7.4s<2.1s
+      18/30         0G      2.487      2.876      1.773         21        416: 80% ━━━━━━━━━╸── 28/35 3.7it/s 7.7s<1.9s
+      18/30         0G      2.493      2.866      1.776         27        416: 82% ━━━━━━━━━╸── 29/35 3.7it/s 8.0s<1.6s
+      18/30         0G      2.498      2.865      1.771         18        416: 85% ━━━━━━━━━━── 30/35 3.9it/s 8.2s<1.3s
+      18/30         0G      2.489      2.864      1.766          7        416: 88% ━━━━━━━━━━╸─ 31/35 4.0it/s 8.4s<1.0s
+      18/30         0G      2.488      2.864      1.773          7        416: 91% ━━━━━━━━━━╸─ 32/35 4.1it/s 8.7s<0.7s
+      18/30         0G        2.5      2.868      1.772          3        416: 94% ━━━━━━━━━━━─ 33/35 4.1it/s 8.9s<0.5s
+      18/30         0G      2.429      2.827      1.721          0        416: 97% ━━━━━━━━━━━╸ 34/35 5.3it/s 9.0s<0.2s
+      18/30         0G      2.429      2.827      1.721          0        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 9.0s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.7s/it 0.5s<6.7s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.3it/s 0.8s<2.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.7it/s 1.2s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.5s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.8it/s 1.8s
+                   all         76        118     0.0556     0.0678     0.0271    0.00627
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      19/30         0G      3.005       2.48      1.805         14        416: 0% ──────────── 0/35  0.2s
+      19/30         0G      2.785      2.366      1.784         18        416: 2% ──────────── 1/35 1.1s/it 0.6s<39.0s
+      19/30         0G       2.96      2.798      1.801          1        416: 5% ╸─────────── 2/35 1.8it/s 0.8s<17.9s
+      19/30         0G      2.834      2.695      1.775          4        416: 8% ━─────────── 3/35 2.4it/s 1.1s<13.3s
+      19/30         0G       2.74      2.726      1.743         13        416: 11% ━─────────── 4/35 2.7it/s 1.4s<11.4s
+      19/30         0G       2.65      2.613      1.714          9        416: 14% ━╸────────── 5/35 3.1it/s 1.6s<9.7s
+      19/30         0G      2.595      2.633      1.701         35        416: 17% ━━────────── 6/35 3.5it/s 1.8s<8.2s
+      19/30         0G      2.549       2.63      1.701         27        416: 20% ━━────────── 7/35 3.6it/s 2.1s<7.7s
+      19/30         0G      2.563      2.647        1.7         45        416: 22% ━━╸───────── 8/35 3.8it/s 2.3s<7.1s
+      19/30         0G      2.536      2.605      1.692         14        416: 25% ━━━───────── 9/35 3.5it/s 2.7s<7.4s
+      19/30         0G      2.305      2.645      1.538          0        416: 28% ━━━───────── 10/35 3.4it/s 3.0s<7.3s
+      19/30         0G      2.336       2.66       1.55          4        416: 31% ━━━╸──────── 11/35 3.3it/s 3.3s<7.2s
+      19/30         0G      2.313        2.6       1.55          2        416: 34% ━━━━──────── 12/35 3.1it/s 3.7s<7.4s
+      19/30         0G      2.333      2.565      1.553          6        416: 37% ━━━━──────── 13/35 3.1it/s 4.0s<7.1s
+      19/30         0G      2.414      2.631      1.655          1        416: 40% ━━━━╸─────── 14/35 3.1it/s 4.3s<6.7s
+      19/30         0G      2.428      2.644      1.683         31        416: 42% ━━━━━─────── 15/35 3.1it/s 4.7s<6.5s
+      19/30         0G      2.481       2.66       1.69          7        416: 45% ━━━━━─────── 16/35 3.2it/s 5.0s<6.0s
+      19/30         0G      2.483      2.646      1.689         10        416: 48% ━━━━━╸────── 17/35 3.3it/s 5.2s<5.4s
+      19/30         0G       2.52       2.65      1.701          6        416: 51% ━━━━━━────── 18/35 3.2it/s 5.6s<5.3s
+      19/30         0G      2.516      2.654      1.712         32        416: 54% ━━━━━━╸───── 19/35 3.4it/s 5.8s<4.7s
+      19/30         0G      2.492      2.632      1.707          8        416: 57% ━━━━━━╸───── 20/35 3.8it/s 6.1s<4.0s
+      19/30         0G      2.475      2.649      1.713          9        416: 60% ━━━━━━━───── 21/35 3.6it/s 6.4s<3.9s
+      19/30         0G      2.468       2.65      1.721         13        416: 62% ━━━━━━━╸──── 22/35 3.5it/s 6.7s<3.7s
+      19/30         0G      2.452       2.66      1.718         10        416: 65% ━━━━━━━╸──── 23/35 3.4it/s 7.0s<3.5s
+      19/30         0G      2.443      2.669      1.715         10        416: 68% ━━━━━━━━──── 24/35 3.6it/s 7.2s<3.0s
+      19/30         0G      2.432      2.639      1.706          8        416: 71% ━━━━━━━━╸─── 25/35 3.7it/s 7.5s<2.7s
+      19/30         0G      2.438      2.641      1.709         32        416: 74% ━━━━━━━━╸─── 26/35 3.7it/s 7.7s<2.4s
+      19/30         0G      2.433      2.651      1.719          7        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 8.0s<2.0s
+      19/30         0G       2.42      2.634       1.71          1        416: 80% ━━━━━━━━━╸── 28/35 3.9it/s 8.2s<1.8s
+      19/30         0G       2.42      2.623      1.708          3        416: 82% ━━━━━━━━━╸── 29/35 3.8it/s 8.5s<1.6s
+      19/30         0G       2.42      2.637      1.719          4        416: 85% ━━━━━━━━━━── 30/35 3.3it/s 9.0s<1.5s
+      19/30         0G      2.418      2.606      1.723          3        416: 88% ━━━━━━━━━━╸─ 31/35 3.2it/s 9.3s<1.3s
+      19/30         0G      2.415      2.599       1.73         16        416: 91% ━━━━━━━━━━╸─ 32/35 3.2it/s 9.6s<0.9s
+      19/30         0G      2.442      2.626      1.747          8        416: 94% ━━━━━━━━━━━─ 33/35 3.2it/s 9.9s<0.6s
+      19/30         0G       2.42      2.605      1.737          1        416: 97% ━━━━━━━━━━━╸ 34/35 4.5it/s 10.1s<0.2s
+      19/30         0G       2.42      2.605      1.737          1        416: 100% ━━━━━━━━━━━━ 35/35 3.5it/s 10.1s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.2s/it 0.4s<4.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.7s<2.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.8it/s 1.1s<1.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.1it/s 1.6s
+                   all         76        118     0.0693     0.0763     0.0228    0.00695
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      20/30         0G      2.229      2.128      1.702         12        416: 0% ──────────── 0/35  0.3s
+      20/30         0G      2.093      2.139      1.648          8        416: 2% ──────────── 1/35 1.3it/s 0.5s<25.8s
+      20/30         0G      2.114      2.591      1.561          5        416: 5% ╸─────────── 2/35 2.1it/s 0.7s<15.5s
+      20/30         0G      2.154      2.686      1.611         38        416: 8% ━─────────── 3/35 2.8it/s 1.0s<11.6s
+      20/30         0G      1.723      2.752      1.289          0        416: 11% ━─────────── 4/35 2.8it/s 1.3s<11.0s
+      20/30         0G      1.856      2.751      1.387         20        416: 14% ━╸────────── 5/35 2.9it/s 1.6s<10.4s
+      20/30         0G      1.949      2.682      1.429         26        416: 17% ━━────────── 6/35 3.0it/s 1.9s<9.6s
+      20/30         0G      2.008      2.786      1.437          9        416: 20% ━━────────── 7/35 3.4it/s 2.2s<8.2s
+      20/30         0G      2.122      2.779      1.491          8        416: 22% ━━╸───────── 8/35 3.5it/s 2.4s<7.8s
+      20/30         0G      2.126      2.777      1.499         10        416: 25% ━━━───────── 9/35 3.6it/s 2.7s<7.3s
+      20/30         0G      2.146      2.765      1.525         14        416: 28% ━━━───────── 10/35 3.6it/s 3.0s<7.0s
+      20/30         0G      2.123      2.707      1.533          4        416: 31% ━━━╸──────── 11/35 3.6it/s 3.3s<6.7s
+      20/30         0G      2.162      2.693      1.563         44        416: 34% ━━━━──────── 12/35 3.7it/s 3.5s<6.2s
+      20/30         0G      2.162      2.643      1.565         17        416: 37% ━━━━──────── 13/35 4.1it/s 3.7s<5.4s
+      20/30         0G      2.187      2.625       1.61         10        416: 40% ━━━━╸─────── 14/35 4.1it/s 4.0s<5.1s
+      20/30         0G      2.186      2.614      1.607          5        416: 42% ━━━━━─────── 15/35 3.9it/s 4.2s<5.1s
+      20/30         0G       2.19      2.583      1.604          8        416: 45% ━━━━━─────── 16/35 3.8it/s 4.5s<5.0s
+      20/30         0G      2.217      2.582      1.608          3        416: 48% ━━━━━╸────── 17/35 3.8it/s 4.8s<4.7s
+      20/30         0G      2.217      2.558      1.603         14        416: 51% ━━━━━━────── 18/35 4.0it/s 5.0s<4.3s
+      20/30         0G      2.191      2.552      1.595          6        416: 54% ━━━━━━╸───── 19/35 3.6it/s 5.4s<4.5s
+      20/30         0G      2.208      2.549      1.597         28        416: 57% ━━━━━━╸───── 20/35 3.6it/s 5.7s<4.2s
+      20/30         0G      2.225      2.544      1.621          7        416: 60% ━━━━━━━───── 21/35 3.7it/s 5.9s<3.7s
+      20/30         0G      2.233      2.514      1.618         11        416: 62% ━━━━━━━╸──── 22/35 3.7it/s 6.2s<3.5s
+      20/30         0G       2.23      2.496      1.622          4        416: 65% ━━━━━━━╸──── 23/35 3.6it/s 6.5s<3.3s
+      20/30         0G      2.237      2.505      1.642          7        416: 68% ━━━━━━━━──── 24/35 3.6it/s 6.8s<3.1s
+      20/30         0G      2.251      2.546      1.644          7        416: 71% ━━━━━━━━╸─── 25/35 3.4it/s 7.1s<2.9s
+      20/30         0G      2.257      2.547      1.653         11        416: 74% ━━━━━━━━╸─── 26/35 3.4it/s 7.4s<2.6s
+      20/30         0G      2.268      2.546      1.652          5        416: 77% ━━━━━━━━━─── 27/35 3.5it/s 7.6s<2.3s
+      20/30         0G      2.266      2.553      1.653          5        416: 80% ━━━━━━━━━╸── 28/35 3.6it/s 7.9s<2.0s
+      20/30         0G      2.273      2.555      1.647         19        416: 82% ━━━━━━━━━╸── 29/35 3.6it/s 8.2s<1.6s
+      20/30         0G      2.292      2.579      1.658          3        416: 85% ━━━━━━━━━━── 30/35 3.5it/s 8.5s<1.4s
+      20/30         0G      2.293      2.582      1.659         11        416: 88% ━━━━━━━━━━╸─ 31/35 3.4it/s 8.8s<1.2s
+      20/30         0G      2.296      2.578       1.67         13        416: 91% ━━━━━━━━━━╸─ 32/35 3.5it/s 9.1s<0.9s
+      20/30         0G      2.291      2.592       1.67          5        416: 94% ━━━━━━━━━━━─ 33/35 3.3it/s 9.4s<0.6s
+      20/30         0G      2.297      2.604      1.677         16        416: 97% ━━━━━━━━━━━╸ 34/35 4.2it/s 9.6s<0.2s
+      20/30         0G      2.297      2.604      1.677         16        416: 100% ━━━━━━━━━━━━ 35/35 3.6it/s 9.6s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.4s/it 0.4s<5.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.8s<2.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.9it/s 1.1s<1.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.1it/s 1.5s<0.5s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.9it/s 1.7s
+                   all         76        118     0.0873     0.0932     0.0228    0.00545
+Closing dataloader mosaic
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      21/30         0G      2.591      2.637      1.479         22        416: 0% ──────────── 0/35  0.2s
+      21/30         0G      2.299      2.475      1.672          6        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.7s
+      21/30         0G      2.375      2.512      1.784          2        416: 5% ╸─────────── 2/35 2.2it/s 0.7s<15.3s
+      21/30         0G      2.355      2.539      1.784         14        416: 8% ━─────────── 3/35 2.7it/s 1.0s<11.8s
+      21/30         0G      2.388      2.562      1.843          8        416: 11% ━─────────── 4/35 3.2it/s 1.2s<9.8s
+      21/30         0G      2.406      2.517      1.828         25        416: 14% ━╸────────── 5/35 3.5it/s 1.4s<8.6s
+      21/30         0G      2.367      2.523      1.813         26        416: 17% ━━────────── 6/35 3.8it/s 1.7s<7.5s
+      21/30         0G      2.362       2.48      1.805          9        416: 20% ━━────────── 7/35 4.0it/s 1.9s<7.0s
+      21/30         0G      2.325      2.475      1.788          4        416: 22% ━━╸───────── 8/35 3.9it/s 2.2s<7.0s
+      21/30         0G      2.379      2.511      1.845          7        416: 25% ━━━───────── 9/35 3.9it/s 2.4s<6.6s
+      21/30         0G      2.396      2.525      1.852         32        416: 28% ━━━───────── 10/35 3.9it/s 2.7s<6.3s
+      21/30         0G      2.367       2.52      1.839          7        416: 31% ━━━╸──────── 11/35 3.9it/s 2.9s<6.1s
+      21/30         0G      2.356      2.479      1.828         24        416: 34% ━━━━──────── 12/35 4.1it/s 3.1s<5.7s
+      21/30         0G      2.335      2.466      1.802          7        416: 37% ━━━━──────── 13/35 4.3it/s 3.3s<5.1s
+      21/30         0G      2.333       2.65      1.776          1        416: 40% ━━━━╸─────── 14/35 4.5it/s 3.6s<4.7s
+      21/30         0G      2.381      2.644      1.782         24        416: 42% ━━━━━─────── 15/35 3.9it/s 4.0s<5.2s
+      21/30         0G      2.368      2.659      1.773         10        416: 45% ━━━━━─────── 16/35 3.8it/s 4.2s<5.0s
+      21/30         0G      2.359      2.641      1.771         24        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.5s<4.7s
+      21/30         0G      2.363      2.641      1.783          9        416: 51% ━━━━━━────── 18/35 3.8it/s 4.8s<4.5s
+      21/30         0G      2.379      2.627      1.787         26        416: 54% ━━━━━━╸───── 19/35 3.8it/s 5.0s<4.2s
+      21/30         0G      2.384      2.605      1.785          5        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.2s<3.7s
+      21/30         0G      2.388      2.919       1.77          1        416: 60% ━━━━━━━───── 21/35 4.0it/s 5.5s<3.5s
+      21/30         0G      2.285       3.01      1.693          0        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 5.8s<3.3s
+      21/30         0G       2.29      2.978      1.704         38        416: 65% ━━━━━━━╸──── 23/35 3.9it/s 6.0s<3.1s
+      21/30         0G      2.272      2.935      1.688          5        416: 68% ━━━━━━━━──── 24/35 3.6it/s 6.3s<3.0s
+      21/30         0G      2.283      2.907      1.693          8        416: 71% ━━━━━━━━╸─── 25/35 3.6it/s 6.6s<2.8s
+      21/30         0G      2.279      2.878      1.691         19        416: 74% ━━━━━━━━╸─── 26/35 3.6it/s 6.9s<2.5s
+      21/30         0G      2.284      2.865      1.684          4        416: 77% ━━━━━━━━━─── 27/35 4.0it/s 7.1s<2.0s
+      21/30         0G       2.29      2.855      1.682          4        416: 80% ━━━━━━━━━╸── 28/35 4.1it/s 7.3s<1.7s
+      21/30         0G      2.297       2.89      1.689          1        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 7.6s<1.4s
+      21/30         0G      2.312      2.923      1.705          6        416: 85% ━━━━━━━━━━── 30/35 4.3it/s 7.8s<1.2s
+      21/30         0G      2.315       2.93      1.704         12        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 8.0s<1.0s
+      21/30         0G      2.323      2.928      1.705          6        416: 91% ━━━━━━━━━━╸─ 32/35 4.0it/s 8.3s<0.7s
+      21/30         0G      2.323      2.897      1.701         12        416: 94% ━━━━━━━━━━━─ 33/35 4.2it/s 8.5s<0.5s
+      21/30         0G      2.303      2.912       1.69          1        416: 97% ━━━━━━━━━━━╸ 34/35 5.1it/s 8.7s<0.2s
+      21/30         0G      2.303      2.912       1.69          1        416: 100% ━━━━━━━━━━━━ 35/35 4.0it/s 8.7s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.6s/it 0.5s<6.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.8s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.2it/s 1.0s<0.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.7it/s 1.3s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.3it/s 1.5s
+                   all         76        118     0.0764      0.119     0.0218    0.00521
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      22/30         0G      2.641      2.624      1.568          6        416: 0% ──────────── 0/35  0.2s
+      22/30         0G      2.481       3.41        1.7          3        416: 2% ──────────── 1/35 1.3it/s 0.4s<26.9s
+      22/30         0G      2.494      3.191      1.807          6        416: 5% ╸─────────── 2/35 2.4it/s 0.6s<14.0s
+      22/30         0G      2.455      3.085       1.82         53        416: 8% ━─────────── 3/35 3.0it/s 0.9s<10.8s
+      22/30         0G      2.421      3.085      1.802         31        416: 11% ━─────────── 4/35 3.4it/s 1.1s<9.2s
+      22/30         0G      2.462       3.09      1.793         14        416: 14% ━╸────────── 5/35 3.8it/s 1.3s<7.9s
+      22/30         0G      2.505      3.023      1.845         18        416: 17% ━━────────── 6/35 4.1it/s 1.5s<7.0s
+      22/30         0G      2.541      2.962      1.893          7        416: 20% ━━────────── 7/35 4.2it/s 1.8s<6.7s
+      22/30         0G      2.513       2.84      1.849          5        416: 22% ━━╸───────── 8/35 3.8it/s 2.1s<7.1s
+      22/30         0G      2.477      2.775      1.794          3        416: 25% ━━━───────── 9/35 4.0it/s 2.3s<6.5s
+      22/30         0G      2.426      2.709      1.776         15        416: 28% ━━━───────── 10/35 4.3it/s 2.5s<5.9s
+      22/30         0G      2.437      2.666      1.779         25        416: 31% ━━━╸──────── 11/35 4.1it/s 2.8s<5.9s
+      22/30         0G       2.47      2.679      1.785          8        416: 34% ━━━━──────── 12/35 4.1it/s 3.0s<5.6s
+      22/30         0G      2.474      2.741      1.812          7        416: 37% ━━━━──────── 13/35 4.3it/s 3.3s<5.2s
+      22/30         0G      2.461      2.686      1.804         19        416: 40% ━━━━╸─────── 14/35 4.3it/s 3.5s<4.9s
+      22/30         0G      2.424       2.64      1.789          7        416: 42% ━━━━━─────── 15/35 4.3it/s 3.7s<4.6s
+      22/30         0G      2.415      2.632      1.797         17        416: 45% ━━━━━─────── 16/35 4.5it/s 3.9s<4.3s
+      22/30         0G      2.418       2.64      1.809          4        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.2s<4.4s
+      22/30         0G      2.385      2.659      1.772          1        416: 51% ━━━━━━────── 18/35 4.3it/s 4.4s<3.9s
+      22/30         0G      2.352      2.616      1.762          4        416: 54% ━━━━━━╸───── 19/35 4.1it/s 4.7s<3.9s
+      22/30         0G      2.367      2.607      1.767         14        416: 57% ━━━━━━╸───── 20/35 3.9it/s 5.0s<3.9s
+      22/30         0G      2.365      2.585       1.76         11        416: 60% ━━━━━━━───── 21/35 3.9it/s 5.3s<3.6s
+      22/30         0G       2.37      2.583      1.765          7        416: 62% ━━━━━━━╸──── 22/35 3.8it/s 5.6s<3.4s
+      22/30         0G      2.374       2.58      1.769         19        416: 65% ━━━━━━━╸──── 23/35 3.9it/s 5.8s<3.1s
+      22/30         0G       2.37      2.562      1.764         10        416: 68% ━━━━━━━━──── 24/35 3.8it/s 6.1s<2.9s
+      22/30         0G      2.367      2.559      1.765         21        416: 71% ━━━━━━━━╸─── 25/35 3.7it/s 6.4s<2.7s
+      22/30         0G      2.399      2.559      1.774         10        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 6.6s<2.2s
+      22/30         0G      2.401      2.556      1.765         24        416: 77% ━━━━━━━━━─── 27/35 3.9it/s 6.9s<2.1s
+      22/30         0G        2.4       2.54      1.768          9        416: 80% ━━━━━━━━━╸── 28/35 3.9it/s 7.1s<1.8s
+      22/30         0G      2.402       2.54      1.758          7        416: 82% ━━━━━━━━━╸── 29/35 3.5it/s 7.5s<1.7s
+      22/30         0G      2.399      2.538      1.756         10        416: 85% ━━━━━━━━━━── 30/35 3.6it/s 7.7s<1.4s
+      22/30         0G      2.434      2.548      1.764          6        416: 88% ━━━━━━━━━━╸─ 31/35 3.6it/s 8.0s<1.1s
+      22/30         0G      2.435      2.566      1.786          4        416: 91% ━━━━━━━━━━╸─ 32/35 3.6it/s 8.3s<0.8s
+      22/30         0G      2.438      2.565      1.783          2        416: 94% ━━━━━━━━━━━─ 33/35 3.8it/s 8.5s<0.5s
+      22/30         0G      2.431      2.559       1.78          4        416: 97% ━━━━━━━━━━━╸ 34/35 5.0it/s 8.7s<0.2s
+      22/30         0G      2.431      2.559       1.78          4        416: 100% ━━━━━━━━━━━━ 35/35 4.0it/s 8.7s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.6it/s 0.7s<1.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.2it/s 1.0s<0.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.6it/s 1.2s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.5it/s 1.4s
+                   all         76        118     0.0797      0.119     0.0219    0.00513
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      23/30         0G      2.309      2.507      1.671         44        416: 0% ──────────── 0/35  0.3s
+      23/30         0G      2.308       2.46      1.412          1        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.6s
+      23/30         0G      2.425      2.514      1.461         28        416: 5% ╸─────────── 2/35 2.3it/s 0.7s<14.5s
+      23/30         0G      2.309      2.474      1.504          9        416: 8% ━─────────── 3/35 3.0it/s 0.9s<10.6s
+      23/30         0G      2.579      2.507      1.663          4        416: 11% ━─────────── 4/35 3.5it/s 1.1s<9.0s
+      23/30         0G      2.519      2.487       1.65         10        416: 14% ━╸────────── 5/35 3.7it/s 1.4s<8.1s
+      23/30         0G      2.453       2.39      1.622          6        416: 17% ━━────────── 6/35 4.1it/s 1.6s<7.1s
+      23/30         0G      2.429      2.481      1.645         13        416: 20% ━━────────── 7/35 4.2it/s 1.8s<6.7s
+      23/30         0G      2.159      2.583      1.462          0        416: 22% ━━╸───────── 8/35 3.8it/s 2.1s<7.1s
+      23/30         0G      2.153      2.567      1.499          6        416: 25% ━━━───────── 9/35 3.7it/s 2.4s<6.9s
+      23/30         0G      2.204      2.565      1.543          4        416: 28% ━━━───────── 10/35 4.1it/s 2.6s<6.2s
+      23/30         0G      2.233      2.584      1.571         29        416: 31% ━━━╸──────── 11/35 4.3it/s 2.8s<5.5s
+      23/30         0G      2.203       2.57      1.563          8        416: 34% ━━━━──────── 12/35 4.3it/s 3.1s<5.3s
+      23/30         0G      2.252      2.612      1.569          4        416: 37% ━━━━──────── 13/35 4.4it/s 3.3s<5.0s
+      23/30         0G      2.258      2.639      1.598          7        416: 40% ━━━━╸─────── 14/35 4.5it/s 3.5s<4.7s
+      23/30         0G      2.249      2.638       1.59          6        416: 42% ━━━━━─────── 15/35 4.5it/s 3.7s<4.4s
+      23/30         0G      2.276      2.623      1.622         32        416: 45% ━━━━━─────── 16/35 4.4it/s 4.0s<4.3s
+      23/30         0G      2.274      2.626      1.633         12        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.2s<4.3s
+      23/30         0G      2.278      2.616      1.637         18        416: 51% ━━━━━━────── 18/35 4.3it/s 4.4s<3.9s
+      23/30         0G      2.276      2.619      1.638         20        416: 54% ━━━━━━╸───── 19/35 4.1it/s 4.7s<3.9s
+      23/30         0G      2.254       2.61      1.636          9        416: 57% ━━━━━━╸───── 20/35 4.0it/s 5.0s<3.7s
+      23/30         0G      2.233      2.582      1.629          9        416: 60% ━━━━━━━───── 21/35 3.9it/s 5.3s<3.6s
+      23/30         0G      2.263      2.584      1.634          7        416: 62% ━━━━━━━╸──── 22/35 3.6it/s 5.6s<3.6s
+      23/30         0G       2.26      2.582       1.63         27        416: 65% ━━━━━━━╸──── 23/35 3.5it/s 5.9s<3.4s
+      23/30         0G       2.27      2.577      1.628         15        416: 68% ━━━━━━━━──── 24/35 3.2it/s 6.3s<3.4s
+      23/30         0G      2.274      2.572      1.633          9        416: 71% ━━━━━━━━╸─── 25/35 3.2it/s 6.6s<3.1s
+      23/30         0G      2.287      2.565      1.639         29        416: 74% ━━━━━━━━╸─── 26/35 3.7it/s 6.8s<2.5s
+      23/30         0G      2.286      2.555      1.638          4        416: 77% ━━━━━━━━━─── 27/35 3.8it/s 7.1s<2.1s
+      23/30         0G      2.294      2.534      1.635         13        416: 80% ━━━━━━━━━╸── 28/35 4.0it/s 7.3s<1.8s
+      23/30         0G      2.291      2.522       1.63          5        416: 82% ━━━━━━━━━╸── 29/35 3.8it/s 7.6s<1.6s
+      23/30         0G       2.31      2.534      1.628          6        416: 85% ━━━━━━━━━━── 30/35 3.8it/s 7.9s<1.3s
+      23/30         0G      2.315      2.526      1.628          7        416: 88% ━━━━━━━━━━╸─ 31/35 3.5it/s 8.2s<1.1s
+      23/30         0G       2.33      2.523      1.639          4        416: 91% ━━━━━━━━━━╸─ 32/35 3.5it/s 8.5s<0.9s
+      23/30         0G      2.335      2.515      1.647         11        416: 94% ━━━━━━━━━━━─ 33/35 3.5it/s 8.8s<0.6s
+      23/30         0G      2.269      2.473        1.6          0        416: 97% ━━━━━━━━━━━╸ 34/35 4.9it/s 8.9s<0.2s
+      23/30         0G      2.269      2.473        1.6          0        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 8.9s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.6it/s 0.7s<1.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.3it/s 0.9s<0.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.6it/s 1.2s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.3it/s 1.5s
+                   all         76        118     0.0368     0.0678     0.0159    0.00438
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      24/30         0G      2.065      2.118      1.607          8        416: 0% ──────────── 0/35  0.2s
+      24/30         0G      2.164      2.282       1.62         11        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.6s
+      24/30         0G      2.094      2.261      1.601          6        416: 5% ╸─────────── 2/35 2.2it/s 0.7s<15.0s
+      24/30         0G      2.393       2.67      1.692          2        416: 8% ━─────────── 3/35 2.7it/s 1.0s<11.7s
+      24/30         0G      2.277      2.779      1.552          2        416: 11% ━─────────── 4/35 3.1it/s 1.2s<10.0s
+      24/30         0G      2.326      2.796       1.63         17        416: 14% ━╸────────── 5/35 3.3it/s 1.5s<9.1s
+      24/30         0G      2.411      2.741       1.67         17        416: 17% ━━────────── 6/35 3.1it/s 1.8s<9.2s
+      24/30         0G      2.373      2.665      1.659          8        416: 20% ━━────────── 7/35 3.4it/s 2.1s<8.2s
+      24/30         0G      2.295      2.586      1.623          5        416: 22% ━━╸───────── 8/35 3.6it/s 2.3s<7.5s
+      24/30         0G      2.283      2.589      1.662         15        416: 25% ━━━───────── 9/35 3.6it/s 2.6s<7.2s
+      24/30         0G      2.326      2.566      1.685          6        416: 28% ━━━───────── 10/35 3.6it/s 2.9s<6.9s
+      24/30         0G      2.272      2.544      1.659          6        416: 31% ━━━╸──────── 11/35 3.9it/s 3.1s<6.1s
+      24/30         0G      2.274      2.537      1.649         11        416: 34% ━━━━──────── 12/35 4.0it/s 3.3s<5.7s
+      24/30         0G      2.224      2.497      1.624          3        416: 37% ━━━━──────── 13/35 3.9it/s 3.6s<5.6s
+      24/30         0G      2.225      2.443      1.625          6        416: 40% ━━━━╸─────── 14/35 3.7it/s 3.9s<5.6s
+      24/30         0G      2.245      2.438      1.641         32        416: 42% ━━━━━─────── 15/35 3.5it/s 4.2s<5.7s
+      24/30         0G      2.252      2.459      1.642         25        416: 45% ━━━━━─────── 16/35 3.5it/s 4.5s<5.4s
+      24/30         0G       2.23      2.446      1.636          4        416: 48% ━━━━━╸────── 17/35 3.5it/s 4.8s<5.2s
+      24/30         0G      2.223      2.453      1.633          6        416: 51% ━━━━━━────── 18/35 3.4it/s 5.1s<5.0s
+      24/30         0G      2.225       2.45      1.641         17        416: 54% ━━━━━━╸───── 19/35 3.3it/s 5.5s<4.8s
+      24/30         0G      2.243      2.434      1.644         30        416: 57% ━━━━━━╸───── 20/35 3.6it/s 5.7s<4.2s
+      24/30         0G      2.273      2.425       1.65         13        416: 60% ━━━━━━━───── 21/35 3.6it/s 6.0s<3.9s
+      24/30         0G      2.261      2.441      1.643          6        416: 62% ━━━━━━━╸──── 22/35 3.7it/s 6.2s<3.5s
+      24/30         0G      2.249      2.461       1.64         16        416: 65% ━━━━━━━╸──── 23/35 3.7it/s 6.5s<3.3s
+      24/30         0G      2.254      2.467      1.633          2        416: 68% ━━━━━━━━──── 24/35 3.6it/s 6.8s<3.0s
+      24/30         0G      2.241      2.456      1.627          8        416: 71% ━━━━━━━━╸─── 25/35 3.8it/s 7.0s<2.7s
+      24/30         0G      2.251      2.473      1.643         14        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 7.3s<2.2s
+      24/30         0G      2.245      2.455      1.642         20        416: 77% ━━━━━━━━━─── 27/35 3.9it/s 7.5s<2.0s
+      24/30         0G      2.252      2.456       1.64         22        416: 80% ━━━━━━━━━╸── 28/35 3.8it/s 7.8s<1.8s
+      24/30         0G      2.274      2.454      1.654          5        416: 82% ━━━━━━━━━╸── 29/35 3.9it/s 8.1s<1.5s
+      24/30         0G      2.268      2.473      1.665          2        416: 85% ━━━━━━━━━━── 30/35 4.0it/s 8.3s<1.2s
+      24/30         0G      2.267      2.479      1.667         30        416: 88% ━━━━━━━━━━╸─ 31/35 4.1it/s 8.5s<1.0s
+      24/30         0G      2.274      2.492       1.67         33        416: 91% ━━━━━━━━━━╸─ 32/35 4.2it/s 8.7s<0.7s
+      24/30         0G      2.284      2.492      1.673          5        416: 94% ━━━━━━━━━━━─ 33/35 4.3it/s 9.0s<0.5s
+      24/30         0G      2.308      2.505      1.682          1        416: 97% ━━━━━━━━━━━╸ 34/35 5.5it/s 9.1s<0.2s
+      24/30         0G      2.308      2.505      1.682          1        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 9.1s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.4s/it 0.4s<5.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.8s<2.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.7it/s 1.2s<1.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.2it/s 1.5s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.0it/s 1.7s
+                   all         76        118     0.0266     0.0593     0.0151    0.00396
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      25/30         0G      1.588      2.243      1.541          4        416: 0% ──────────── 0/35  0.2s
+      25/30         0G     0.7942      2.865     0.7706          0        416: 2% ──────────── 1/35 1.5it/s 0.4s<22.2s
+      25/30         0G      1.198      2.791     0.9202          5        416: 5% ╸─────────── 2/35 2.6it/s 0.6s<12.8s
+      25/30         0G      1.373      2.667       1.09          4        416: 8% ━─────────── 3/35 3.2it/s 0.8s<10.0s
+      25/30         0G      1.543      2.664      1.228         24        416: 11% ━─────────── 4/35 3.6it/s 1.0s<8.6s
+      25/30         0G      1.675      2.508      1.276          4        416: 14% ━╸────────── 5/35 3.4it/s 1.4s<8.9s
+      25/30         0G      1.749      2.457      1.331         34        416: 17% ━━────────── 6/35 3.6it/s 1.6s<8.1s
+      25/30         0G      1.671       2.54      1.294          1        416: 20% ━━────────── 7/35 3.9it/s 1.8s<7.2s
+      25/30         0G      1.753       2.53      1.329         24        416: 22% ━━╸───────── 8/35 4.1it/s 2.1s<6.6s
+      25/30         0G      1.835      2.548      1.388         47        416: 25% ━━━───────── 9/35 4.2it/s 2.3s<6.1s
+      25/30         0G      1.887      2.513      1.439          6        416: 28% ━━━───────── 10/35 4.4it/s 2.5s<5.7s
+      25/30         0G      1.942      2.609      1.464          5        416: 31% ━━━╸──────── 11/35 4.4it/s 2.7s<5.5s
+      25/30         0G      1.967      2.599       1.48         20        416: 34% ━━━━──────── 12/35 4.5it/s 2.9s<5.1s
+      25/30         0G          2      2.626      1.505          9        416: 37% ━━━━──────── 13/35 4.5it/s 3.2s<4.9s
+      25/30         0G      2.008      2.602      1.501         10        416: 40% ━━━━╸─────── 14/35 4.4it/s 3.4s<4.8s
+      25/30         0G      2.002      2.586        1.5          3        416: 42% ━━━━━─────── 15/35 4.2it/s 3.7s<4.7s
+      25/30         0G      1.992      2.553      1.496          6        416: 45% ━━━━━─────── 16/35 4.0it/s 4.0s<4.8s
+      25/30         0G      1.985       2.56      1.466          2        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.2s<4.6s
+      25/30         0G      2.026      2.529      1.478          5        416: 51% ━━━━━━────── 18/35 3.9it/s 4.5s<4.3s
+      25/30         0G      2.048      2.521      1.489          7        416: 54% ━━━━━━╸───── 19/35 3.9it/s 4.7s<4.1s
+      25/30         0G      2.064       2.53      1.508         17        416: 57% ━━━━━━╸───── 20/35 4.0it/s 5.0s<3.7s
+      25/30         0G      2.083      2.511      1.516         17        416: 60% ━━━━━━━───── 21/35 3.8it/s 5.3s<3.7s
+      25/30         0G       2.09      2.517      1.515         10        416: 62% ━━━━━━━╸──── 22/35 3.9it/s 5.5s<3.3s
+      25/30         0G      2.103      2.528      1.529         12        416: 65% ━━━━━━━╸──── 23/35 4.1it/s 5.7s<3.0s
+      25/30         0G      2.114      2.526      1.534         13        416: 68% ━━━━━━━━──── 24/35 4.3it/s 6.0s<2.6s
+      25/30         0G      2.124       2.53      1.537         12        416: 71% ━━━━━━━━╸─── 25/35 4.4it/s 6.2s<2.3s
+      25/30         0G      2.145       2.52      1.555         14        416: 74% ━━━━━━━━╸─── 26/35 4.3it/s 6.4s<2.1s
+      25/30         0G      2.131      2.492      1.548          5        416: 77% ━━━━━━━━━─── 27/35 4.2it/s 6.7s<1.9s
+      25/30         0G      2.151      2.502      1.564         37        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 6.9s<1.7s
+      25/30         0G      2.162      2.483      1.566         16        416: 82% ━━━━━━━━━╸── 29/35 4.0it/s 7.2s<1.5s
+      25/30         0G      2.175       2.48      1.581         12        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 7.4s<1.2s
+      25/30         0G      2.172      2.469      1.582         10        416: 88% ━━━━━━━━━━╸─ 31/35 4.2it/s 7.6s<0.9s
+      25/30         0G      2.173      2.453      1.575          3        416: 91% ━━━━━━━━━━╸─ 32/35 4.1it/s 7.9s<0.7s
+      25/30         0G      2.149      2.467      1.566          1        416: 94% ━━━━━━━━━━━─ 33/35 3.7it/s 8.3s<0.5s
+      25/30         0G      2.127      2.431       1.56          2        416: 97% ━━━━━━━━━━━╸ 34/35 4.3it/s 8.4s<0.2s
+      25/30         0G      2.127      2.431       1.56          2        416: 100% ━━━━━━━━━━━━ 35/35 4.1it/s 8.4s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.5s/it 0.5s<6.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.2it/s 0.9s<2.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 1.4it/s 1.4s<1.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 1.8it/s 1.7s<0.6s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 2.4it/s 2.1s
+                   all         76        118     0.0319     0.0847     0.0157      0.004
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      26/30         0G      2.327      2.765       1.81         42        416: 0% ──────────── 0/35  0.3s
+      26/30         0G      2.277      2.598      1.697          4        416: 2% ──────────── 1/35 1.2it/s 0.5s<28.8s
+      26/30         0G      2.137       2.48       1.59          2        416: 5% ╸─────────── 2/35 1.6it/s 0.9s<21.0s
+      26/30         0G      2.154      2.364      1.592          9        416: 8% ━─────────── 3/35 2.2it/s 1.2s<14.5s
+      26/30         0G      2.163      2.278      1.567          6        416: 11% ━─────────── 4/35 2.9it/s 1.4s<10.6s
+      26/30         0G      2.396      3.028      1.583          1        416: 14% ━╸────────── 5/35 3.1it/s 1.7s<9.8s
+      26/30         0G      2.351      3.008      1.605          7        416: 17% ━━────────── 6/35 3.5it/s 2.0s<8.4s
+      26/30         0G      2.309       2.95      1.604          9        416: 20% ━━────────── 7/35 3.6it/s 2.2s<7.8s
+      26/30         0G      2.301      2.874      1.606         12        416: 22% ━━╸───────── 8/35 3.6it/s 2.5s<7.5s
+      26/30         0G      2.275      2.836      1.618          5        416: 25% ━━━───────── 9/35 3.8it/s 2.7s<6.9s
+      26/30         0G      2.285      2.834      1.633         21        416: 28% ━━━───────── 10/35 3.4it/s 3.1s<7.3s
+      26/30         0G      2.258      2.776       1.61          8        416: 31% ━━━╸──────── 11/35 3.6it/s 3.4s<6.7s
+      26/30         0G      2.272      2.787      1.646          7        416: 34% ━━━━──────── 12/35 3.6it/s 3.6s<6.4s
+      26/30         0G      2.259      2.719      1.637          6        416: 37% ━━━━──────── 13/35 3.7it/s 3.9s<6.0s
+      26/30         0G      2.276      2.691       1.64         31        416: 40% ━━━━╸─────── 14/35 3.9it/s 4.1s<5.5s
+      26/30         0G       2.29      2.697      1.654         11        416: 42% ━━━━━─────── 15/35 3.8it/s 4.4s<5.3s
+      26/30         0G      2.306      2.667      1.669         17        416: 45% ━━━━━─────── 16/35 3.8it/s 4.7s<5.0s
+      26/30         0G      2.295        2.6      1.677          3        416: 48% ━━━━━╸────── 17/35 3.7it/s 5.0s<4.8s
+      26/30         0G      2.282      2.581      1.665          5        416: 51% ━━━━━━────── 18/35 3.8it/s 5.2s<4.4s
+      26/30         0G      2.263      2.565      1.653          9        416: 54% ━━━━━━╸───── 19/35 4.1it/s 5.4s<3.9s
+      26/30         0G      2.238       2.52       1.64          7        416: 57% ━━━━━━╸───── 20/35 4.3it/s 5.6s<3.5s
+      26/30         0G      2.249       2.51      1.648         19        416: 60% ━━━━━━━───── 21/35 4.4it/s 5.8s<3.2s
+      26/30         0G      2.261      2.499      1.652         21        416: 62% ━━━━━━━╸──── 22/35 4.3it/s 6.1s<3.0s
+      26/30         0G      2.267      2.496      1.656          6        416: 65% ━━━━━━━╸──── 23/35 4.4it/s 6.3s<2.7s
+      26/30         0G      2.259      2.483      1.656         25        416: 68% ━━━━━━━━──── 24/35 4.4it/s 6.5s<2.5s
+      26/30         0G      2.275      2.488      1.663          4        416: 71% ━━━━━━━━╸─── 25/35 4.6it/s 6.7s<2.2s
+      26/30         0G       2.28      2.475      1.662          7        416: 74% ━━━━━━━━╸─── 26/35 4.4it/s 7.0s<2.1s
+      26/30         0G      2.282      2.484      1.664          3        416: 77% ━━━━━━━━━─── 27/35 4.3it/s 7.2s<1.9s
+      26/30         0G      2.303      2.482      1.657         18        416: 80% ━━━━━━━━━╸── 28/35 4.3it/s 7.5s<1.6s
+      26/30         0G      2.308      2.463      1.663         29        416: 82% ━━━━━━━━━╸── 29/35 4.1it/s 7.7s<1.5s
+      26/30         0G      2.307      2.449      1.658         25        416: 85% ━━━━━━━━━━── 30/35 3.8it/s 8.1s<1.3s
+      26/30         0G        2.3      2.424      1.656         24        416: 88% ━━━━━━━━━━╸─ 31/35 3.7it/s 8.3s<1.1s
+      26/30         0G      2.293      2.413      1.655         11        416: 91% ━━━━━━━━━━╸─ 32/35 3.6it/s 8.6s<0.8s
+      26/30         0G      2.297      2.415      1.653          3        416: 94% ━━━━━━━━━━━─ 33/35 4.0it/s 8.8s<0.5s
+      26/30         0G      2.232      2.409      1.605          0        416: 97% ━━━━━━━━━━━╸ 34/35 4.5it/s 9.0s<0.2s
+      26/30         0G      2.232      2.409      1.605          0        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 9.0s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.6s/it 0.5s<6.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.8s<2.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.1s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.6it/s 1.3s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.3it/s 1.5s
+                   all         76        118     0.0556     0.0678     0.0159    0.00406
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      27/30         0G      1.644      1.607      1.286          1        416: 0% ──────────── 0/35  0.2s
+      27/30         0G      1.882      1.651      1.422         17        416: 2% ──────────── 1/35 1.3it/s 0.5s<26.3s
+      27/30         0G      2.168      1.868      1.553         36        416: 5% ╸─────────── 2/35 2.1it/s 0.7s<15.9s
+      27/30         0G      2.202       2.06      1.603         26        416: 8% ━─────────── 3/35 2.4it/s 1.0s<13.4s
+      27/30         0G      2.145      2.018      1.511          3        416: 11% ━─────────── 4/35 2.6it/s 1.4s<12.0s
+      27/30         0G      2.166      2.119      1.493          6        416: 14% ━╸────────── 5/35 3.0it/s 1.6s<10.0s
+      27/30         0G      2.144      2.116      1.512         11        416: 17% ━━────────── 6/35 3.5it/s 1.8s<8.2s
+      27/30         0G      1.876      2.295      1.323          0        416: 20% ━━────────── 7/35 3.8it/s 2.1s<7.5s
+      27/30         0G       1.91      2.278      1.352         11        416: 22% ━━╸───────── 8/35 4.0it/s 2.3s<6.8s
+      27/30         0G      1.909      2.257      1.353          3        416: 25% ━━━───────── 9/35 3.7it/s 2.6s<7.0s
+      27/30         0G      1.946      2.262      1.378          9        416: 28% ━━━───────── 10/35 3.6it/s 2.9s<6.9s
+      27/30         0G      1.942      2.275      1.408          3        416: 31% ━━━╸──────── 11/35 3.7it/s 3.1s<6.4s
+      27/30         0G      1.931      2.287      1.416          5        416: 34% ━━━━──────── 12/35 3.7it/s 3.4s<6.3s
+      27/30         0G      1.965      2.287      1.427          9        416: 37% ━━━━──────── 13/35 3.7it/s 3.7s<6.0s
+      27/30         0G      2.008      2.258      1.463          9        416: 40% ━━━━╸─────── 14/35 3.5it/s 4.0s<6.0s
+      27/30         0G      1.988      2.234      1.469         10        416: 42% ━━━━━─────── 15/35 3.5it/s 4.3s<5.8s
+      27/30         0G      2.023       2.24      1.508          2        416: 45% ━━━━━─────── 16/35 3.5it/s 4.6s<5.5s
+      27/30         0G       2.04      2.239      1.515         23        416: 48% ━━━━━╸────── 17/35 3.7it/s 4.9s<4.9s
+      27/30         0G      2.067      2.254      1.535         17        416: 51% ━━━━━━────── 18/35 4.0it/s 5.1s<4.2s
+      27/30         0G      2.072      2.238      1.529          6        416: 54% ━━━━━━╸───── 19/35 4.2it/s 5.3s<3.8s
+      27/30         0G      2.115      2.229      1.552         27        416: 57% ━━━━━━╸───── 20/35 4.1it/s 5.5s<3.6s
+      27/30         0G      2.123      2.222      1.561          5        416: 60% ━━━━━━━───── 21/35 4.1it/s 5.8s<3.4s
+      27/30         0G      2.111      2.226      1.559         16        416: 62% ━━━━━━━╸──── 22/35 4.3it/s 6.0s<3.1s
+      27/30         0G      2.114      2.249      1.564         18        416: 65% ━━━━━━━╸──── 23/35 4.3it/s 6.2s<2.8s
+      27/30         0G      2.115       2.25      1.577          9        416: 68% ━━━━━━━━──── 24/35 4.3it/s 6.5s<2.5s
+      27/30         0G      2.124      2.243      1.583         26        416: 71% ━━━━━━━━╸─── 25/35 3.8it/s 6.8s<2.6s
+      27/30         0G      2.127      2.237      1.578          6        416: 74% ━━━━━━━━╸─── 26/35 3.8it/s 7.1s<2.3s
+      27/30         0G      2.121      2.243      1.583         17        416: 77% ━━━━━━━━━─── 27/35 3.8it/s 7.4s<2.1s
+      27/30         0G      2.132      2.252      1.584         21        416: 80% ━━━━━━━━━╸── 28/35 3.9it/s 7.6s<1.8s
+      27/30         0G      2.139       2.27      1.579          5        416: 82% ━━━━━━━━━╸── 29/35 4.0it/s 7.8s<1.5s
+      27/30         0G      2.142      2.282      1.584          9        416: 85% ━━━━━━━━━━── 30/35 4.2it/s 8.1s<1.2s
+      27/30         0G       2.15      2.284      1.589         24        416: 88% ━━━━━━━━━━╸─ 31/35 3.9it/s 8.4s<1.0s
+      27/30         0G      2.147      2.297      1.594          8        416: 91% ━━━━━━━━━━╸─ 32/35 4.2it/s 8.6s<0.7s
+      27/30         0G      2.193      2.348      1.595          4        416: 94% ━━━━━━━━━━━─ 33/35 4.0it/s 8.8s<0.5s
+      27/30         0G       2.19      2.345      1.606          2        416: 97% ━━━━━━━━━━━╸ 34/35 5.5it/s 9.0s<0.2s
+      27/30         0G       2.19      2.345      1.606          2        416: 100% ━━━━━━━━━━━━ 35/35 3.9it/s 9.0s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.3s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.7it/s 0.7s<1.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.2it/s 1.0s<0.9s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.7it/s 1.2s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.5it/s 1.4s
+                   all         76        118     0.0592      0.102     0.0162    0.00409
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      28/30         0G      2.346      1.873      1.581         11        416: 0% ──────────── 0/35  0.2s
+      28/30         0G      2.131      1.762      1.543          9        416: 2% ──────────── 1/35 1.3it/s 0.5s<25.6s
+      28/30         0G      2.265       1.94      1.574          7        416: 5% ╸─────────── 2/35 2.3it/s 0.7s<14.2s
+      28/30         0G      2.258      2.154      1.607         27        416: 8% ━─────────── 3/35 3.0it/s 0.9s<10.8s
+      28/30         0G      2.317      2.233      1.591         26        416: 11% ━─────────── 4/35 3.4it/s 1.1s<9.0s
+      28/30         0G      2.344      2.452      1.639          3        416: 14% ━╸────────── 5/35 3.7it/s 1.4s<8.1s
+      28/30         0G       2.32      2.374      1.634         23        416: 17% ━━────────── 6/35 3.8it/s 1.6s<7.6s
+      28/30         0G       2.29      2.302       1.63          9        416: 20% ━━────────── 7/35 3.9it/s 1.9s<7.2s
+      28/30         0G      2.263      2.315      1.621          5        416: 22% ━━╸───────── 8/35 4.0it/s 2.1s<6.8s
+      28/30         0G      2.255      2.351      1.608          2        416: 25% ━━━───────── 9/35 3.8it/s 2.4s<6.9s
+      28/30         0G      2.184      2.261       1.57          3        416: 28% ━━━───────── 10/35 3.7it/s 2.7s<6.8s
+      28/30         0G      2.104      2.417      1.545          1        416: 31% ━━━╸──────── 11/35 3.7it/s 2.9s<6.5s
+      28/30         0G      2.091      2.389      1.542         12        416: 34% ━━━━──────── 12/35 3.8it/s 3.2s<6.1s
+      28/30         0G      2.071      2.376       1.54         14        416: 37% ━━━━──────── 13/35 3.8it/s 3.5s<5.7s
+      28/30         0G       2.08      2.333      1.551          6        416: 40% ━━━━╸─────── 14/35 3.9it/s 3.7s<5.3s
+      28/30         0G      2.087      2.344       1.57         15        416: 42% ━━━━━─────── 15/35 4.0it/s 3.9s<5.0s
+      28/30         0G      2.039      2.296      1.559          5        416: 45% ━━━━━─────── 16/35 4.2it/s 4.1s<4.5s
+      28/30         0G      2.054       2.29      1.566         13        416: 48% ━━━━━╸────── 17/35 3.9it/s 4.5s<4.6s
+      28/30         0G      1.946      2.404      1.484          0        416: 51% ━━━━━━────── 18/35 3.9it/s 4.7s<4.3s
+      28/30         0G      1.936       2.36      1.481          5        416: 54% ━━━━━━╸───── 19/35 4.0it/s 4.9s<4.0s
+      28/30         0G      1.968      2.376      1.493         32        416: 57% ━━━━━━╸───── 20/35 4.3it/s 5.1s<3.5s
+      28/30         0G      1.993      2.374       1.51         30        416: 60% ━━━━━━━───── 21/35 4.5it/s 5.4s<3.1s
+      28/30         0G      1.987      2.363      1.504          6        416: 62% ━━━━━━━╸──── 22/35 4.6it/s 5.6s<2.8s
+      28/30         0G      2.016      2.364      1.512         12        416: 65% ━━━━━━━╸──── 23/35 4.8it/s 5.8s<2.5s
+      28/30         0G      2.031      2.356      1.521         17        416: 68% ━━━━━━━━──── 24/35 4.7it/s 6.0s<2.4s
+      28/30         0G      2.044      2.364      1.526         19        416: 71% ━━━━━━━━╸─── 25/35 4.6it/s 6.2s<2.2s
+      28/30         0G      2.057      2.367      1.535         15        416: 74% ━━━━━━━━╸─── 26/35 4.0it/s 6.6s<2.3s
+      28/30         0G      2.074      2.373      1.545          5        416: 77% ━━━━━━━━━─── 27/35 4.1it/s 6.8s<2.0s
+      28/30         0G      2.072       2.37       1.55         13        416: 80% ━━━━━━━━━╸── 28/35 4.2it/s 7.1s<1.7s
+      28/30         0G      2.075      2.371      1.556         24        416: 82% ━━━━━━━━━╸── 29/35 4.2it/s 7.3s<1.4s
+      28/30         0G      2.088      2.388      1.558          2        416: 85% ━━━━━━━━━━── 30/35 4.3it/s 7.5s<1.2s
+      28/30         0G      2.086      2.385      1.559          2        416: 88% ━━━━━━━━━━╸─ 31/35 4.4it/s 7.7s<0.9s
+      28/30         0G      2.091      2.382      1.571          9        416: 91% ━━━━━━━━━━╸─ 32/35 4.3it/s 8.0s<0.7s
+      28/30         0G      2.097      2.399      1.576          8        416: 94% ━━━━━━━━━━━─ 33/35 4.2it/s 8.2s<0.5s
+      28/30         0G      2.111      2.411      1.581         23        416: 97% ━━━━━━━━━━━╸ 34/35 5.0it/s 8.4s<0.2s
+      28/30         0G      2.111      2.411      1.581         23        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.4s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.8s/it 0.5s<7.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.5it/s 0.8s<2.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.1s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.6it/s 1.4s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.2it/s 1.5s
+                   all         76        118     0.0692     0.0932     0.0171    0.00448
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+
+      29/30         0G      1.773      3.014      1.608          2        416: 0% ──────────── 0/35  0.2s
+      29/30         0G      1.876      2.467      1.556          6        416: 2% ──────────── 1/35 1.0s/it 0.5s<35.5s
+      29/30         0G      1.949      2.484       1.58         30        416: 5% ╸─────────── 2/35 1.9it/s 0.8s<17.8s
+      29/30         0G      2.016       2.49      1.587         25        416: 8% ━─────────── 3/35 2.7it/s 1.0s<12.1s
+      29/30         0G      2.033       2.36      1.577          6        416: 11% ━─────────── 4/35 2.9it/s 1.3s<10.5s
+      29/30         0G      2.102      2.333      1.598         47        416: 14% ━╸────────── 5/35 3.2it/s 1.5s<9.4s
+      29/30         0G       2.12      2.367      1.575          5        416: 17% ━━────────── 6/35 3.3it/s 1.8s<8.7s
+      29/30         0G      2.148      2.349      1.572         41        416: 20% ━━────────── 7/35 3.4it/s 2.1s<8.1s
+      29/30         0G      2.146      2.374      1.583          9        416: 22% ━━╸───────── 8/35 3.6it/s 2.3s<7.4s
+      29/30         0G       2.13      2.361      1.578          3        416: 25% ━━━───────── 9/35 3.4it/s 2.7s<7.6s
+      29/30         0G      2.086      2.306      1.557          9        416: 28% ━━━───────── 10/35 3.7it/s 2.9s<6.8s
+      29/30         0G      2.115      2.326      1.585          8        416: 31% ━━━╸──────── 11/35 3.8it/s 3.2s<6.4s
+      29/30         0G      2.125       2.27      1.592         19        416: 34% ━━━━──────── 12/35 3.8it/s 3.4s<6.1s
+      29/30         0G       2.15      2.316      1.606         17        416: 37% ━━━━──────── 13/35 3.8it/s 3.7s<5.7s
+      29/30         0G      2.172      2.303      1.622         11        416: 40% ━━━━╸─────── 14/35 3.9it/s 3.9s<5.3s
+      29/30         0G      2.203      2.314      1.614          4        416: 42% ━━━━━─────── 15/35 4.1it/s 4.1s<4.9s
+      29/30         0G      2.283      2.411      1.652          1        416: 45% ━━━━━─────── 16/35 4.4it/s 4.3s<4.3s
+      29/30         0G      2.258      2.359      1.634          3        416: 48% ━━━━━╸────── 17/35 4.1it/s 4.6s<4.4s
+      29/30         0G      2.244      2.339      1.628          9        416: 51% ━━━━━━────── 18/35 4.2it/s 4.9s<4.1s
+      29/30         0G      2.244      2.322      1.628          5        416: 54% ━━━━━━╸───── 19/35 4.3it/s 5.1s<3.7s
+      29/30         0G      2.247       2.34      1.639          8        416: 57% ━━━━━━╸───── 20/35 4.4it/s 5.3s<3.4s
+      29/30         0G      2.265      2.346      1.652          7        416: 60% ━━━━━━━───── 21/35 4.5it/s 5.5s<3.1s
+      29/30         0G      2.277      2.339      1.651          9        416: 62% ━━━━━━━╸──── 22/35 4.4it/s 5.7s<3.0s
+      29/30         0G       2.29      2.345      1.654         27        416: 65% ━━━━━━━╸──── 23/35 4.4it/s 6.0s<2.7s
+      29/30         0G      2.288      2.364      1.664         18        416: 68% ━━━━━━━━──── 24/35 4.5it/s 6.2s<2.4s
+      29/30         0G      2.282       2.37       1.67          3        416: 71% ━━━━━━━━╸─── 25/35 4.6it/s 6.4s<2.2s
+      29/30         0G       2.28       2.36      1.668         13        416: 74% ━━━━━━━━╸─── 26/35 4.5it/s 6.6s<2.0s
+      29/30         0G      2.265      2.369      1.662          7        416: 77% ━━━━━━━━━─── 27/35 4.3it/s 6.9s<1.9s
+      29/30         0G      2.253      2.343      1.658         14        416: 80% ━━━━━━━━━╸── 28/35 4.3it/s 7.1s<1.6s
+      29/30         0G      2.246       2.32      1.651          4        416: 82% ━━━━━━━━━╸── 29/35 4.3it/s 7.3s<1.4s
+      29/30         0G      2.251      2.324      1.659         17        416: 85% ━━━━━━━━━━── 30/35 4.5it/s 7.5s<1.1s
+      29/30         0G      2.242      2.317      1.658          7        416: 88% ━━━━━━━━━━╸─ 31/35 4.4it/s 7.8s<0.9s
+      29/30         0G      2.252      2.302      1.657          7        416: 91% ━━━━━━━━━━╸─ 32/35 4.6it/s 8.0s<0.7s
+      29/30         0G      2.249      2.294      1.663         11        416: 94% ━━━━━━━━━━━─ 33/35 4.7it/s 8.2s<0.4s
+      29/30         0G      2.258      2.302      1.665          4        416: 97% ━━━━━━━━━━━╸ 34/35 5.8it/s 8.3s<0.2s
+      29/30         0G      2.258      2.302      1.665          4        416: 100% ━━━━━━━━━━━━ 35/35 4.2it/s 8.3s
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3s/it 0.4s<5.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 1.4it/s 0.7s<2.2s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.1it/s 1.0s<1.0s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.6it/s 1.3s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.3it/s 1.5s
+                   all         76        118     0.0482     0.0763      0.015    0.00413
+EarlyStopping: Training stopped early as no improvement observed in last 10 epochs. Best results observed at epoch 19, best model saved as best.pt.
+To update EarlyStopping(patience=10) pass a new patience value, i.e. `patience=300` or use `patience=0` to disable EarlyStopping.
+
+29 epochs completed in 0.087 hours.
+Optimizer stripped from /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino/weights/last.pt, 5.5MB
+Optimizer stripped from /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino/weights/best.pt, 5.5MB
+
+Validating /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino/weights/best.pt...
+Ultralytics 8.4.212 🚀 Python-3.12.14 torch-2.15.0+cpu CPU (AMD EPYC 9V74 80-Core Processor)
+YOLO11n summary (fused): 101 layers, 2,597,051 parameters, 0 gradients, 6.4 GFLOPs
+
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 1/5 1.3it/s 0.2s<3.1s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 2/5 2.1it/s 0.5s<1.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 3/5 2.4it/s 0.8s<0.8s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 4/5 2.7it/s 1.1s<0.4s
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 5/5 3.7it/s 1.3s
+                   all         76        118     0.0717     0.0759     0.0228    0.00696
+Speed: 0.4ms preprocess, 12.6ms inference, 0.0ms loss, 0.8ms postprocess per image
+Results saved to /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/evidencias/roboflow-v6/treino
+TREINAMENTO_CONCLUIDO

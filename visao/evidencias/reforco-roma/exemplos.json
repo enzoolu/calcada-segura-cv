@@ -1,0 +1,19 @@
+{
+  "fonte": "https://doi.org/10.5281/zenodo.17834373",
+  "credito": "Giordani et al. · CC BY 4.0",
+  "edicao": "Redimensionamento e sobreposição de caixas. Os quadros foram escolhidos para ilustrar acertos e erros no teste.",
+  "quadros": [
+    {
+      "arquivo": "rome-vlcsnap-2025-02-26-20h34m38s606.jpg",
+      "cenario": "Buraco localizado no retreino"
+    },
+    {
+      "arquivo": "rome-vlcsnap-2025-02-26-20h34m50s947.jpg",
+      "cenario": "Acerto com falsos alarmes"
+    },
+    {
+      "arquivo": "rome-vlcsnap-2025-02-26-20h31m47s694.jpg",
+      "cenario": "Buraco omitido nos dois modelos"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+path: /workspace/scratch/62c2ec69e955/calcada-segura-cv/visao/dados/roboflow-v6
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: calcada_quebrada

@@ -1,0 +1,5144 @@
+{
+  "escolhido": "ajustado-pune-com-recortes",
+  "modelos": {
+    "geral": {
+      "pesos_sha256": "7ae835b0d6bec694f46ce042e01fc92b9161bd5f98f9d1d37096ebc132e3dc62",
+      "imgsz": 384,
+      "limiar": 0.1,
+      "limiar_origem": "fixo",
+      "val": {
+        "vp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precisao": 0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 20,
+        "ms_inferencia_mediana": 18.92
+      },
+      "curva_val": [
+        {
+          "limiar": 0.03,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.05,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.08,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.1,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.12,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.15,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.2,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.25,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.3,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.4,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        },
+        {
+          "limiar": 0.5,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 18.92
+        }
+      ],
+      "test": {
+        "vp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precisao": 0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 17,
+        "ms_inferencia_mediana": 18.5,
+        "previsoes": {
+          "pune-1091.jpg": [],
+          "pune-1105.jpg": [],
+          "pune-2035.jpg": [],
+          "pune-3072.jpg": [],
+          "pune-4045.jpg": [],
+          "pune-5013.jpg": [],
+          "pune-5018.jpg": [],
+          "pune-5036.jpg": [],
+          "pune-5051.jpg": [],
+          "pune-5057.jpg": [],
+          "pune-6005.jpg": [],
+          "pune-6084.jpg": [],
+          "pune-7001.jpg": [],
+          "pune-7007.jpg": [],
+          "pune-7053.jpg": [],
+          "pune-7060.jpg": [],
+          "pune-7067.jpg": []
+        }
+      },
+      "sp": {
+        "vp": 0,
+        "fp": 2,
+        "fn": 7,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 16,
+        "ms_inferencia_mediana": 18.36,
+        "pontos": {
+          "sp01": {
+            "vp": 0,
+            "fp": 1,
+            "fn": 3,
+            "precisao": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp02": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp03": {
+            "vp": 0,
+            "fp": 1,
+            "fn": 0,
+            "precisao": 0.0,
+            "recall": 0,
+            "f1": 0.0
+          },
+          "sp05": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "previsoes": {
+          "sp01-01.jpg": [],
+          "sp01-02.jpg": [],
+          "sp01-03.jpg": [],
+          "sp01-04.jpg": [],
+          "sp01-05.jpg": [
+            {
+              "confianca": 0.16233,
+              "caixa_xyxy": [
+                0.38292,
+                0.52989,
+                0.43094,
+                0.57112
+              ]
+            }
+          ],
+          "sp02-08.jpg": [],
+          "sp02-09.jpg": [],
+          "sp02-14.jpg": [],
+          "sp03-05.jpg": [],
+          "sp03-07.jpg": [],
+          "sp03-08.jpg": [],
+          "sp03-11.jpg": [
+            {
+              "confianca": 0.17061,
+              "caixa_xyxy": [
+                0.73007,
+                0.17602,
+                0.80116,
+                0.22361
+              ]
+            }
+          ],
+          "sp03-13.jpg": [],
+          "sp03-14.jpg": [],
+          "sp05-01.jpg": [],
+          "sp05-02.jpg": []
+        }
+      },
+      "roma": {
+        "vp": 9,
+        "fp": 37,
+        "fn": 35,
+        "precisao": 0.1956521739130435,
+        "recall": 0.20454545454545456,
+        "f1": 0.2,
+        "imagens": 42,
+        "ms_inferencia_mediana": 18.73,
+        "previsoes": {
+          "roma-vlcsnap-2025-02-26-20h31m13s271.jpg": [
+            {
+              "confianca": 0.2059,
+              "caixa_xyxy": [
+                0.53266,
+                0.64419,
+                0.57813,
+                0.68564
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h31m47s694.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m04s400.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m06s406.jpg": [
+            {
+              "confianca": 0.20691,
+              "caixa_xyxy": [
+                0.40489,
+                0.67864,
+                0.49924,
+                0.74432
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m31s511.jpg": [
+            {
+              "confianca": 0.14878,
+              "caixa_xyxy": [
+                0.66307,
+                0.76265,
+                0.75662,
+                0.85041
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m55s986.jpg": [
+            {
+              "confianca": 0.2928,
+              "caixa_xyxy": [
+                0.49045,
+                0.7223,
+                0.56324,
+                0.78246
+              ]
+            },
+            {
+              "confianca": 0.15415,
+              "caixa_xyxy": [
+                0.63653,
+                0.72833,
+                0.69204,
+                0.81045
+              ]
+            },
+            {
+              "confianca": 0.13605,
+              "caixa_xyxy": [
+                0.20412,
+                0.61228,
+                0.25753,
+                0.65727
+              ]
+            },
+            {
+              "confianca": 0.12886,
+              "caixa_xyxy": [
+                0.08631,
+                0.67026,
+                0.18696,
+                0.73149
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m00s633.jpg": [
+            {
+              "confianca": 0.21861,
+              "caixa_xyxy": [
+                0.18453,
+                0.70144,
+                0.2923,
+                0.77863
+              ]
+            },
+            {
+              "confianca": 0.18713,
+              "caixa_xyxy": [
+                0.00939,
+                0.72822,
+                0.12768,
+                0.80383
+              ]
+            },
+            {
+              "confianca": 0.12124,
+              "caixa_xyxy": [
+                0.0,
+                0.74899,
+                0.11925,
+                0.87785
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m04s882.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m33s099.jpg": [
+            {
+              "confianca": 0.10194,
+              "caixa_xyxy": [
+                0.8028,
+                0.76751,
+                0.93774,
+                0.88463
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m36s821.jpg": [
+            {
+              "confianca": 0.55426,
+              "caixa_xyxy": [
+                0.50866,
+                0.71181,
+                0.58007,
+                0.7979
+              ]
+            },
+            {
+              "confianca": 0.18523,
+              "caixa_xyxy": [
+                0.41823,
+                0.58563,
+                0.49313,
+                0.63962
+              ]
+            },
+            {
+              "confianca": 0.10719,
+              "caixa_xyxy": [
+                0.66387,
+                0.77887,
+                0.74927,
+                0.85229
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m38s606.jpg": [
+            {
+              "confianca": 0.13961,
+              "caixa_xyxy": [
+                0.00113,
+                0.78553,
+                0.06616,
+                0.87836
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m50s947.jpg": [
+            {
+              "confianca": 0.43384,
+              "caixa_xyxy": [
+                0.53716,
+                0.73479,
+                0.63014,
+                0.82268
+              ]
+            },
+            {
+              "confianca": 0.15275,
+              "caixa_xyxy": [
+                0.53207,
+                0.68806,
+                0.62574,
+                0.79874
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m52s238.jpg": [
+            {
+              "confianca": 0.11997,
+              "caixa_xyxy": [
+                0.81456,
+                0.77014,
+                0.99561,
+                0.85253
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m00s383.jpg": [
+            {
+              "confianca": 0.40021,
+              "caixa_xyxy": [
+                0.27361,
+                0.68295,
+                0.34994,
+                0.73716
+              ]
+            },
+            {
+              "confianca": 0.17038,
+              "caixa_xyxy": [
+                0.49559,
+                0.62603,
+                0.54476,
+                0.68382
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m10s274.jpg": [
+            {
+              "confianca": 0.16533,
+              "caixa_xyxy": [
+                0.37149,
+                0.64473,
+                0.43732,
+                0.69828
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m13s989.jpg": [
+            {
+              "confianca": 0.16162,
+              "caixa_xyxy": [
+                0.42652,
+                0.56345,
+                0.4754,
+                0.60467
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m42s760.jpg": [
+            {
+              "confianca": 0.30905,
+              "caixa_xyxy": [
+                0.78054,
+                0.70212,
+                0.88124,
+                0.77326
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m00s346.jpg": [
+            {
+              "confianca": 0.33913,
+              "caixa_xyxy": [
+                0.36601,
+                0.62814,
+                0.40966,
+                0.66791
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m39s333.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m05s314.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m22s370.jpg": [
+            {
+              "confianca": 0.20737,
+              "caixa_xyxy": [
+                0.56105,
+                0.77905,
+                0.64394,
+                0.85441
+              ]
+            },
+            {
+              "confianca": 0.12995,
+              "caixa_xyxy": [
+                0.68876,
+                0.69821,
+                0.7389,
+                0.77522
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m24s099.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m43s267.jpg": [
+            {
+              "confianca": 0.15476,
+              "caixa_xyxy": [
+                0.34905,
+                0.70342,
+                0.4176,
+                0.78656
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m58s129.jpg": [
+            {
+              "confianca": 0.51621,
+              "caixa_xyxy": [
+                0.42382,
+                0.74932,
+                0.52428,
+                0.84911
+              ]
+            },
+            {
+              "confianca": 0.11066,
+              "caixa_xyxy": [
+                0.42097,
+                0.55182,
+                0.47548,
+                0.59877
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m18s850.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m20s232.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m39s955.jpg": [
+            {
+              "confianca": 0.38482,
+              "caixa_xyxy": [
+                0.17612,
+                0.72678,
+                0.25652,
+                0.80661
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m55s351.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m09s118.jpg": [
+            {
+              "confianca": 0.11773,
+              "caixa_xyxy": [
+                0.44614,
+                0.53381,
+                0.49151,
+                0.58405
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h39m19s729.jpg": [
+            {
+              "confianca": 0.46042,
+              "caixa_xyxy": [
+                0.28075,
+                0.77416,
+                0.35057,
+                0.85856
+              ]
+            },
+            {
+              "confianca": 0.21729,
+              "caixa_xyxy": [
+                0.56025,
+                0.75148,
+                0.72562,
+                0.84122
+              ]
+            },
+            {
+              "confianca": 0.19613,
+              "caixa_xyxy": [
+                0.40432,
+                0.53485,
+                0.45559,
+                0.57567
+              ]
+            },
+            {
+              "confianca": 0.1032,
+              "caixa_xyxy": [
+                0.1827,
+                0.70757,
+                0.29155,
+                0.79497
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h39m22s097.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m11s502.jpg": [
+            {
+              "confianca": 0.1537,
+              "caixa_xyxy": [
+                0.17332,
+                0.69535,
+                0.23183,
+                0.73644
+              ]
+            },
+            {
+              "confianca": 0.1071,
+              "caixa_xyxy": [
+                0.60971,
+                0.73044,
+                0.71051,
+                0.78858
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h40m30s059.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m31s746.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m33s122.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m15s130.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m16s845.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m19s505.jpg": [
+            {
+              "confianca": 0.48993,
+              "caixa_xyxy": [
+                0.37123,
+                0.73964,
+                0.46295,
+                0.85851
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m32s686.jpg": [
+            {
+              "confianca": 0.21556,
+              "caixa_xyxy": [
+                0.67133,
+                0.73201,
+                0.82906,
+                0.81762
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m36s103.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m48s826.jpg": [
+            {
+              "confianca": 0.46471,
+              "caixa_xyxy": [
+                0.81519,
+                0.68889,
+                0.99665,
+                0.77984
+              ]
+            },
+            {
+              "confianca": 0.46065,
+              "caixa_xyxy": [
+                0.0,
+                0.76698,
+                0.08961,
+                0.86926
+              ]
+            },
+            {
+              "confianca": 0.11972,
+              "caixa_xyxy": [
+                0.88668,
+                0.76072,
+                1.0,
+                0.95621
+              ]
+            },
+            {
+              "confianca": 0.10281,
+              "caixa_xyxy": [
+                0.90651,
+                0.72077,
+                0.99951,
+                0.78166
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h42m24s605.jpg": [
+            {
+              "confianca": 0.40965,
+              "caixa_xyxy": [
+                0.46086,
+                0.72994,
+                0.60094,
+                0.81507
+              ]
+            },
+            {
+              "confianca": 0.21097,
+              "caixa_xyxy": [
+                0.52753,
+                0.73798,
+                0.60305,
+                0.81245
+              ]
+            },
+            {
+              "confianca": 0.1262,
+              "caixa_xyxy": [
+                0.0,
+                0.76021,
+                0.06787,
+                0.86866
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "especialista-roma": {
+      "pesos_sha256": "635c176344411efb64e8c0cb3900795813b2e92488063e4fd5ea6302d6508868",
+      "imgsz": 480,
+      "limiar": 0.1,
+      "limiar_origem": "Pune val",
+      "val": {
+        "vp": 0,
+        "fp": 82,
+        "fn": 6,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 20,
+        "ms_inferencia_mediana": 24.37
+      },
+      "curva_val": [
+        {
+          "limiar": 0.03,
+          "vp": 0,
+          "fp": 331,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.05,
+          "vp": 0,
+          "fp": 182,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.08,
+          "vp": 0,
+          "fp": 105,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.1,
+          "vp": 0,
+          "fp": 82,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.12,
+          "vp": 0,
+          "fp": 67,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.15,
+          "vp": 0,
+          "fp": 52,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.2,
+          "vp": 0,
+          "fp": 31,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.25,
+          "vp": 0,
+          "fp": 24,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.3,
+          "vp": 0,
+          "fp": 15,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.4,
+          "vp": 0,
+          "fp": 11,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        },
+        {
+          "limiar": 0.5,
+          "vp": 0,
+          "fp": 8,
+          "fn": 6,
+          "precisao": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.37
+        }
+      ],
+      "test": {
+        "vp": 0,
+        "fp": 71,
+        "fn": 6,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 17,
+        "ms_inferencia_mediana": 27.38,
+        "previsoes": {
+          "pune-1091.jpg": [
+            {
+              "confianca": 0.26653,
+              "caixa_xyxy": [
+                0.09174,
+                0.91559,
+                0.15495,
+                0.96634
+              ]
+            },
+            {
+              "confianca": 0.17339,
+              "caixa_xyxy": [
+                0.27925,
+                0.42394,
+                0.39001,
+                0.50343
+              ]
+            }
+          ],
+          "pune-1105.jpg": [
+            {
+              "confianca": 0.1054,
+              "caixa_xyxy": [
+                0.04572,
+                0.22908,
+                0.19851,
+                0.32719
+              ]
+            }
+          ],
+          "pune-2035.jpg": [
+            {
+              "confianca": 0.13857,
+              "caixa_xyxy": [
+                0.0,
+                0.08696,
+                0.06393,
+                0.16289
+              ]
+            },
+            {
+              "confianca": 0.11457,
+              "caixa_xyxy": [
+                0.71636,
+                0.55652,
+                0.76407,
+                0.59103
+              ]
+            }
+          ],
+          "pune-3072.jpg": [
+            {
+              "confianca": 0.24225,
+              "caixa_xyxy": [
+                0.96585,
+                0.80461,
+                1.0,
+                0.88358
+              ]
+            }
+          ],
+          "pune-4045.jpg": [
+            {
+              "confianca": 0.33662,
+              "caixa_xyxy": [
+                0.32517,
+                0.43694,
+                0.41247,
+                0.51732
+              ]
+            },
+            {
+              "confianca": 0.1264,
+              "caixa_xyxy": [
+                0.69879,
+                0.60464,
+                0.76047,
+                0.66316
+              ]
+            },
+            {
+              "confianca": 0.10596,
+              "caixa_xyxy": [
+                0.40985,
+                0.15059,
+                0.47405,
+                0.20025
+              ]
+            }
+          ],
+          "pune-5013.jpg": [
+            {
+              "confianca": 0.53813,
+              "caixa_xyxy": [
+                0.05013,
+                0.02177,
+                0.12657,
+                0.0872
+              ]
+            },
+            {
+              "confianca": 0.20475,
+              "caixa_xyxy": [
+                0.68036,
+                0.06943,
+                0.75895,
+                0.13895
+              ]
+            },
+            {
+              "confianca": 0.1499,
+              "caixa_xyxy": [
+                0.61919,
+                0.81747,
+                0.69369,
+                0.86511
+              ]
+            },
+            {
+              "confianca": 0.12976,
+              "caixa_xyxy": [
+                0.76415,
+                0.30307,
+                0.84454,
+                0.36558
+              ]
+            },
+            {
+              "confianca": 0.12915,
+              "caixa_xyxy": [
+                0.70701,
+                0.21051,
+                0.79576,
+                0.2616
+              ]
+            },
+            {
+              "confianca": 0.12767,
+              "caixa_xyxy": [
+                0.86262,
+                0.34079,
+                0.92273,
+                0.40863
+              ]
+            },
+            {
+              "confianca": 0.11962,
+              "caixa_xyxy": [
+                0.0,
+                0.39141,
+                0.05968,
+                0.45543
+              ]
+            },
+            {
+              "confianca": 0.1167,
+              "caixa_xyxy": [
+                0.93127,
+                0.76057,
+                1.0,
+                0.84587
+              ]
+            },
+            {
+              "confianca": 0.10996,
+              "caixa_xyxy": [
+                0.64211,
+                0.77678,
+                0.70533,
+                0.82141
+              ]
+            }
+          ],
+          "pune-5018.jpg": [
+            {
+              "confianca": 0.40843,
+              "caixa_xyxy": [
+                0.51861,
+                0.41035,
+                0.59836,
+                0.48471
+              ]
+            },
+            {
+              "confianca": 0.25112,
+              "caixa_xyxy": [
+                0.39356,
+                0.32485,
+                0.44781,
+                0.37363
+              ]
+            },
+            {
+              "confianca": 0.12583,
+              "caixa_xyxy": [
+                0.50041,
+                0.40942,
+                0.63876,
+                0.53317
+              ]
+            },
+            {
+              "confianca": 0.10982,
+              "caixa_xyxy": [
+                0.0,
+                0.43541,
+                0.06242,
+                0.49983
+              ]
+            }
+          ],
+          "pune-5036.jpg": [
+            {
+              "confianca": 0.53494,
+              "caixa_xyxy": [
+                0.44176,
+                0.57086,
+                0.50832,
+                0.63213
+              ]
+            },
+            {
+              "confianca": 0.21086,
+              "caixa_xyxy": [
+                0.67383,
+                0.73998,
+                0.77106,
+                0.82087
+              ]
+            },
+            {
+              "confianca": 0.2012,
+              "caixa_xyxy": [
+                0.79991,
+                0.84615,
+                0.84775,
+                0.89062
+              ]
+            },
+            {
+              "confianca": 0.13431,
+              "caixa_xyxy": [
+                0.67482,
+                0.73567,
+                0.80628,
+                0.85521
+              ]
+            },
+            {
+              "confianca": 0.10932,
+              "caixa_xyxy": [
+                0.49462,
+                0.31379,
+                0.55468,
+                0.35258
+              ]
+            },
+            {
+              "confianca": 0.10547,
+              "caixa_xyxy": [
+                0.68263,
+                0.73816,
+                0.76561,
+                0.78162
+              ]
+            }
+          ],
+          "pune-5051.jpg": [
+            {
+              "confianca": 0.23906,
+              "caixa_xyxy": [
+                0.37617,
+                0.49419,
+                0.45067,
+                0.54021
+              ]
+            },
+            {
+              "confianca": 0.18274,
+              "caixa_xyxy": [
+                0.698,
+                0.49549,
+                0.74628,
+                0.52557
+              ]
+            },
+            {
+              "confianca": 0.13138,
+              "caixa_xyxy": [
+                0.66397,
+                0.59458,
+                0.72035,
+                0.63469
+              ]
+            },
+            {
+              "confianca": 0.10081,
+              "caixa_xyxy": [
+                0.81606,
+                0.49404,
+                0.87643,
+                0.52301
+              ]
+            }
+          ],
+          "pune-5057.jpg": [
+            {
+              "confianca": 0.3185,
+              "caixa_xyxy": [
+                0.37695,
+                0.76804,
+                0.43862,
+                0.81325
+              ]
+            },
+            {
+              "confianca": 0.16338,
+              "caixa_xyxy": [
+                0.55352,
+                0.39542,
+                0.62175,
+                0.4336
+              ]
+            },
+            {
+              "confianca": 0.10967,
+              "caixa_xyxy": [
+                0.3684,
+                0.27499,
+                0.41872,
+                0.30491
+              ]
+            }
+          ],
+          "pune-6005.jpg": [
+            {
+              "confianca": 0.4354,
+              "caixa_xyxy": [
+                0.4554,
+                0.32249,
+                0.49966,
+                0.3742
+              ]
+            }
+          ],
+          "pune-6084.jpg": [
+            {
+              "confianca": 0.11225,
+              "caixa_xyxy": [
+                0.34048,
+                0.42383,
+                0.37901,
+                0.46302
+              ]
+            }
+          ],
+          "pune-7001.jpg": [
+            {
+              "confianca": 0.23256,
+              "caixa_xyxy": [
+                0.0,
+                0.73839,
+                0.09207,
+                0.79608
+              ]
+            },
+            {
+              "confianca": 0.2027,
+              "caixa_xyxy": [
+                0.0,
+                0.69878,
+                0.10817,
+                0.79976
+              ]
+            }
+          ],
+          "pune-7007.jpg": [
+            {
+              "confianca": 0.36329,
+              "caixa_xyxy": [
+                0.51766,
+                0.73461,
+                0.60063,
+                0.82528
+              ]
+            },
+            {
+              "confianca": 0.14372,
+              "caixa_xyxy": [
+                0.7891,
+                0.74253,
+                0.87809,
+                0.80955
+              ]
+            },
+            {
+              "confianca": 0.11108,
+              "caixa_xyxy": [
+                0.38582,
+                0.7592,
+                0.42696,
+                0.80905
+              ]
+            }
+          ],
+          "pune-7053.jpg": [
+            {
+              "confianca": 0.39078,
+              "caixa_xyxy": [
+                0.672,
+                0.39242,
+                0.78309,
+                0.4558
+              ]
+            },
+            {
+              "confianca": 0.27951,
+              "caixa_xyxy": [
+                0.0,
+                0.7843,
+                0.08137,
+                0.89786
+              ]
+            },
+            {
+              "confianca": 0.23531,
+              "caixa_xyxy": [
+                0.68358,
+                0.39269,
+                0.73245,
+                0.43629
+              ]
+            },
+            {
+              "confianca": 0.20891,
+              "caixa_xyxy": [
+                0.80424,
+                0.26963,
+                0.8511,
+                0.32286
+              ]
+            },
+            {
+              "confianca": 0.19655,
+              "caixa_xyxy": [
+                0.0,
+                0.37943,
+                0.0877,
+                0.51455
+              ]
+            },
+            {
+              "confianca": 0.18697,
+              "caixa_xyxy": [
+                0.79628,
+                0.2692,
+                0.89347,
+                0.33687
+              ]
+            },
+            {
+              "confianca": 0.18551,
+              "caixa_xyxy": [
+                0.0,
+                0.76496,
+                0.14174,
+                0.88132
+              ]
+            },
+            {
+              "confianca": 0.18102,
+              "caixa_xyxy": [
+                0.07797,
+                0.645,
+                0.17846,
+                0.70354
+              ]
+            },
+            {
+              "confianca": 0.17871,
+              "caixa_xyxy": [
+                0.07492,
+                0.61416,
+                0.17176,
+                0.69143
+              ]
+            },
+            {
+              "confianca": 0.16541,
+              "caixa_xyxy": [
+                0.43514,
+                0.46585,
+                0.52103,
+                0.51734
+              ]
+            },
+            {
+              "confianca": 0.14902,
+              "caixa_xyxy": [
+                0.33056,
+                0.38798,
+                0.40292,
+                0.43689
+              ]
+            },
+            {
+              "confianca": 0.13696,
+              "caixa_xyxy": [
+                0.39206,
+                0.8121,
+                0.50056,
+                0.92379
+              ]
+            },
+            {
+              "confianca": 0.12293,
+              "caixa_xyxy": [
+                0.83138,
+                0.61983,
+                0.89081,
+                0.66773
+              ]
+            },
+            {
+              "confianca": 0.11101,
+              "caixa_xyxy": [
+                0.59615,
+                0.54588,
+                0.67324,
+                0.61343
+              ]
+            },
+            {
+              "confianca": 0.10506,
+              "caixa_xyxy": [
+                0.0,
+                0.72364,
+                0.07859,
+                0.8341
+              ]
+            },
+            {
+              "confianca": 0.10034,
+              "caixa_xyxy": [
+                0.58378,
+                0.57454,
+                0.67173,
+                0.65069
+              ]
+            }
+          ],
+          "pune-7060.jpg": [
+            {
+              "confianca": 0.27246,
+              "caixa_xyxy": [
+                0.8538,
+                0.08949,
+                0.92916,
+                0.15705
+              ]
+            },
+            {
+              "confianca": 0.23652,
+              "caixa_xyxy": [
+                0.31497,
+                0.52106,
+                0.42843,
+                0.66039
+              ]
+            },
+            {
+              "confianca": 0.21556,
+              "caixa_xyxy": [
+                0.84556,
+                0.78129,
+                0.93315,
+                0.85889
+              ]
+            },
+            {
+              "confianca": 0.14047,
+              "caixa_xyxy": [
+                0.85761,
+                0.09382,
+                0.90533,
+                0.13934
+              ]
+            },
+            {
+              "confianca": 0.13379,
+              "caixa_xyxy": [
+                0.68839,
+                0.29366,
+                0.76301,
+                0.36196
+              ]
+            }
+          ],
+          "pune-7067.jpg": [
+            {
+              "confianca": 0.28939,
+              "caixa_xyxy": [
+                0.1614,
+                0.10722,
+                0.23209,
+                0.15097
+              ]
+            },
+            {
+              "confianca": 0.15129,
+              "caixa_xyxy": [
+                0.88657,
+                0.43614,
+                0.98623,
+                0.52496
+              ]
+            },
+            {
+              "confianca": 0.14727,
+              "caixa_xyxy": [
+                0.62106,
+                0.22096,
+                0.6758,
+                0.28983
+              ]
+            },
+            {
+              "confianca": 0.12387,
+              "caixa_xyxy": [
+                0.22492,
+                0.21445,
+                0.31067,
+                0.2756
+              ]
+            },
+            {
+              "confianca": 0.11768,
+              "caixa_xyxy": [
+                0.50874,
+                0.11545,
+                0.61571,
+                0.1807
+              ]
+            },
+            {
+              "confianca": 0.11012,
+              "caixa_xyxy": [
+                0.75602,
+                0.4543,
+                0.84236,
+                0.52622
+              ]
+            },
+            {
+              "confianca": 0.10533,
+              "caixa_xyxy": [
+                0.7633,
+                0.29623,
+                0.88863,
+                0.36118
+              ]
+            },
+            {
+              "confianca": 0.1007,
+              "caixa_xyxy": [
+                0.16373,
+                0.54226,
+                0.2446,
+                0.59759
+              ]
+            }
+          ]
+        }
+      },
+      "sp": {
+        "vp": 0,
+        "fp": 71,
+        "fn": 7,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 16,
+        "ms_inferencia_mediana": 21.54,
+        "pontos": {
+          "sp01": {
+            "vp": 0,
+            "fp": 21,
+            "fn": 3,
+            "precisao": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp02": {
+            "vp": 0,
+            "fp": 16,
+            "fn": 2,
+            "precisao": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp03": {
+            "vp": 0,
+            "fp": 17,
+            "fn": 0,
+            "precisao": 0.0,
+            "recall": 0,
+            "f1": 0.0
+          },
+          "sp05": {
+            "vp": 0,
+            "fp": 17,
+            "fn": 2,
+            "precisao": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "previsoes": {
+          "sp01-01.jpg": [
+            {
+              "confianca": 0.16764,
+              "caixa_xyxy": [
+                0.00031,
+                0.406,
+                0.0907,
+                0.54254
+              ]
+            },
+            {
+              "confianca": 0.16261,
+              "caixa_xyxy": [
+                0.829,
+                0.5771,
+                0.9372,
+                0.65878
+              ]
+            }
+          ],
+          "sp01-02.jpg": [
+            {
+              "confianca": 0.23687,
+              "caixa_xyxy": [
+                0.00992,
+                0.45547,
+                0.08066,
+                0.50367
+              ]
+            },
+            {
+              "confianca": 0.21703,
+              "caixa_xyxy": [
+                0.0,
+                0.48356,
+                0.0828,
+                0.57624
+              ]
+            },
+            {
+              "confianca": 0.16877,
+              "caixa_xyxy": [
+                0.0,
+                0.5041,
+                0.06704,
+                0.60658
+              ]
+            },
+            {
+              "confianca": 0.13075,
+              "caixa_xyxy": [
+                0.01366,
+                0.46147,
+                0.11041,
+                0.54016
+              ]
+            },
+            {
+              "confianca": 0.12137,
+              "caixa_xyxy": [
+                0.0359,
+                0.44513,
+                0.08803,
+                0.49655
+              ]
+            },
+            {
+              "confianca": 0.1208,
+              "caixa_xyxy": [
+                0.92639,
+                0.52557,
+                0.9999,
+                0.58312
+              ]
+            },
+            {
+              "confianca": 0.117,
+              "caixa_xyxy": [
+                0.11546,
+                0.40916,
+                0.20491,
+                0.4747
+              ]
+            },
+            {
+              "confianca": 0.11236,
+              "caixa_xyxy": [
+                0.03223,
+                0.44416,
+                0.11338,
+                0.51342
+              ]
+            }
+          ],
+          "sp01-03.jpg": [
+            {
+              "confianca": 0.14325,
+              "caixa_xyxy": [
+                0.0,
+                0.74272,
+                0.07751,
+                0.85963
+              ]
+            },
+            {
+              "confianca": 0.10591,
+              "caixa_xyxy": [
+                0.87472,
+                0.53347,
+                0.97936,
+                0.63383
+              ]
+            }
+          ],
+          "sp01-04.jpg": [
+            {
+              "confianca": 0.18163,
+              "caixa_xyxy": [
+                0.67426,
+                0.45353,
+                0.71505,
+                0.49701
+              ]
+            }
+          ],
+          "sp01-05.jpg": [
+            {
+              "confianca": 0.76798,
+              "caixa_xyxy": [
+                0.20527,
+                0.57083,
+                0.28048,
+                0.61718
+              ]
+            },
+            {
+              "confianca": 0.59004,
+              "caixa_xyxy": [
+                0.38159,
+                0.52125,
+                0.42818,
+                0.57227
+              ]
+            },
+            {
+              "confianca": 0.42662,
+              "caixa_xyxy": [
+                0.18766,
+                0.61464,
+                0.28434,
+                0.66415
+              ]
+            },
+            {
+              "confianca": 0.23279,
+              "caixa_xyxy": [
+                0.19349,
+                0.5781,
+                0.28206,
+                0.65703
+              ]
+            },
+            {
+              "confianca": 0.20227,
+              "caixa_xyxy": [
+                0.9154,
+                0.49328,
+                1.0,
+                0.55076
+              ]
+            },
+            {
+              "confianca": 0.15878,
+              "caixa_xyxy": [
+                0.78743,
+                0.52071,
+                0.87242,
+                0.57335
+              ]
+            },
+            {
+              "confianca": 0.12456,
+              "caixa_xyxy": [
+                0.78654,
+                0.55231,
+                0.87388,
+                0.60532
+              ]
+            },
+            {
+              "confianca": 0.1171,
+              "caixa_xyxy": [
+                0.40832,
+                0.87197,
+                0.51658,
+                0.97131
+              ]
+            }
+          ],
+          "sp02-08.jpg": [
+            {
+              "confianca": 0.22531,
+              "caixa_xyxy": [
+                0.82892,
+                0.5732,
+                0.91411,
+                0.65134
+              ]
+            },
+            {
+              "confianca": 0.18446,
+              "caixa_xyxy": [
+                0.80004,
+                0.694,
+                0.85512,
+                0.73859
+              ]
+            },
+            {
+              "confianca": 0.13448,
+              "caixa_xyxy": [
+                0.75892,
+                0.77606,
+                0.85451,
+                0.85009
+              ]
+            },
+            {
+              "confianca": 0.13046,
+              "caixa_xyxy": [
+                0.79513,
+                0.6794,
+                0.88206,
+                0.75188
+              ]
+            },
+            {
+              "confianca": 0.11268,
+              "caixa_xyxy": [
+                0.72594,
+                0.7632,
+                0.85434,
+                0.87641
+              ]
+            }
+          ],
+          "sp02-09.jpg": [
+            {
+              "confianca": 0.33424,
+              "caixa_xyxy": [
+                0.83441,
+                0.60666,
+                0.9195,
+                0.67327
+              ]
+            },
+            {
+              "confianca": 0.10507,
+              "caixa_xyxy": [
+                0.8019,
+                0.72654,
+                0.84746,
+                0.77016
+              ]
+            },
+            {
+              "confianca": 0.10345,
+              "caixa_xyxy": [
+                0.16439,
+                0.73829,
+                0.28293,
+                0.84889
+              ]
+            }
+          ],
+          "sp02-14.jpg": [
+            {
+              "confianca": 0.2129,
+              "caixa_xyxy": [
+                0.28351,
+                0.6146,
+                0.38563,
+                0.67099
+              ]
+            },
+            {
+              "confianca": 0.20627,
+              "caixa_xyxy": [
+                0.29696,
+                0.59554,
+                0.37691,
+                0.64235
+              ]
+            },
+            {
+              "confianca": 0.15688,
+              "caixa_xyxy": [
+                0.11182,
+                0.6171,
+                0.17624,
+                0.66213
+              ]
+            },
+            {
+              "confianca": 0.14257,
+              "caixa_xyxy": [
+                0.28868,
+                0.68455,
+                0.36995,
+                0.74405
+              ]
+            },
+            {
+              "confianca": 0.13971,
+              "caixa_xyxy": [
+                0.29475,
+                0.58213,
+                0.34581,
+                0.63344
+              ]
+            },
+            {
+              "confianca": 0.12476,
+              "caixa_xyxy": [
+                0.44273,
+                0.7771,
+                0.53095,
+                0.83864
+              ]
+            },
+            {
+              "confianca": 0.12416,
+              "caixa_xyxy": [
+                0.11607,
+                0.63861,
+                0.18432,
+                0.67047
+              ]
+            },
+            {
+              "confianca": 0.10157,
+              "caixa_xyxy": [
+                0.3393,
+                0.62938,
+                0.38569,
+                0.68341
+              ]
+            }
+          ],
+          "sp03-05.jpg": [
+            {
+              "confianca": 0.13802,
+              "caixa_xyxy": [
+                0.62969,
+                0.33753,
+                0.69993,
+                0.39322
+              ]
+            }
+          ],
+          "sp03-07.jpg": [
+            {
+              "confianca": 0.39264,
+              "caixa_xyxy": [
+                0.46446,
+                0.71889,
+                0.56946,
+                0.84908
+              ]
+            },
+            {
+              "confianca": 0.3177,
+              "caixa_xyxy": [
+                0.48094,
+                0.72949,
+                0.55095,
+                0.8038
+              ]
+            },
+            {
+              "confianca": 0.14711,
+              "caixa_xyxy": [
+                0.48375,
+                0.73703,
+                0.52461,
+                0.79647
+              ]
+            },
+            {
+              "confianca": 0.14583,
+              "caixa_xyxy": [
+                0.61728,
+                0.66961,
+                0.69306,
+                0.72727
+              ]
+            },
+            {
+              "confianca": 0.133,
+              "caixa_xyxy": [
+                0.37886,
+                0.63164,
+                0.47304,
+                0.70374
+              ]
+            }
+          ],
+          "sp03-08.jpg": [],
+          "sp03-11.jpg": [
+            {
+              "confianca": 0.40047,
+              "caixa_xyxy": [
+                0.66842,
+                0.50343,
+                0.72773,
+                0.54573
+              ]
+            },
+            {
+              "confianca": 0.22905,
+              "caixa_xyxy": [
+                0.39137,
+                0.21234,
+                0.47736,
+                0.28209
+              ]
+            },
+            {
+              "confianca": 0.21271,
+              "caixa_xyxy": [
+                0.89762,
+                0.46053,
+                0.98577,
+                0.53002
+              ]
+            },
+            {
+              "confianca": 0.19136,
+              "caixa_xyxy": [
+                0.73018,
+                0.16728,
+                0.79929,
+                0.22144
+              ]
+            },
+            {
+              "confianca": 0.1233,
+              "caixa_xyxy": [
+                0.68218,
+                0.5061,
+                0.73398,
+                0.56554
+              ]
+            }
+          ],
+          "sp03-13.jpg": [],
+          "sp03-14.jpg": [
+            {
+              "confianca": 0.29184,
+              "caixa_xyxy": [
+                0.82647,
+                0.11087,
+                0.90982,
+                0.17481
+              ]
+            },
+            {
+              "confianca": 0.24775,
+              "caixa_xyxy": [
+                0.61409,
+                0.5074,
+                0.67726,
+                0.55333
+              ]
+            },
+            {
+              "confianca": 0.23599,
+              "caixa_xyxy": [
+                0.19093,
+                0.64455,
+                0.26639,
+                0.70522
+              ]
+            },
+            {
+              "confianca": 0.18513,
+              "caixa_xyxy": [
+                0.22166,
+                0.66477,
+                0.26109,
+                0.70021
+              ]
+            },
+            {
+              "confianca": 0.14218,
+              "caixa_xyxy": [
+                0.56448,
+                0.16671,
+                0.66372,
+                0.23679
+              ]
+            },
+            {
+              "confianca": 0.10106,
+              "caixa_xyxy": [
+                0.58828,
+                0.42482,
+                0.68019,
+                0.51424
+              ]
+            }
+          ],
+          "sp05-01.jpg": [
+            {
+              "confianca": 0.31438,
+              "caixa_xyxy": [
+                0.61382,
+                0.30629,
+                0.69808,
+                0.35521
+              ]
+            },
+            {
+              "confianca": 0.26605,
+              "caixa_xyxy": [
+                0.64817,
+                0.29623,
+                0.69955,
+                0.34521
+              ]
+            },
+            {
+              "confianca": 0.23343,
+              "caixa_xyxy": [
+                0.65602,
+                0.30708,
+                0.73445,
+                0.3614
+              ]
+            },
+            {
+              "confianca": 0.23214,
+              "caixa_xyxy": [
+                0.65678,
+                0.31151,
+                0.69686,
+                0.35163
+              ]
+            },
+            {
+              "confianca": 0.22137,
+              "caixa_xyxy": [
+                0.56165,
+                0.253,
+                0.63914,
+                0.30175
+              ]
+            },
+            {
+              "confianca": 0.21827,
+              "caixa_xyxy": [
+                0.27405,
+                0.55051,
+                0.34257,
+                0.60808
+              ]
+            },
+            {
+              "confianca": 0.19085,
+              "caixa_xyxy": [
+                0.68519,
+                0.3742,
+                0.7715,
+                0.43313
+              ]
+            },
+            {
+              "confianca": 0.18784,
+              "caixa_xyxy": [
+                0.32963,
+                0.46001,
+                0.45091,
+                0.53141
+              ]
+            },
+            {
+              "confianca": 0.16484,
+              "caixa_xyxy": [
+                0.34657,
+                0.46432,
+                0.4068,
+                0.51604
+              ]
+            },
+            {
+              "confianca": 0.14822,
+              "caixa_xyxy": [
+                0.68238,
+                0.35178,
+                0.7716,
+                0.4082
+              ]
+            },
+            {
+              "confianca": 0.14199,
+              "caixa_xyxy": [
+                0.2809,
+                0.58168,
+                0.3542,
+                0.62458
+              ]
+            },
+            {
+              "confianca": 0.14006,
+              "caixa_xyxy": [
+                0.36261,
+                0.46472,
+                0.43449,
+                0.51522
+              ]
+            },
+            {
+              "confianca": 0.11867,
+              "caixa_xyxy": [
+                0.27718,
+                0.52208,
+                0.35816,
+                0.58207
+              ]
+            },
+            {
+              "confianca": 0.1111,
+              "caixa_xyxy": [
+                0.31102,
+                0.48372,
+                0.39154,
+                0.53779
+              ]
+            }
+          ],
+          "sp05-02.jpg": [
+            {
+              "confianca": 0.35179,
+              "caixa_xyxy": [
+                0.80827,
+                0.45892,
+                0.8638,
+                0.5117
+              ]
+            },
+            {
+              "confianca": 0.10573,
+              "caixa_xyxy": [
+                0.26031,
+                0.3728,
+                0.3544,
+                0.45104
+              ]
+            },
+            {
+              "confianca": 0.1039,
+              "caixa_xyxy": [
+                0.41075,
+                0.27672,
+                0.48493,
+                0.36534
+              ]
+            }
+          ]
+        }
+      },
+      "roma": {
+        "vp": 24,
+        "fp": 206,
+        "fn": 20,
+        "precisao": 0.10434782608695652,
+        "recall": 0.5454545454545454,
+        "f1": 0.17518248175182483,
+        "imagens": 42,
+        "ms_inferencia_mediana": 22.86,
+        "previsoes": {
+          "roma-vlcsnap-2025-02-26-20h31m13s271.jpg": [
+            {
+              "confianca": 0.20415,
+              "caixa_xyxy": [
+                0.53559,
+                0.64138,
+                0.59056,
+                0.68859
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h31m47s694.jpg": [
+            {
+              "confianca": 0.20346,
+              "caixa_xyxy": [
+                0.38779,
+                0.739,
+                0.51619,
+                0.81369
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m04s400.jpg": [
+            {
+              "confianca": 0.62559,
+              "caixa_xyxy": [
+                0.6017,
+                0.72858,
+                0.68202,
+                0.80243
+              ]
+            },
+            {
+              "confianca": 0.31554,
+              "caixa_xyxy": [
+                0.93072,
+                0.64765,
+                1.0,
+                0.70304
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m06s406.jpg": [
+            {
+              "confianca": 0.25073,
+              "caixa_xyxy": [
+                0.39802,
+                0.66911,
+                0.49977,
+                0.75311
+              ]
+            },
+            {
+              "confianca": 0.16852,
+              "caixa_xyxy": [
+                0.61884,
+                0.73572,
+                0.7008,
+                0.81025
+              ]
+            },
+            {
+              "confianca": 0.10884,
+              "caixa_xyxy": [
+                0.64831,
+                0.65518,
+                0.69999,
+                0.71933
+              ]
+            },
+            {
+              "confianca": 0.10037,
+              "caixa_xyxy": [
+                0.58449,
+                0.58136,
+                0.66391,
+                0.61757
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m31s511.jpg": [
+            {
+              "confianca": 0.55581,
+              "caixa_xyxy": [
+                0.66109,
+                0.76667,
+                0.76747,
+                0.8483
+              ]
+            },
+            {
+              "confianca": 0.12892,
+              "caixa_xyxy": [
+                0.10586,
+                0.67207,
+                0.20763,
+                0.75361
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m55s986.jpg": [
+            {
+              "confianca": 0.52112,
+              "caixa_xyxy": [
+                0.48843,
+                0.72832,
+                0.56633,
+                0.78304
+              ]
+            },
+            {
+              "confianca": 0.30745,
+              "caixa_xyxy": [
+                0.47936,
+                0.72685,
+                0.61738,
+                0.7908
+              ]
+            },
+            {
+              "confianca": 0.27901,
+              "caixa_xyxy": [
+                0.64739,
+                0.75763,
+                0.69665,
+                0.80735
+              ]
+            },
+            {
+              "confianca": 0.21759,
+              "caixa_xyxy": [
+                0.11947,
+                0.66347,
+                0.20084,
+                0.70691
+              ]
+            },
+            {
+              "confianca": 0.1986,
+              "caixa_xyxy": [
+                0.64273,
+                0.73837,
+                0.69777,
+                0.79432
+              ]
+            },
+            {
+              "confianca": 0.12576,
+              "caixa_xyxy": [
+                0.16809,
+                0.66593,
+                0.20378,
+                0.70544
+              ]
+            },
+            {
+              "confianca": 0.12478,
+              "caixa_xyxy": [
+                0.19944,
+                0.61051,
+                0.2597,
+                0.64796
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m00s633.jpg": [
+            {
+              "confianca": 0.20693,
+              "caixa_xyxy": [
+                0.04213,
+                0.72647,
+                0.10546,
+                0.76825
+              ]
+            },
+            {
+              "confianca": 0.20347,
+              "caixa_xyxy": [
+                0.21518,
+                0.7077,
+                0.28431,
+                0.75919
+              ]
+            },
+            {
+              "confianca": 0.18071,
+              "caixa_xyxy": [
+                0.46519,
+                0.72861,
+                0.53867,
+                0.77476
+              ]
+            },
+            {
+              "confianca": 0.16549,
+              "caixa_xyxy": [
+                0.45535,
+                0.58158,
+                0.52686,
+                0.63552
+              ]
+            },
+            {
+              "confianca": 0.15464,
+              "caixa_xyxy": [
+                0.60061,
+                0.70001,
+                0.66158,
+                0.74577
+              ]
+            },
+            {
+              "confianca": 0.13979,
+              "caixa_xyxy": [
+                0.23892,
+                0.70702,
+                0.29454,
+                0.74493
+              ]
+            },
+            {
+              "confianca": 0.13259,
+              "caixa_xyxy": [
+                0.35301,
+                0.72822,
+                0.40867,
+                0.76649
+              ]
+            },
+            {
+              "confianca": 0.11191,
+              "caixa_xyxy": [
+                0.1752,
+                0.72678,
+                0.28323,
+                0.79192
+              ]
+            },
+            {
+              "confianca": 0.10879,
+              "caixa_xyxy": [
+                0.36123,
+                0.70568,
+                0.4373,
+                0.74335
+              ]
+            },
+            {
+              "confianca": 0.10694,
+              "caixa_xyxy": [
+                0.34925,
+                0.71073,
+                0.43047,
+                0.76073
+              ]
+            },
+            {
+              "confianca": 0.10639,
+              "caixa_xyxy": [
+                0.45031,
+                0.72641,
+                0.57032,
+                0.7996
+              ]
+            },
+            {
+              "confianca": 0.10492,
+              "caixa_xyxy": [
+                0.33243,
+                0.72711,
+                0.38735,
+                0.76548
+              ]
+            },
+            {
+              "confianca": 0.10222,
+              "caixa_xyxy": [
+                0.00799,
+                0.71727,
+                0.1318,
+                0.79956
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m04s882.jpg": [
+            {
+              "confianca": 0.18028,
+              "caixa_xyxy": [
+                0.46967,
+                0.63495,
+                0.56216,
+                0.7351
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m33s099.jpg": [
+            {
+              "confianca": 0.10709,
+              "caixa_xyxy": [
+                0.81596,
+                0.71815,
+                0.89695,
+                0.77201
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m36s821.jpg": [
+            {
+              "confianca": 0.78752,
+              "caixa_xyxy": [
+                0.52105,
+                0.72765,
+                0.58142,
+                0.78181
+              ]
+            },
+            {
+              "confianca": 0.40356,
+              "caixa_xyxy": [
+                0.41564,
+                0.58004,
+                0.50032,
+                0.653
+              ]
+            },
+            {
+              "confianca": 0.10416,
+              "caixa_xyxy": [
+                0.44191,
+                0.6098,
+                0.5037,
+                0.65709
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m38s606.jpg": [
+            {
+              "confianca": 0.29375,
+              "caixa_xyxy": [
+                0.50531,
+                0.66368,
+                0.56679,
+                0.72525
+              ]
+            },
+            {
+              "confianca": 0.27297,
+              "caixa_xyxy": [
+                0.37097,
+                0.66501,
+                0.4731,
+                0.74569
+              ]
+            },
+            {
+              "confianca": 0.25372,
+              "caixa_xyxy": [
+                0.2318,
+                0.09138,
+                0.31454,
+                0.17094
+              ]
+            },
+            {
+              "confianca": 0.2268,
+              "caixa_xyxy": [
+                0.50337,
+                0.65568,
+                0.59606,
+                0.74019
+              ]
+            },
+            {
+              "confianca": 0.13682,
+              "caixa_xyxy": [
+                0.37179,
+                0.66839,
+                0.43053,
+                0.72502
+              ]
+            },
+            {
+              "confianca": 0.13076,
+              "caixa_xyxy": [
+                0.35381,
+                0.65249,
+                0.48382,
+                0.78188
+              ]
+            },
+            {
+              "confianca": 0.10689,
+              "caixa_xyxy": [
+                0.55445,
+                0.6934,
+                0.61174,
+                0.74361
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m50s947.jpg": [
+            {
+              "confianca": 0.48501,
+              "caixa_xyxy": [
+                0.52331,
+                0.74659,
+                0.62916,
+                0.82684
+              ]
+            },
+            {
+              "confianca": 0.30705,
+              "caixa_xyxy": [
+                0.53365,
+                0.69888,
+                0.62151,
+                0.7963
+              ]
+            },
+            {
+              "confianca": 0.22763,
+              "caixa_xyxy": [
+                0.79444,
+                0.63874,
+                0.89293,
+                0.69344
+              ]
+            },
+            {
+              "confianca": 0.17389,
+              "caixa_xyxy": [
+                0.94174,
+                0.81981,
+                1.0,
+                0.86274
+              ]
+            },
+            {
+              "confianca": 0.14527,
+              "caixa_xyxy": [
+                0.67498,
+                0.58153,
+                0.75471,
+                0.63283
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m52s238.jpg": [
+            {
+              "confianca": 0.19831,
+              "caixa_xyxy": [
+                0.8744,
+                0.79168,
+                0.96792,
+                0.84731
+              ]
+            },
+            {
+              "confianca": 0.12651,
+              "caixa_xyxy": [
+                0.75948,
+                0.74963,
+                0.95368,
+                0.82967
+              ]
+            },
+            {
+              "confianca": 0.11541,
+              "caixa_xyxy": [
+                0.73892,
+                0.72501,
+                0.78166,
+                0.75743
+              ]
+            },
+            {
+              "confianca": 0.10019,
+              "caixa_xyxy": [
+                0.15654,
+                0.6124,
+                0.22714,
+                0.6539
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m00s383.jpg": [
+            {
+              "confianca": 0.67639,
+              "caixa_xyxy": [
+                0.27624,
+                0.67215,
+                0.35704,
+                0.72521
+              ]
+            },
+            {
+              "confianca": 0.2727,
+              "caixa_xyxy": [
+                0.62025,
+                0.73086,
+                0.70023,
+                0.78039
+              ]
+            },
+            {
+              "confianca": 0.26023,
+              "caixa_xyxy": [
+                0.49645,
+                0.62446,
+                0.54663,
+                0.66398
+              ]
+            },
+            {
+              "confianca": 0.24228,
+              "caixa_xyxy": [
+                0.50019,
+                0.63727,
+                0.54115,
+                0.67179
+              ]
+            },
+            {
+              "confianca": 0.19852,
+              "caixa_xyxy": [
+                0.87784,
+                0.72328,
+                0.92447,
+                0.76311
+              ]
+            },
+            {
+              "confianca": 0.1214,
+              "caixa_xyxy": [
+                0.58236,
+                0.63414,
+                0.63533,
+                0.67193
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m10s274.jpg": [
+            {
+              "confianca": 0.22348,
+              "caixa_xyxy": [
+                0.10767,
+                0.69009,
+                0.19081,
+                0.7453
+              ]
+            },
+            {
+              "confianca": 0.21336,
+              "caixa_xyxy": [
+                0.38246,
+                0.64302,
+                0.4557,
+                0.68768
+              ]
+            },
+            {
+              "confianca": 0.16922,
+              "caixa_xyxy": [
+                0.22119,
+                0.62176,
+                0.33483,
+                0.69526
+              ]
+            },
+            {
+              "confianca": 0.13558,
+              "caixa_xyxy": [
+                0.17411,
+                0.64077,
+                0.27989,
+                0.70441
+              ]
+            },
+            {
+              "confianca": 0.11536,
+              "caixa_xyxy": [
+                0.22846,
+                0.67773,
+                0.33348,
+                0.75558
+              ]
+            },
+            {
+              "confianca": 0.11177,
+              "caixa_xyxy": [
+                0.29572,
+                0.61808,
+                0.35609,
+                0.66779
+              ]
+            },
+            {
+              "confianca": 0.10277,
+              "caixa_xyxy": [
+                0.17783,
+                0.65593,
+                0.23578,
+                0.70005
+              ]
+            },
+            {
+              "confianca": 0.10274,
+              "caixa_xyxy": [
+                0.41242,
+                0.61645,
+                0.4717,
+                0.64845
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m13s989.jpg": [
+            {
+              "confianca": 0.45767,
+              "caixa_xyxy": [
+                0.42751,
+                0.55663,
+                0.47697,
+                0.60355
+              ]
+            },
+            {
+              "confianca": 0.40893,
+              "caixa_xyxy": [
+                0.55226,
+                0.66741,
+                0.62869,
+                0.72009
+              ]
+            },
+            {
+              "confianca": 0.1811,
+              "caixa_xyxy": [
+                0.58144,
+                0.68167,
+                0.62346,
+                0.72457
+              ]
+            },
+            {
+              "confianca": 0.11515,
+              "caixa_xyxy": [
+                0.55559,
+                0.66792,
+                0.59857,
+                0.70527
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m42s760.jpg": [
+            {
+              "confianca": 0.47424,
+              "caixa_xyxy": [
+                0.77896,
+                0.69955,
+                0.88477,
+                0.77224
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m00s346.jpg": [
+            {
+              "confianca": 0.58898,
+              "caixa_xyxy": [
+                0.36731,
+                0.63023,
+                0.41117,
+                0.66603
+              ]
+            },
+            {
+              "confianca": 0.17367,
+              "caixa_xyxy": [
+                0.14891,
+                0.58813,
+                0.21211,
+                0.62459
+              ]
+            },
+            {
+              "confianca": 0.16321,
+              "caixa_xyxy": [
+                0.1419,
+                0.61619,
+                0.20334,
+                0.64869
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m39s333.jpg": [
+            {
+              "confianca": 0.50786,
+              "caixa_xyxy": [
+                0.73406,
+                0.77974,
+                0.80372,
+                0.83268
+              ]
+            },
+            {
+              "confianca": 0.36849,
+              "caixa_xyxy": [
+                0.73372,
+                0.7656,
+                0.79732,
+                0.81368
+              ]
+            },
+            {
+              "confianca": 0.23585,
+              "caixa_xyxy": [
+                0.36218,
+                0.55007,
+                0.44175,
+                0.60358
+              ]
+            },
+            {
+              "confianca": 0.21281,
+              "caixa_xyxy": [
+                0.29597,
+                0.57615,
+                0.35224,
+                0.61528
+              ]
+            },
+            {
+              "confianca": 0.19372,
+              "caixa_xyxy": [
+                0.72905,
+                0.78474,
+                0.84349,
+                0.84083
+              ]
+            },
+            {
+              "confianca": 0.16656,
+              "caixa_xyxy": [
+                0.38362,
+                0.67382,
+                0.48011,
+                0.75571
+              ]
+            },
+            {
+              "confianca": 0.16591,
+              "caixa_xyxy": [
+                0.1467,
+                0.6113,
+                0.23141,
+                0.65678
+              ]
+            },
+            {
+              "confianca": 0.12231,
+              "caixa_xyxy": [
+                0.0,
+                0.76542,
+                0.09795,
+                0.83902
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m05s314.jpg": [
+            {
+              "confianca": 0.42651,
+              "caixa_xyxy": [
+                0.43983,
+                0.64234,
+                0.51409,
+                0.71014
+              ]
+            },
+            {
+              "confianca": 0.14445,
+              "caixa_xyxy": [
+                0.47733,
+                0.6148,
+                0.53185,
+                0.65102
+              ]
+            },
+            {
+              "confianca": 0.11823,
+              "caixa_xyxy": [
+                0.48618,
+                0.59303,
+                0.54341,
+                0.63355
+              ]
+            },
+            {
+              "confianca": 0.1163,
+              "caixa_xyxy": [
+                0.79971,
+                0.69826,
+                0.83964,
+                0.73608
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m22s370.jpg": [
+            {
+              "confianca": 0.43301,
+              "caixa_xyxy": [
+                0.02507,
+                0.70211,
+                0.09887,
+                0.76261
+              ]
+            },
+            {
+              "confianca": 0.18405,
+              "caixa_xyxy": [
+                0.39527,
+                0.68746,
+                0.48077,
+                0.73219
+              ]
+            },
+            {
+              "confianca": 0.16669,
+              "caixa_xyxy": [
+                0.67475,
+                0.69739,
+                0.73828,
+                0.73711
+              ]
+            },
+            {
+              "confianca": 0.14359,
+              "caixa_xyxy": [
+                0.57648,
+                0.78758,
+                0.65405,
+                0.83976
+              ]
+            },
+            {
+              "confianca": 0.1232,
+              "caixa_xyxy": [
+                0.56644,
+                0.75823,
+                0.72058,
+                0.84611
+              ]
+            },
+            {
+              "confianca": 0.11058,
+              "caixa_xyxy": [
+                0.64201,
+                0.73446,
+                0.73697,
+                0.78203
+              ]
+            },
+            {
+              "confianca": 0.10496,
+              "caixa_xyxy": [
+                0.6282,
+                0.75132,
+                0.73096,
+                0.81732
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m24s099.jpg": [
+            {
+              "confianca": 0.1545,
+              "caixa_xyxy": [
+                0.59611,
+                0.78217,
+                0.64803,
+                0.82415
+              ]
+            },
+            {
+              "confianca": 0.13092,
+              "caixa_xyxy": [
+                0.58388,
+                0.7683,
+                0.64761,
+                0.81452
+              ]
+            },
+            {
+              "confianca": 0.11079,
+              "caixa_xyxy": [
+                0.40983,
+                0.75996,
+                0.48709,
+                0.79897
+              ]
+            },
+            {
+              "confianca": 0.10668,
+              "caixa_xyxy": [
+                0.38591,
+                0.78039,
+                0.46301,
+                0.82573
+              ]
+            },
+            {
+              "confianca": 0.10615,
+              "caixa_xyxy": [
+                0.38026,
+                0.75989,
+                0.4497,
+                0.80161
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m43s267.jpg": [
+            {
+              "confianca": 0.65318,
+              "caixa_xyxy": [
+                0.34411,
+                0.71712,
+                0.41583,
+                0.77563
+              ]
+            },
+            {
+              "confianca": 0.31608,
+              "caixa_xyxy": [
+                0.32981,
+                0.70754,
+                0.44445,
+                0.79698
+              ]
+            },
+            {
+              "confianca": 0.19529,
+              "caixa_xyxy": [
+                0.49772,
+                0.7622,
+                0.5547,
+                0.80979
+              ]
+            },
+            {
+              "confianca": 0.17447,
+              "caixa_xyxy": [
+                0.18248,
+                0.6137,
+                0.2595,
+                0.66054
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m58s129.jpg": [
+            {
+              "confianca": 0.81228,
+              "caixa_xyxy": [
+                0.41498,
+                0.75788,
+                0.50057,
+                0.83374
+              ]
+            },
+            {
+              "confianca": 0.28329,
+              "caixa_xyxy": [
+                0.57218,
+                0.68313,
+                0.67425,
+                0.75555
+              ]
+            },
+            {
+              "confianca": 0.18022,
+              "caixa_xyxy": [
+                0.4383,
+                0.62168,
+                0.48944,
+                0.66404
+              ]
+            },
+            {
+              "confianca": 0.12541,
+              "caixa_xyxy": [
+                0.64624,
+                0.69157,
+                0.71183,
+                0.73876
+              ]
+            },
+            {
+              "confianca": 0.10156,
+              "caixa_xyxy": [
+                0.63175,
+                0.68732,
+                0.69062,
+                0.74289
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m18s850.jpg": [
+            {
+              "confianca": 0.13948,
+              "caixa_xyxy": [
+                0.64145,
+                0.71189,
+                0.75875,
+                0.8255
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m20s232.jpg": [
+            {
+              "confianca": 0.33251,
+              "caixa_xyxy": [
+                0.74365,
+                0.78101,
+                0.84867,
+                0.86788
+              ]
+            },
+            {
+              "confianca": 0.27963,
+              "caixa_xyxy": [
+                0.68179,
+                0.70492,
+                0.78269,
+                0.78574
+              ]
+            },
+            {
+              "confianca": 0.26944,
+              "caixa_xyxy": [
+                0.92665,
+                0.78854,
+                1.0,
+                0.89656
+              ]
+            },
+            {
+              "confianca": 0.15179,
+              "caixa_xyxy": [
+                0.72936,
+                0.75823,
+                0.7853,
+                0.81186
+              ]
+            },
+            {
+              "confianca": 0.14532,
+              "caixa_xyxy": [
+                0.92656,
+                0.77522,
+                1.0,
+                0.83872
+              ]
+            },
+            {
+              "confianca": 0.12794,
+              "caixa_xyxy": [
+                0.56009,
+                0.6154,
+                0.63721,
+                0.65846
+              ]
+            },
+            {
+              "confianca": 0.11205,
+              "caixa_xyxy": [
+                0.6533,
+                0.77208,
+                0.74766,
+                0.85419
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m39s955.jpg": [
+            {
+              "confianca": 0.82128,
+              "caixa_xyxy": [
+                0.17323,
+                0.72889,
+                0.25852,
+                0.79859
+              ]
+            },
+            {
+              "confianca": 0.13381,
+              "caixa_xyxy": [
+                0.6511,
+                0.72362,
+                0.69983,
+                0.75719
+              ]
+            },
+            {
+              "confianca": 0.11562,
+              "caixa_xyxy": [
+                0.64579,
+                0.70288,
+                0.69449,
+                0.74931
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m55s351.jpg": [
+            {
+              "confianca": 0.2841,
+              "caixa_xyxy": [
+                0.53667,
+                0.784,
+                0.5926,
+                0.83793
+              ]
+            },
+            {
+              "confianca": 0.11691,
+              "caixa_xyxy": [
+                0.35391,
+                0.63701,
+                0.44123,
+                0.70424
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h39m09s118.jpg": [
+            {
+              "confianca": 0.42008,
+              "caixa_xyxy": [
+                0.78922,
+                0.78865,
+                0.92304,
+                0.85145
+              ]
+            },
+            {
+              "confianca": 0.34007,
+              "caixa_xyxy": [
+                0.88097,
+                0.81689,
+                0.96743,
+                0.87139
+              ]
+            },
+            {
+              "confianca": 0.26032,
+              "caixa_xyxy": [
+                0.87392,
+                0.81341,
+                1.0,
+                0.89925
+              ]
+            },
+            {
+              "confianca": 0.23695,
+              "caixa_xyxy": [
+                0.92102,
+                0.86271,
+                1.0,
+                0.96816
+              ]
+            },
+            {
+              "confianca": 0.19418,
+              "caixa_xyxy": [
+                0.92105,
+                0.84371,
+                1.0,
+                0.92403
+              ]
+            },
+            {
+              "confianca": 0.17912,
+              "caixa_xyxy": [
+                0.12955,
+                0.64211,
+                0.18754,
+                0.67824
+              ]
+            },
+            {
+              "confianca": 0.16174,
+              "caixa_xyxy": [
+                0.80586,
+                0.75955,
+                0.88697,
+                0.83188
+              ]
+            },
+            {
+              "confianca": 0.14945,
+              "caixa_xyxy": [
+                0.87137,
+                0.80359,
+                0.92824,
+                0.8538
+              ]
+            },
+            {
+              "confianca": 0.13422,
+              "caixa_xyxy": [
+                0.05398,
+                0.6982,
+                0.09896,
+                0.74335
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h39m19s729.jpg": [
+            {
+              "confianca": 0.51054,
+              "caixa_xyxy": [
+                0.28199,
+                0.77849,
+                0.35468,
+                0.84004
+              ]
+            },
+            {
+              "confianca": 0.2678,
+              "caixa_xyxy": [
+                0.4039,
+                0.54204,
+                0.46725,
+                0.57725
+              ]
+            },
+            {
+              "confianca": 0.11456,
+              "caixa_xyxy": [
+                0.60157,
+                0.75913,
+                0.72934,
+                0.85017
+              ]
+            },
+            {
+              "confianca": 0.1118,
+              "caixa_xyxy": [
+                0.0437,
+                0.78751,
+                0.10302,
+                0.83736
+              ]
+            },
+            {
+              "confianca": 0.11098,
+              "caixa_xyxy": [
+                0.27203,
+                0.75853,
+                0.4242,
+                0.84569
+              ]
+            },
+            {
+              "confianca": 0.10855,
+              "caixa_xyxy": [
+                0.59302,
+                0.76069,
+                0.67987,
+                0.81602
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h39m22s097.jpg": [
+            {
+              "confianca": 0.37609,
+              "caixa_xyxy": [
+                0.1344,
+                0.64752,
+                0.21497,
+                0.7053
+              ]
+            },
+            {
+              "confianca": 0.29707,
+              "caixa_xyxy": [
+                0.143,
+                0.64643,
+                0.19272,
+                0.69116
+              ]
+            },
+            {
+              "confianca": 0.24932,
+              "caixa_xyxy": [
+                0.47849,
+                0.64227,
+                0.55259,
+                0.69755
+              ]
+            },
+            {
+              "confianca": 0.20506,
+              "caixa_xyxy": [
+                0.4754,
+                0.64857,
+                0.5061,
+                0.69092
+              ]
+            },
+            {
+              "confianca": 0.13189,
+              "caixa_xyxy": [
+                0.32085,
+                0.74952,
+                0.50469,
+                0.84599
+              ]
+            },
+            {
+              "confianca": 0.1099,
+              "caixa_xyxy": [
+                0.39555,
+                0.75478,
+                0.49124,
+                0.81963
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h40m11s502.jpg": [
+            {
+              "confianca": 0.35836,
+              "caixa_xyxy": [
+                0.60152,
+                0.72623,
+                0.68821,
+                0.77937
+              ]
+            },
+            {
+              "confianca": 0.18714,
+              "caixa_xyxy": [
+                0.6375,
+                0.73547,
+                0.70946,
+                0.77679
+              ]
+            },
+            {
+              "confianca": 0.1802,
+              "caixa_xyxy": [
+                0.41151,
+                0.67969,
+                0.48867,
+                0.73932
+              ]
+            },
+            {
+              "confianca": 0.16374,
+              "caixa_xyxy": [
+                0.17802,
+                0.68994,
+                0.2361,
+                0.73515
+              ]
+            },
+            {
+              "confianca": 0.13487,
+              "caixa_xyxy": [
+                0.61158,
+                0.70693,
+                0.67513,
+                0.75328
+              ]
+            },
+            {
+              "confianca": 0.1319,
+              "caixa_xyxy": [
+                0.1797,
+                0.67325,
+                0.2423,
+                0.71969
+              ]
+            },
+            {
+              "confianca": 0.12127,
+              "caixa_xyxy": [
+                0.41297,
+                0.68996,
+                0.45512,
+                0.74293
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h40m30s059.jpg": [
+            {
+              "confianca": 0.18526,
+              "caixa_xyxy": [
+                0.96768,
+                0.78692,
+                1.0,
+                0.846
+              ]
+            },
+            {
+              "confianca": 0.12837,
+              "caixa_xyxy": [
+                0.28464,
+                0.64463,
+                0.34316,
+                0.69795
+              ]
+            },
+            {
+              "confianca": 0.1097,
+              "caixa_xyxy": [
+                0.66435,
+                0.72757,
+                0.71985,
+                0.77365
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h40m31s746.jpg": [
+            {
+              "confianca": 0.57792,
+              "caixa_xyxy": [
+                0.42415,
+                0.68889,
+                0.4871,
+                0.73318
+              ]
+            },
+            {
+              "confianca": 0.17352,
+              "caixa_xyxy": [
+                0.41116,
+                0.78897,
+                0.5348,
+                0.87397
+              ]
+            },
+            {
+              "confianca": 0.14187,
+              "caixa_xyxy": [
+                0.42433,
+                0.68069,
+                0.50027,
+                0.75581
+              ]
+            },
+            {
+              "confianca": 0.13905,
+              "caixa_xyxy": [
+                0.64498,
+                0.64556,
+                0.70065,
+                0.68775
+              ]
+            },
+            {
+              "confianca": 0.13864,
+              "caixa_xyxy": [
+                0.47642,
+                0.81946,
+                0.53148,
+                0.87735
+              ]
+            },
+            {
+              "confianca": 0.12075,
+              "caixa_xyxy": [
+                0.21593,
+                0.69952,
+                0.28836,
+                0.74996
+              ]
+            },
+            {
+              "confianca": 0.10034,
+              "caixa_xyxy": [
+                0.42817,
+                0.8032,
+                0.51844,
+                0.85968
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h40m33s122.jpg": [
+            {
+              "confianca": 0.3226,
+              "caixa_xyxy": [
+                0.42691,
+                0.72769,
+                0.49449,
+                0.76881
+              ]
+            },
+            {
+              "confianca": 0.19255,
+              "caixa_xyxy": [
+                0.6944,
+                0.6615,
+                0.76976,
+                0.70082
+              ]
+            },
+            {
+              "confianca": 0.14819,
+              "caixa_xyxy": [
+                0.7114,
+                0.6503,
+                0.77517,
+                0.6894
+              ]
+            },
+            {
+              "confianca": 0.14195,
+              "caixa_xyxy": [
+                0.43811,
+                0.71308,
+                0.49511,
+                0.75812
+              ]
+            },
+            {
+              "confianca": 0.13379,
+              "caixa_xyxy": [
+                0.13152,
+                0.66035,
+                0.18099,
+                0.69804
+              ]
+            },
+            {
+              "confianca": 0.10989,
+              "caixa_xyxy": [
+                0.0572,
+                0.66007,
+                0.1558,
+                0.7126
+              ]
+            },
+            {
+              "confianca": 0.10381,
+              "caixa_xyxy": [
+                0.09306,
+                0.66172,
+                0.18161,
+                0.70406
+              ]
+            },
+            {
+              "confianca": 0.10053,
+              "caixa_xyxy": [
+                0.04121,
+                0.64476,
+                0.18568,
+                0.73012
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m15s130.jpg": [
+            {
+              "confianca": 0.50872,
+              "caixa_xyxy": [
+                0.48361,
+                0.73106,
+                0.54502,
+                0.78355
+              ]
+            },
+            {
+              "confianca": 0.47084,
+              "caixa_xyxy": [
+                0.49026,
+                0.74232,
+                0.56119,
+                0.79538
+              ]
+            },
+            {
+              "confianca": 0.31628,
+              "caixa_xyxy": [
+                0.69648,
+                0.64136,
+                0.75906,
+                0.68536
+              ]
+            },
+            {
+              "confianca": 0.27396,
+              "caixa_xyxy": [
+                0.40766,
+                0.61404,
+                0.47867,
+                0.65669
+              ]
+            },
+            {
+              "confianca": 0.25346,
+              "caixa_xyxy": [
+                0.68866,
+                0.63724,
+                0.74084,
+                0.67535
+              ]
+            },
+            {
+              "confianca": 0.24894,
+              "caixa_xyxy": [
+                0.46661,
+                0.70411,
+                0.54556,
+                0.76811
+              ]
+            },
+            {
+              "confianca": 0.24121,
+              "caixa_xyxy": [
+                0.05928,
+                0.79678,
+                0.14672,
+                0.86536
+              ]
+            },
+            {
+              "confianca": 0.19087,
+              "caixa_xyxy": [
+                0.69732,
+                0.64945,
+                0.78168,
+                0.70843
+              ]
+            },
+            {
+              "confianca": 0.18887,
+              "caixa_xyxy": [
+                0.47591,
+                0.74498,
+                0.58619,
+                0.80963
+              ]
+            },
+            {
+              "confianca": 0.18361,
+              "caixa_xyxy": [
+                0.68082,
+                0.61623,
+                0.73675,
+                0.66321
+              ]
+            },
+            {
+              "confianca": 0.18012,
+              "caixa_xyxy": [
+                0.66258,
+                0.62758,
+                0.73485,
+                0.67576
+              ]
+            },
+            {
+              "confianca": 0.17829,
+              "caixa_xyxy": [
+                0.41013,
+                0.58551,
+                0.47321,
+                0.61905
+              ]
+            },
+            {
+              "confianca": 0.17713,
+              "caixa_xyxy": [
+                0.63125,
+                0.61302,
+                0.73527,
+                0.66566
+              ]
+            },
+            {
+              "confianca": 0.14575,
+              "caixa_xyxy": [
+                0.53296,
+                0.57712,
+                0.61226,
+                0.61488
+              ]
+            },
+            {
+              "confianca": 0.12784,
+              "caixa_xyxy": [
+                0.37967,
+                0.73854,
+                0.49819,
+                0.82625
+              ]
+            },
+            {
+              "confianca": 0.12597,
+              "caixa_xyxy": [
+                0.39575,
+                0.64307,
+                0.47771,
+                0.6708
+              ]
+            },
+            {
+              "confianca": 0.12097,
+              "caixa_xyxy": [
+                0.24688,
+                0.66976,
+                0.3074,
+                0.70606
+              ]
+            },
+            {
+              "confianca": 0.11839,
+              "caixa_xyxy": [
+                0.61999,
+                0.58911,
+                0.67955,
+                0.62715
+              ]
+            },
+            {
+              "confianca": 0.11401,
+              "caixa_xyxy": [
+                0.63322,
+                0.61028,
+                0.70166,
+                0.64425
+              ]
+            },
+            {
+              "confianca": 0.10188,
+              "caixa_xyxy": [
+                0.39013,
+                0.70368,
+                0.49796,
+                0.79849
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m16s845.jpg": [
+            {
+              "confianca": 0.51281,
+              "caixa_xyxy": [
+                0.39863,
+                0.72439,
+                0.4879,
+                0.782
+              ]
+            },
+            {
+              "confianca": 0.20162,
+              "caixa_xyxy": [
+                0.94833,
+                0.83802,
+                1.0,
+                0.88765
+              ]
+            },
+            {
+              "confianca": 0.19815,
+              "caixa_xyxy": [
+                0.25472,
+                0.63934,
+                0.31366,
+                0.68787
+              ]
+            },
+            {
+              "confianca": 0.13169,
+              "caixa_xyxy": [
+                0.39166,
+                0.74846,
+                0.47225,
+                0.79661
+              ]
+            },
+            {
+              "confianca": 0.1287,
+              "caixa_xyxy": [
+                0.58826,
+                0.73244,
+                0.65011,
+                0.76967
+              ]
+            },
+            {
+              "confianca": 0.12014,
+              "caixa_xyxy": [
+                0.5834,
+                0.61552,
+                0.6488,
+                0.65944
+              ]
+            },
+            {
+              "confianca": 0.11641,
+              "caixa_xyxy": [
+                0.57474,
+                0.70511,
+                0.64733,
+                0.75007
+              ]
+            },
+            {
+              "confianca": 0.11607,
+              "caixa_xyxy": [
+                0.69869,
+                0.68136,
+                0.8123,
+                0.75047
+              ]
+            },
+            {
+              "confianca": 0.11112,
+              "caixa_xyxy": [
+                0.67066,
+                0.66828,
+                0.73472,
+                0.72153
+              ]
+            },
+            {
+              "confianca": 0.11017,
+              "caixa_xyxy": [
+                0.35508,
+                0.63792,
+                0.43937,
+                0.67908
+              ]
+            },
+            {
+              "confianca": 0.10245,
+              "caixa_xyxy": [
+                0.75335,
+                0.69818,
+                0.80989,
+                0.7488
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m19s505.jpg": [
+            {
+              "confianca": 0.66784,
+              "caixa_xyxy": [
+                0.69827,
+                0.65175,
+                0.77728,
+                0.7079
+              ]
+            },
+            {
+              "confianca": 0.2868,
+              "caixa_xyxy": [
+                0.37328,
+                0.76446,
+                0.46986,
+                0.84667
+              ]
+            },
+            {
+              "confianca": 0.20707,
+              "caixa_xyxy": [
+                0.77083,
+                0.65879,
+                0.83297,
+                0.70196
+              ]
+            },
+            {
+              "confianca": 0.19926,
+              "caixa_xyxy": [
+                0.79335,
+                0.73012,
+                0.85558,
+                0.78194
+              ]
+            },
+            {
+              "confianca": 0.13393,
+              "caixa_xyxy": [
+                0.60303,
+                0.6657,
+                0.66993,
+                0.71189
+              ]
+            },
+            {
+              "confianca": 0.11267,
+              "caixa_xyxy": [
+                0.65307,
+                0.74645,
+                0.7317,
+                0.79287
+              ]
+            },
+            {
+              "confianca": 0.1109,
+              "caixa_xyxy": [
+                0.67781,
+                0.75418,
+                0.72506,
+                0.79496
+              ]
+            },
+            {
+              "confianca": 0.10118,
+              "caixa_xyxy": [
+                0.96067,
+                0.73775,
+                0.99998,
+                0.78402
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m32s686.jpg": [
+            {
+              "confianca": 0.64732,
+              "caixa_xyxy": [
+                0.42523,
+                0.81727,
+                0.50715,
+                0.88081
+              ]
+            },
+            {
+              "confianca": 0.5916,
+              "caixa_xyxy": [
+                0.73447,
+                0.7316,
+                0.83372,
+                0.80561
+              ]
+            },
+            {
+              "confianca": 0.56898,
+              "caixa_xyxy": [
+                0.42477,
+                0.76911,
+                0.50993,
+                0.89815
+              ]
+            },
+            {
+              "confianca": 0.34467,
+              "caixa_xyxy": [
+                0.73872,
+                0.7578,
+                0.81232,
+                0.80039
+              ]
+            },
+            {
+              "confianca": 0.24639,
+              "caixa_xyxy": [
+                0.43267,
+                0.76272,
+                0.50674,
+                0.83907
+              ]
+            },
+            {
+              "confianca": 0.20176,
+              "caixa_xyxy": [
+                0.86388,
+                0.77947,
+                0.93945,
+                0.81617
+              ]
+            },
+            {
+              "confianca": 0.19636,
+              "caixa_xyxy": [
+                0.19621,
+                0.61514,
+                0.26358,
+                0.66072
+              ]
+            },
+            {
+              "confianca": 0.19203,
+              "caixa_xyxy": [
+                0.42549,
+                0.81849,
+                0.4713,
+                0.87035
+              ]
+            },
+            {
+              "confianca": 0.15215,
+              "caixa_xyxy": [
+                0.66842,
+                0.73275,
+                0.73926,
+                0.79202
+              ]
+            },
+            {
+              "confianca": 0.14789,
+              "caixa_xyxy": [
+                0.83015,
+                0.67209,
+                0.89679,
+                0.72046
+              ]
+            },
+            {
+              "confianca": 0.14111,
+              "caixa_xyxy": [
+                0.90716,
+                0.78407,
+                0.93923,
+                0.81355
+              ]
+            },
+            {
+              "confianca": 0.13495,
+              "caixa_xyxy": [
+                0.22039,
+                0.63772,
+                0.26549,
+                0.66602
+              ]
+            },
+            {
+              "confianca": 0.11768,
+              "caixa_xyxy": [
+                0.11275,
+                0.61013,
+                0.18951,
+                0.6593
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m36s103.jpg": [
+            {
+              "confianca": 0.16489,
+              "caixa_xyxy": [
+                0.12382,
+                0.75109,
+                0.19716,
+                0.79544
+              ]
+            },
+            {
+              "confianca": 0.12665,
+              "caixa_xyxy": [
+                0.1149,
+                0.6988,
+                0.19995,
+                0.73828
+              ]
+            },
+            {
+              "confianca": 0.10648,
+              "caixa_xyxy": [
+                0.67869,
+                0.73105,
+                0.74434,
+                0.77141
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h41m48s826.jpg": [
+            {
+              "confianca": 0.21818,
+              "caixa_xyxy": [
+                0.79499,
+                0.72909,
+                0.86959,
+                0.78711
+              ]
+            },
+            {
+              "confianca": 0.20845,
+              "caixa_xyxy": [
+                0.73115,
+                0.61502,
+                0.82389,
+                0.69486
+              ]
+            },
+            {
+              "confianca": 0.19634,
+              "caixa_xyxy": [
+                0.76613,
+                0.66574,
+                0.82651,
+                0.70114
+              ]
+            },
+            {
+              "confianca": 0.1371,
+              "caixa_xyxy": [
+                0.92882,
+                0.73293,
+                1.0,
+                0.77687
+              ]
+            },
+            {
+              "confianca": 0.12686,
+              "caixa_xyxy": [
+                0.83866,
+                0.71036,
+                1.0,
+                0.78473
+              ]
+            },
+            {
+              "confianca": 0.1034,
+              "caixa_xyxy": [
+                0.78752,
+                0.70854,
+                0.86496,
+                0.7521
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h42m24s605.jpg": [
+            {
+              "confianca": 0.51481,
+              "caixa_xyxy": [
+                0.51762,
+                0.73363,
+                0.60155,
+                0.80018
+              ]
+            },
+            {
+              "confianca": 0.26341,
+              "caixa_xyxy": [
+                0.4089,
+                0.67295,
+                0.43894,
+                0.71839
+              ]
+            },
+            {
+              "confianca": 0.19113,
+              "caixa_xyxy": [
+                0.46497,
+                0.73252,
+                0.60391,
+                0.81551
+              ]
+            },
+            {
+              "confianca": 0.11215,
+              "caixa_xyxy": [
+                0.112,
+                0.67838,
+                0.1867,
+                0.71918
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ajustado-pune": {
+      "pesos_sha256": "d55925787c8ae6fdf204799bcca51eab8507e18b63f5f3014fa3d38f71efb486",
+      "imgsz": 480,
+      "limiar": 0.15,
+      "limiar_origem": "Pune val",
+      "val": {
+        "vp": 1,
+        "fp": 1,
+        "fn": 5,
+        "precisao": 0.5,
+        "recall": 0.16666666666666666,
+        "f1": 0.25,
+        "imagens": 20,
+        "ms_inferencia_mediana": 24.66
+      },
+      "curva_val": [
+        {
+          "limiar": 0.03,
+          "vp": 1,
+          "fp": 16,
+          "fn": 5,
+          "precisao": 0.058823529411764705,
+          "recall": 0.16666666666666666,
+          "f1": 0.08695652173913043,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.05,
+          "vp": 1,
+          "fp": 7,
+          "fn": 5,
+          "precisao": 0.125,
+          "recall": 0.16666666666666666,
+          "f1": 0.14285714285714285,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.08,
+          "vp": 1,
+          "fp": 3,
+          "fn": 5,
+          "precisao": 0.25,
+          "recall": 0.16666666666666666,
+          "f1": 0.2,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.1,
+          "vp": 1,
+          "fp": 2,
+          "fn": 5,
+          "precisao": 0.3333333333333333,
+          "recall": 0.16666666666666666,
+          "f1": 0.2222222222222222,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.12,
+          "vp": 1,
+          "fp": 1,
+          "fn": 5,
+          "precisao": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.15,
+          "vp": 1,
+          "fp": 1,
+          "fn": 5,
+          "precisao": 0.5,
+          "recall": 0.16666666666666666,
+          "f1": 0.25,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.2,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.25,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.3,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.4,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        },
+        {
+          "limiar": 0.5,
+          "vp": 0,
+          "fp": 0,
+          "fn": 6,
+          "precisao": 0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "imagens": 20,
+          "ms_inferencia_mediana": 24.66
+        }
+      ],
+      "test": {
+        "vp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precisao": 0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 17,
+        "ms_inferencia_mediana": 25.65,
+        "previsoes": {
+          "pune-1091.jpg": [],
+          "pune-1105.jpg": [],
+          "pune-2035.jpg": [],
+          "pune-3072.jpg": [],
+          "pune-4045.jpg": [],
+          "pune-5013.jpg": [],
+          "pune-5018.jpg": [],
+          "pune-5036.jpg": [],
+          "pune-5051.jpg": [],
+          "pune-5057.jpg": [],
+          "pune-6005.jpg": [],
+          "pune-6084.jpg": [],
+          "pune-7001.jpg": [],
+          "pune-7007.jpg": [],
+          "pune-7053.jpg": [],
+          "pune-7060.jpg": [],
+          "pune-7067.jpg": []
+        }
+      },
+      "sp": {
+        "vp": 0,
+        "fp": 2,
+        "fn": 7,
+        "precisao": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 16,
+        "ms_inferencia_mediana": 19.92,
+        "pontos": {
+          "sp01": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp02": {
+            "vp": 0,
+            "fp": 2,
+            "fn": 2,
+            "precisao": 0.0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp03": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "sp05": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "previsoes": {
+          "sp01-01.jpg": [],
+          "sp01-02.jpg": [],
+          "sp01-03.jpg": [],
+          "sp01-04.jpg": [],
+          "sp01-05.jpg": [],
+          "sp02-08.jpg": [
+            {
+              "confianca": 0.21573,
+              "caixa_xyxy": [
+                0.01515,
+                0.12088,
+                0.61002,
+                0.98194
+              ]
+            }
+          ],
+          "sp02-09.jpg": [
+            {
+              "confianca": 0.19284,
+              "caixa_xyxy": [
+                0.02039,
+                0.11802,
+                0.61986,
+                1.0
+              ]
+            }
+          ],
+          "sp02-14.jpg": [],
+          "sp03-05.jpg": [],
+          "sp03-07.jpg": [],
+          "sp03-08.jpg": [],
+          "sp03-11.jpg": [],
+          "sp03-13.jpg": [],
+          "sp03-14.jpg": [],
+          "sp05-01.jpg": [],
+          "sp05-02.jpg": []
+        }
+      },
+      "roma": {
+        "vp": 6,
+        "fp": 3,
+        "fn": 38,
+        "precisao": 0.6666666666666666,
+        "recall": 0.13636363636363635,
+        "f1": 0.22641509433962265,
+        "imagens": 42,
+        "ms_inferencia_mediana": 20.94,
+        "previsoes": {
+          "roma-vlcsnap-2025-02-26-20h31m13s271.jpg": [
+            {
+              "confianca": 0.16861,
+              "caixa_xyxy": [
+                0.53211,
+                0.64068,
+                0.59104,
+                0.69463
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h31m47s694.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m04s400.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m06s406.jpg": [
+            {
+              "confianca": 0.36761,
+              "caixa_xyxy": [
+                0.40298,
+                0.67037,
+                0.49729,
+                0.75802
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h33m31s511.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m55s986.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m00s633.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m04s882.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m33s099.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m36s821.jpg": [
+            {
+              "confianca": 0.28166,
+              "caixa_xyxy": [
+                0.52012,
+                0.71765,
+                0.58559,
+                0.79179
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h34m38s606.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m50s947.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m52s238.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m00s383.jpg": [
+            {
+              "confianca": 0.25217,
+              "caixa_xyxy": [
+                0.27538,
+                0.6598,
+                0.37292,
+                0.74539
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m10s274.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m13s989.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m42s760.jpg": [
+            {
+              "confianca": 0.21434,
+              "caixa_xyxy": [
+                0.78796,
+                0.69296,
+                0.88237,
+                0.79502
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m00s346.jpg": [
+            {
+              "confianca": 0.38925,
+              "caixa_xyxy": [
+                0.3671,
+                0.63089,
+                0.41744,
+                0.67217
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h36m39s333.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m05s314.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m22s370.jpg": [
+            {
+              "confianca": 0.42636,
+              "caixa_xyxy": [
+                0.02467,
+                0.7032,
+                0.09611,
+                0.76861
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h37m24s099.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m43s267.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m58s129.jpg": [
+            {
+              "confianca": 0.4009,
+              "caixa_xyxy": [
+                0.42353,
+                0.75181,
+                0.49772,
+                0.83791
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m18s850.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m20s232.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m39s955.jpg": [
+            {
+              "confianca": 0.79111,
+              "caixa_xyxy": [
+                0.17213,
+                0.71252,
+                0.25767,
+                0.81552
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h38m55s351.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m09s118.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m19s729.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m22s097.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m11s502.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m30s059.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m31s746.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m33s122.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m15s130.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m16s845.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m19s505.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m32s686.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m36s103.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m48s826.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h42m24s605.jpg": []
+        }
+      }
+    },
+    "ajustado-pune-com-recortes": {
+      "pesos_sha256": "9da4e1298f64fff20c7baf11e5d34883a125a39b151e89e4e2ae2581f0704145",
+      "imgsz": 480,
+      "limiar": 0.5,
+      "limiar_origem": "Pune val",
+      "val": {
+        "vp": 1,
+        "fp": 0,
+        "fn": 5,
+        "precisao": 1.0,
+        "recall": 0.16666666666666666,
+        "f1": 0.2857142857142857,
+        "imagens": 20,
+        "ms_inferencia_mediana": 23.62
+      },
+      "curva_val": [
+        {
+          "limiar": 0.03,
+          "vp": 1,
+          "fp": 69,
+          "fn": 5,
+          "precisao": 0.014285714285714285,
+          "recall": 0.16666666666666666,
+          "f1": 0.02631578947368421,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.05,
+          "vp": 1,
+          "fp": 52,
+          "fn": 5,
+          "precisao": 0.018867924528301886,
+          "recall": 0.16666666666666666,
+          "f1": 0.03389830508474576,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.08,
+          "vp": 1,
+          "fp": 36,
+          "fn": 5,
+          "precisao": 0.02702702702702703,
+          "recall": 0.16666666666666666,
+          "f1": 0.046511627906976744,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.1,
+          "vp": 1,
+          "fp": 28,
+          "fn": 5,
+          "precisao": 0.034482758620689655,
+          "recall": 0.16666666666666666,
+          "f1": 0.05714285714285714,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.12,
+          "vp": 1,
+          "fp": 23,
+          "fn": 5,
+          "precisao": 0.041666666666666664,
+          "recall": 0.16666666666666666,
+          "f1": 0.06666666666666667,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.15,
+          "vp": 1,
+          "fp": 18,
+          "fn": 5,
+          "precisao": 0.05263157894736842,
+          "recall": 0.16666666666666666,
+          "f1": 0.08,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.2,
+          "vp": 1,
+          "fp": 11,
+          "fn": 5,
+          "precisao": 0.08333333333333333,
+          "recall": 0.16666666666666666,
+          "f1": 0.1111111111111111,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.25,
+          "vp": 1,
+          "fp": 7,
+          "fn": 5,
+          "precisao": 0.125,
+          "recall": 0.16666666666666666,
+          "f1": 0.14285714285714285,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.3,
+          "vp": 1,
+          "fp": 3,
+          "fn": 5,
+          "precisao": 0.25,
+          "recall": 0.16666666666666666,
+          "f1": 0.2,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.4,
+          "vp": 1,
+          "fp": 3,
+          "fn": 5,
+          "precisao": 0.25,
+          "recall": 0.16666666666666666,
+          "f1": 0.2,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        },
+        {
+          "limiar": 0.5,
+          "vp": 1,
+          "fp": 0,
+          "fn": 5,
+          "precisao": 1.0,
+          "recall": 0.16666666666666666,
+          "f1": 0.2857142857142857,
+          "imagens": 20,
+          "ms_inferencia_mediana": 23.62
+        }
+      ],
+      "test": {
+        "vp": 0,
+        "fp": 0,
+        "fn": 6,
+        "precisao": 0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 17,
+        "ms_inferencia_mediana": 22.54,
+        "previsoes": {
+          "pune-1091.jpg": [],
+          "pune-1105.jpg": [],
+          "pune-2035.jpg": [],
+          "pune-3072.jpg": [],
+          "pune-4045.jpg": [],
+          "pune-5013.jpg": [],
+          "pune-5018.jpg": [],
+          "pune-5036.jpg": [],
+          "pune-5051.jpg": [],
+          "pune-5057.jpg": [],
+          "pune-6005.jpg": [],
+          "pune-6084.jpg": [],
+          "pune-7001.jpg": [],
+          "pune-7007.jpg": [],
+          "pune-7053.jpg": [],
+          "pune-7060.jpg": [],
+          "pune-7067.jpg": []
+        }
+      },
+      "sp": {
+        "vp": 0,
+        "fp": 0,
+        "fn": 7,
+        "precisao": 0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "imagens": 16,
+        "ms_inferencia_mediana": 18.8,
+        "pontos": {
+          "sp01": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 3,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp02": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          "sp03": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 0,
+            "precisao": 0,
+            "recall": 0,
+            "f1": 0
+          },
+          "sp05": {
+            "vp": 0,
+            "fp": 0,
+            "fn": 2,
+            "precisao": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          }
+        },
+        "previsoes": {
+          "sp01-01.jpg": [],
+          "sp01-02.jpg": [],
+          "sp01-03.jpg": [],
+          "sp01-04.jpg": [],
+          "sp01-05.jpg": [],
+          "sp02-08.jpg": [],
+          "sp02-09.jpg": [],
+          "sp02-14.jpg": [],
+          "sp03-05.jpg": [],
+          "sp03-07.jpg": [],
+          "sp03-08.jpg": [],
+          "sp03-11.jpg": [],
+          "sp03-13.jpg": [],
+          "sp03-14.jpg": [],
+          "sp05-01.jpg": [],
+          "sp05-02.jpg": []
+        }
+      },
+      "roma": {
+        "vp": 1,
+        "fp": 0,
+        "fn": 43,
+        "precisao": 1.0,
+        "recall": 0.022727272727272728,
+        "f1": 0.044444444444444446,
+        "imagens": 42,
+        "ms_inferencia_mediana": 20.29,
+        "previsoes": {
+          "roma-vlcsnap-2025-02-26-20h31m13s271.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h31m47s694.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m04s400.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m06s406.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m31s511.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h33m55s986.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m00s633.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m04s882.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m33s099.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m36s821.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m38s606.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m50s947.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h34m52s238.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m00s383.jpg": [
+            {
+              "confianca": 0.60083,
+              "caixa_xyxy": [
+                0.274,
+                0.66834,
+                0.33468,
+                0.72635
+              ]
+            }
+          ],
+          "roma-vlcsnap-2025-02-26-20h35m10s274.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m13s989.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h35m42s760.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h36m00s346.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h36m39s333.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m05s314.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m22s370.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m24s099.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m43s267.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h37m58s129.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m18s850.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m20s232.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m39s955.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h38m55s351.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m09s118.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m19s729.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h39m22s097.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m11s502.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m30s059.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m31s746.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h40m33s122.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m15s130.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m16s845.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m19s505.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m32s686.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m36s103.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h41m48s826.jpg": [],
+          "roma-vlcsnap-2025-02-26-20h42m24s605.jpg": []
+        }
+      }
+    }
+  },
+  "iou": 0.5,
+  "selecao": "Maior F1 entre os retreinos no conjunto de validação de Pune. Os limiares ficam fixos para cada teste."
+}

@@ -1,0 +1,87 @@
+{
+  "origem": "Vídeo de campo. Seleção visual a 2 fps para investigar o dano no piso tátil e alertas de obstáculo associados ao calçado.",
+  "cenas": [
+    {
+      "nome": "Piso tátil danificado",
+      "classe": "calcada_quebrada",
+      "presente": true,
+      "quadros": [
+        {
+          "imagem": "066.jpg",
+          "segundo": 32.5
+        },
+        {
+          "imagem": "067.jpg",
+          "segundo": 33.0
+        },
+        {
+          "imagem": "068.jpg",
+          "segundo": 33.5
+        },
+        {
+          "imagem": "069.jpg",
+          "segundo": 34.0
+        },
+        {
+          "imagem": "070.jpg",
+          "segundo": 34.5
+        },
+        {
+          "imagem": "071.jpg",
+          "segundo": 35.0
+        },
+        {
+          "imagem": "072.jpg",
+          "segundo": 35.5
+        },
+        {
+          "imagem": "073.jpg",
+          "segundo": 36.0
+        },
+        {
+          "imagem": "074.jpg",
+          "segundo": 36.5
+        }
+      ]
+    },
+    {
+      "nome": "Calçado do operador sem obstáculo na rota",
+      "classe": "obstaculo",
+      "presente": false,
+      "quadros": [
+        {
+          "imagem": "077.jpg",
+          "segundo": 38.0
+        },
+        {
+          "imagem": "078.jpg",
+          "segundo": 38.5
+        },
+        {
+          "imagem": "079.jpg",
+          "segundo": 39.0
+        },
+        {
+          "imagem": "080.jpg",
+          "segundo": 39.5
+        },
+        {
+          "imagem": "081.jpg",
+          "segundo": 40.0
+        },
+        {
+          "imagem": "082.jpg",
+          "segundo": 40.5
+        },
+        {
+          "imagem": "083.jpg",
+          "segundo": 41.0
+        },
+        {
+          "imagem": "084.jpg",
+          "segundo": 41.5
+        }
+      ]
+    }
+  ]
+}

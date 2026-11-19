@@ -1,0 +1,14 @@
+{
+  "ambiente": "API local com fotos de Pune e coordenada de teste em São Paulo",
+  "ocorrencias": [
+    {
+      "origem": "visao",
+      "tipo": "calcada_quebrada",
+      "confianca": 0.6497,
+      "status": "validada",
+      "prioridade": "baixa",
+      "subprefeitura": "SE"
+    }
+  ],
+  "total_relatorio_se": 1
+}

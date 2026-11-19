@@ -1,0 +1,1948 @@
+[
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1014.jpg",
+    "origem": "Train/1014.jpg",
+    "caixas_xyxy": [
+      [
+        0.1062992,
+        0.4242424,
+        0.6889764,
+        0.7878788
+      ]
+    ],
+    "sha256": "94c3a2a10ab0f647a022c035b096df099870b05b61266f533a5312b96e0f076c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1031.jpg",
+    "origem": "Train/1031.jpg",
+    "caixas_xyxy": [
+      [
+        0.1811024,
+        0.0969697,
+        0.7992126,
+        0.9090909
+      ]
+    ],
+    "sha256": "0f9473be30120e17b00625f58f4a65155037459f9caf64c3c2e57fea2a4cf899"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1034.jpg",
+    "origem": "Train/1034.jpg",
+    "caixas_xyxy": [
+      [
+        0.2637795,
+        0.230303,
+        0.5866142,
+        0.7757576
+      ]
+    ],
+    "sha256": "264b359bf1771d4d0690828da1438892596069608be239f73413e5de7098779c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1090.jpg",
+    "origem": "Train/1090.jpg",
+    "caixas_xyxy": [
+      [
+        0.1220472,
+        0.1575758,
+        0.6496063,
+        0.9515152
+      ]
+    ],
+    "sha256": "eb94ebf8280c5cb527c4431d5e1c7bd0d9b7d593403308abbae20b4addd9c064"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1113.jpg",
+    "origem": "Train/1113.jpg",
+    "caixas_xyxy": [
+      [
+        0.3188976,
+        0.2606061,
+        0.7165354,
+        0.6181818
+      ]
+    ],
+    "sha256": "4a0683a7ff5bfd4de7edf8d2fc946fd91646c3d7ec3fa6574b1c64d9821ad9ea"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-2005.jpg",
+    "origem": "Train/2005.jpg",
+    "caixas_xyxy": [
+      [
+        0.4370079,
+        0.4848485,
+        0.6574803,
+        0.6424242
+      ]
+    ],
+    "sha256": "4ab84909652d18e7cc2205a2aad849de05fe6f02cbddcff4682cb7c3b237fa08"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3036.jpg",
+    "origem": "Train/3036.jpg",
+    "caixas_xyxy": [
+      [
+        0.1338583,
+        0.0969697,
+        0.6811024,
+        0.9757576
+      ]
+    ],
+    "sha256": "d11591c66da7a2d2dc4a30b4c9b23a7189992f3ed43fab21121a4213c58d0efb"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3045.jpg",
+    "origem": "Train/3045.jpg",
+    "caixas_xyxy": [
+      [
+        0.3858268,
+        0.4909091,
+        0.5669291,
+        0.6181818
+      ]
+    ],
+    "sha256": "f0fc11743ec80a2101c96904b066d4ff8d73d2d388b6a359ca030f8a405158fc"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3064.jpg",
+    "origem": "Train/3064.jpg",
+    "caixas_xyxy": [
+      [
+        0.3976378,
+        0.5818182,
+        0.5629921,
+        0.830303
+      ]
+    ],
+    "sha256": "6e71fd7537ffdffe61a121837530b035da3295b9d29d951dbf9edc7f4a6f9ca4"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3067.jpg",
+    "origem": "Train/3067.jpg",
+    "caixas_xyxy": [
+      [
+        0.0708661,
+        0.430303,
+        0.7125984,
+        0.9575758
+      ]
+    ],
+    "sha256": "3e2e5ef24195cbbf8651f5166f57959afd9d45b28fd747e82595adbdb2509308"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-4055.jpg",
+    "origem": "Train/4055.jpg",
+    "caixas_xyxy": [
+      [
+        0.4212598,
+        0.3939394,
+        0.5511811,
+        0.6363636
+      ]
+    ],
+    "sha256": "561c2898e8f0165078cff6af97d7f489b54217132d02fdcd6442c806e25202d3"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5011.jpg",
+    "origem": "Train/5011.jpg",
+    "caixas_xyxy": [
+      [
+        0.2874016,
+        0.2484848,
+        0.9173228,
+        0.7515152
+      ]
+    ],
+    "sha256": "d277a0207265e25ec3a9c4ef1b7162639381213e528abbce6f517345e19db3bf"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5014.jpg",
+    "origem": "Train/5014.jpg",
+    "caixas_xyxy": [
+      [
+        0.6062992,
+        0.369697,
+        0.9291339,
+        0.969697
+      ]
+    ],
+    "sha256": "470aa2cbaf5aa8fb21234fffbc47bf352b581942f612479caa72d314261f0023"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5054.jpg",
+    "origem": "Train/5054.jpg",
+    "caixas_xyxy": [
+      [
+        0.007874,
+        0.2363636,
+        0.8818898,
+        0.8787879
+      ]
+    ],
+    "sha256": "3e02524793489518e0c985d2ef24fe2c470f212c197bab33876ef8d8e031f072"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6010.jpg",
+    "origem": "Train/6010.jpg",
+    "caixas_xyxy": [
+      [
+        0.1968504,
+        0.0484848,
+        0.9370079,
+        0.7636364
+      ]
+    ],
+    "sha256": "b9d3a78cf7c9c47c1c216d9b7c6fb60e3c92bed92b0682405fc093d9097ea01a"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6021.jpg",
+    "origem": "Train/6021.jpg",
+    "caixas_xyxy": [
+      [
+        0.4133858,
+        0.4666667,
+        0.6850394,
+        0.8181818
+      ]
+    ],
+    "sha256": "92f5e8348588e0bd44852f954d7d71863dbf1d91d94b0f43daa7dc432dcd14f9"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6045.jpg",
+    "origem": "Train/6045.jpg",
+    "caixas_xyxy": [
+      [
+        0.3110236,
+        0.3030303,
+        0.7480315,
+        0.7272727
+      ]
+    ],
+    "sha256": "48e3bc4c16889f0fd853b41901c058d78430dd98758fc311e42719d4e01bcae0"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6054.jpg",
+    "origem": "Train/6054.jpg",
+    "caixas_xyxy": [
+      [
+        0.3267717,
+        0.4606061,
+        0.4566929,
+        0.6363636
+      ]
+    ],
+    "sha256": "1ae5f0f4cb3216c91f1d0b585c3a6abfcc25a129b19d4fd4921c7ea63d714df4"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6056.jpg",
+    "origem": "Train/6056.jpg",
+    "caixas_xyxy": [
+      [
+        0.2362205,
+        0.0242424,
+        0.984252,
+        0.7212121
+      ]
+    ],
+    "sha256": "a8e1bda37577ea16dfe0a7f073164d406b99162b7678d0e1bef7541f72b56ea9"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6094.jpg",
+    "origem": "Train/6094.jpg",
+    "caixas_xyxy": [
+      [
+        0.2598425,
+        0.3393939,
+        0.6417323,
+        0.7636364
+      ]
+    ],
+    "sha256": "ac5786491d8396b6fe73d0e8ec85bbdf7ffac1cabfbec35c658301e34919a013"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7019.jpg",
+    "origem": "Train/7019.jpg",
+    "caixas_xyxy": [
+      [
+        0.3503937,
+        0.3878788,
+        0.9133858,
+        0.7212121
+      ]
+    ],
+    "sha256": "74bc3f8984dce8cb46a6b0f006e3fba7047b952be6a4abf6bd52370808807525"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7059.jpg",
+    "origem": "Train/7059.jpg",
+    "caixas_xyxy": [
+      [
+        0.1496063,
+        0.4424242,
+        0.5393701,
+        0.630303
+      ]
+    ],
+    "sha256": "6ab6840bc79967c7db3416bc87f66f313aca64f0b6712e10ac0e7c9e033bb53e"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-KGD02064.jpg",
+    "origem": "Train/KGD02064.jpg",
+    "caixas_xyxy": [
+      [
+        0.484252,
+        0.3090909,
+        0.7204724,
+        0.4969697
+      ]
+    ],
+    "sha256": "49e0c515e299059457d2a6d75f05f433ab4796892713ec4bce993b53b1568ac1"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-KGD02197.jpg",
+    "origem": "Train/KGD02197.jpg",
+    "caixas_xyxy": [
+      [
+        0,
+        0.2909091,
+        0.976378,
+        0.969697
+      ]
+    ],
+    "sha256": "c4af581bb08f684ed83220772b3470777a2dc9e71866759667ea7a11615bc64b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1002.jpg",
+    "origem": "Train/1002.jpg",
+    "caixas_xyxy": [],
+    "sha256": "639054d89536e07d33ff90a1c4d5e0f3802f1705056faa008fb9b4784e5a30d8"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-1028.jpg",
+    "origem": "Train/1028.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e593cc211005a10282a96ed7e1dae809a6af0ee8be66eda2ef13c3ed616f2686"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-2019.jpg",
+    "origem": "Train/2019.jpg",
+    "caixas_xyxy": [],
+    "sha256": "5c5159ef043f4e58a9db8eb46479bb895701a66345d09438900e46cef6f83989"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-2021.jpg",
+    "origem": "Train/2021.jpg",
+    "caixas_xyxy": [],
+    "sha256": "d03a936cf2a175160201f0d58cd83016e79f4872eb72772c029757cde855c69c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-2023.jpg",
+    "origem": "Train/2023.jpg",
+    "caixas_xyxy": [],
+    "sha256": "8eed9baa88c911e0bcbc129c68d814c397e9973e7f5f80d9759dd0d1c34462d9"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-2029.jpg",
+    "origem": "Train/2029.jpg",
+    "caixas_xyxy": [],
+    "sha256": "09a57b61fb0788d27f89db5f1c5c5e83a7cfc369798c312a32366c3be892443f"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-2036.jpg",
+    "origem": "Train/2036.jpg",
+    "caixas_xyxy": [],
+    "sha256": "db178c792f85f1b6a6d716674bc79766698b64ae5f6f6cab2aacae8ca7638863"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3016.jpg",
+    "origem": "Train/3016.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e4660e63784c673858509edbba822ea2d2f05503e045aa1a6f6f512676fcfa9c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3058.jpg",
+    "origem": "Train/3058.jpg",
+    "caixas_xyxy": [],
+    "sha256": "ca94502779e4bad83592601fddf7263396cc0df8af6034dd7822d0973912134c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-3076.jpg",
+    "origem": "Train/3076.jpg",
+    "caixas_xyxy": [],
+    "sha256": "0fd01f70700810447dfae314deaa7a68c86c844ff8806253d6a98512213928e9"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-4000.jpg",
+    "origem": "Train/4000.jpg",
+    "caixas_xyxy": [],
+    "sha256": "74bdb3c15c285fef61721c3cc3d27fab3565b102a3633df9305c827826f1bba1"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-4018.jpg",
+    "origem": "Train/4018.jpg",
+    "caixas_xyxy": [],
+    "sha256": "0bffbe175c619b296e39bebab03ab0b36e5c29bb7a441e791eee85fc8da54497"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-4054.jpg",
+    "origem": "Train/4054.jpg",
+    "caixas_xyxy": [],
+    "sha256": "088f040ed665f1aca5a47485395eb69546383f0115de62af8a9af20976825ef0"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5025.jpg",
+    "origem": "Train/5025.jpg",
+    "caixas_xyxy": [],
+    "sha256": "75d2f1cda47f1a27417de022d2bdeb086eb258c17c4ffecda9452599cacbad3a"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5033.jpg",
+    "origem": "Train/5033.jpg",
+    "caixas_xyxy": [],
+    "sha256": "8182015dd690ce7f7d8f8f35ca7cb3c53526af714249108cce144a201b73dca3"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5042.jpg",
+    "origem": "Train/5042.jpg",
+    "caixas_xyxy": [],
+    "sha256": "7d1655f13a91168e3a91c2f78f6c34ca038455dfee832d6b235947ffcf5799fb"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5049.jpg",
+    "origem": "Train/5049.jpg",
+    "caixas_xyxy": [],
+    "sha256": "172d9077b620cdc5401b6cffd44275955dfdff14b7f0edec3f5f83c28cd86693"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-5052.jpg",
+    "origem": "Train/5052.jpg",
+    "caixas_xyxy": [],
+    "sha256": "3dc1e00a181f309691d7c7827997fa21bbb68b6ab7e9b269e0074edbd13361e9"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6034.jpg",
+    "origem": "Train/6034.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e5a6574e413e5aabfa89a66206c99424b5cefbc8f60df415fb111db825c6ff4c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6047.jpg",
+    "origem": "Train/6047.jpg",
+    "caixas_xyxy": [],
+    "sha256": "cd82a1d28a2a212c302d2bd552a1521a1999f5d5f475f888fb21a680d5dbaa65"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6062.jpg",
+    "origem": "Train/6062.jpg",
+    "caixas_xyxy": [],
+    "sha256": "9eba2e34509a3327411459c4b379cb83df5293806c5bd70494beddf0ba2e4007"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6063.jpg",
+    "origem": "Train/6063.jpg",
+    "caixas_xyxy": [],
+    "sha256": "9799e8d09124751510ee191b8635708ad6b580970f416df735302ffeabd789be"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6086.jpg",
+    "origem": "Train/6086.jpg",
+    "caixas_xyxy": [],
+    "sha256": "eded84151e5967d54eedf9561ce1a4f61ccb1e101db7584c17a05af27a148137"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-6092.jpg",
+    "origem": "Train/6092.jpg",
+    "caixas_xyxy": [],
+    "sha256": "5bacd3d23bc9f30629a7f50ba64bdb2d6998d03296a8aa300b1cf82199727ec8"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7006.jpg",
+    "origem": "Train/7006.jpg",
+    "caixas_xyxy": [],
+    "sha256": "5275218d95ed1c6dfa2605d49e160479427d5b2c6c131239eab6cdfe0fb3a50b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7013.jpg",
+    "origem": "Train/7013.jpg",
+    "caixas_xyxy": [],
+    "sha256": "0812db12fa9ec5736aa4289d280b8573e97590c9121910e9dd52644d8a88935b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7023.jpg",
+    "origem": "Train/7023.jpg",
+    "caixas_xyxy": [],
+    "sha256": "458d1230b8cfd3a0f035f6da15bdad24db0fc9088d1b160374961f39b126cf1f"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-7036.jpg",
+    "origem": "Train/7036.jpg",
+    "caixas_xyxy": [],
+    "sha256": "b96f23b975068c9d6c84305d43638df3af2e408e8ffcd4a5f61c1f684852633f"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-KGD02066.jpg",
+    "origem": "Train/KGD02066.jpg",
+    "caixas_xyxy": [],
+    "sha256": "d56276d3ecebe98f982f3d6756374c2de96e4c0a5a8a056928117ef783157a3b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-KGD02097.jpg",
+    "origem": "Train/KGD02097.jpg",
+    "caixas_xyxy": [],
+    "sha256": "ee4ca65e9ea4dbca967cd922e1d9c5675ef38ff1204de30f98103bba67fe2400"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-KGD02169.jpg",
+    "origem": "Train/KGD02169.jpg",
+    "caixas_xyxy": [],
+    "sha256": "967c8d00731a78f3003f699a41f7911e27e4a5ec8de3052cd41f457081ecc3e1"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "imagem": "pune-KGD02178.jpg",
+    "origem": "Train/KGD02178.jpg",
+    "caixas_xyxy": [],
+    "sha256": "114db89590a447458be4132d80eb2bd8842dd165faa0ce4cc8e65c1618f8bc2a"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-1062.jpg",
+    "origem": "Val/1062.jpg",
+    "caixas_xyxy": [
+      [
+        0.3779528,
+        0.1515152,
+        0.507874,
+        0.9818182
+      ]
+    ],
+    "sha256": "98473592ca3c2d159e0ce004de362414ac145b17a76309276814c37e59b20193"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3008.jpg",
+    "origem": "Val/3008.jpg",
+    "caixas_xyxy": [
+      [
+        0.1929134,
+        0.0060606,
+        0.6692913,
+        0.7393939
+      ]
+    ],
+    "sha256": "7651f50ac68438c588de4ce6e4917bc95520198bfd47530ada6feb34ac59c97b"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-6087.jpg",
+    "origem": "Val/6087.jpg",
+    "caixas_xyxy": [
+      [
+        0.2086614,
+        0.4969697,
+        0.4291339,
+        0.6787879
+      ]
+    ],
+    "sha256": "d06ae48390f22c3721a1712a8c1be9b31fb8d803341b6b423095b0d62b372614"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-1019.jpg",
+    "origem": "Val/1019.jpg",
+    "caixas_xyxy": [],
+    "sha256": "ebf6f695370270238ee21a824bd538d8ba2c1c179d91199139fd48831d59454d"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-1102.jpg",
+    "origem": "Val/1102.jpg",
+    "caixas_xyxy": [],
+    "sha256": "99d59f8742ed7463cb9bf551d2222c9efbfef6a8e3acf2f0d5a7e3ae7061ec93"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3014.jpg",
+    "origem": "Val/3014.jpg",
+    "caixas_xyxy": [],
+    "sha256": "a8d07f0585fe82475a94fd5ce2bef09d496f4983d700b832773d33bbf922ea95"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3026.jpg",
+    "origem": "Val/3026.jpg",
+    "caixas_xyxy": [],
+    "sha256": "c0775b98edb31c064693538854b50c439f2e7af04760af065d5309fc727be074"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3033.jpg",
+    "origem": "Val/3033.jpg",
+    "caixas_xyxy": [],
+    "sha256": "9c32c94b6e1249c83adcc86e0c436ff5f3831f7556f5a2162f8d38ad55c9622a"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3039.jpg",
+    "origem": "Val/3039.jpg",
+    "caixas_xyxy": [],
+    "sha256": "1d0a3b3a48912e7eea1c61fdbf7222d2dec22ae14aea57ce50cf964ed7b7bb60"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-3068.jpg",
+    "origem": "Val/3068.jpg",
+    "caixas_xyxy": [],
+    "sha256": "6e93aee8d4b86a659ec1a599d905d2d8231abad8f69a7f3a99c491c0b3c525ea"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-4006.jpg",
+    "origem": "Val/4006.jpg",
+    "caixas_xyxy": [],
+    "sha256": "2f45f2f748ebbe8ed43662faa1732376023de14401a439f24122306cacaa697c"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-4013.jpg",
+    "origem": "Val/4013.jpg",
+    "caixas_xyxy": [],
+    "sha256": "582394b9d98577753f2e414f0f6143d3787ecc3df060d712c8b7f6703b2cb098"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-6004.jpg",
+    "origem": "Val/6004.jpg",
+    "caixas_xyxy": [],
+    "sha256": "1f6fd5488d96f285efdaafc235ae5268c920644a26f53469c3588854b5696599"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-6008.jpg",
+    "origem": "Val/6008.jpg",
+    "caixas_xyxy": [],
+    "sha256": "c804bef15f19a41c969efe76866331902b523eaad3fd339c3e15ecf991f1a814"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-6011.jpg",
+    "origem": "Val/6011.jpg",
+    "caixas_xyxy": [],
+    "sha256": "d9aa460eddaa99c67126bf3f67722b1739872ac9cd87309d8c82404bee4ff033"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-6036.jpg",
+    "origem": "Val/6036.jpg",
+    "caixas_xyxy": [],
+    "sha256": "681bcba09b2e5c7bb66b4c4ebd447155e31a7e9f0abf6af5ff51600b1e460413"
+  },
+  {
+    "fonte": "pune",
+    "split": "val",
+    "imagem": "pune-7028.jpg",
+    "origem": "Val/7028.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e7025ea18f964cd2ed9d0bbd605dcf78957cc4234ff2ee046976f039b3b832ae"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-4045.jpg",
+    "origem": "Test/4045.jpg",
+    "caixas_xyxy": [
+      [
+        0.4015748,
+        0.169697,
+        0.7007874,
+        0.8848485
+      ]
+    ],
+    "sha256": "27c2fa15cd330b2508a149035f6aeace566cbb443d4d4fccd099a4cdee444fdd"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-5013.jpg",
+    "origem": "Test/5013.jpg",
+    "caixas_xyxy": [
+      [
+        0.4370079,
+        0.0060606,
+        0.9527559,
+        0.9939394
+      ]
+    ],
+    "sha256": "b49ece96ccfb9ecb2d10f7f22f9680ceefc96d77297d3510dba8c918f8b583c2"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-5018.jpg",
+    "origem": "Test/5018.jpg",
+    "caixas_xyxy": [
+      [
+        0.2165354,
+        0.1151515,
+        0.8700787,
+        0.9757576
+      ]
+    ],
+    "sha256": "a3eb5b2349042798c310b96798c18854ee0699cbaf9a3e4061584886b3f3b985"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-5057.jpg",
+    "origem": "Test/5057.jpg",
+    "caixas_xyxy": [
+      [
+        0.3976378,
+        0.3515152,
+        0.8188976,
+        0.6
+      ]
+    ],
+    "sha256": "2a0e8b336a8d56d34983c52e748c676ea96496eb23c0d98b017adaf97d4f0cf4"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-6005.jpg",
+    "origem": "Test/6005.jpg",
+    "caixas_xyxy": [
+      [
+        0.1850394,
+        0.1757576,
+        0.7283465,
+        0.7272727
+      ]
+    ],
+    "sha256": "c8e5d4b1232688565f43c15199b748afd84e47add7e08c2da4f92eb1d1827f85"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-7060.jpg",
+    "origem": "Test/7060.jpg",
+    "caixas_xyxy": [
+      [
+        0.1181102,
+        0.1878788,
+        0.9685039,
+        0.9454545
+      ]
+    ],
+    "sha256": "14f9af4bcf3e953de7ec0e3dc9df10c596687b28b79a686c597876d08efdcc9a"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-1091.jpg",
+    "origem": "Test/1091.jpg",
+    "caixas_xyxy": [],
+    "sha256": "3163a6056eca29853a7c183eed94a184956b9cc8d2a06956a5950329c9a3eee9"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-1105.jpg",
+    "origem": "Test/1105.jpg",
+    "caixas_xyxy": [],
+    "sha256": "b57d5949c474a4e977a975d72bf2bbb58f74d3b041e7c9fb3459d6ae8c5ca40f"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-2035.jpg",
+    "origem": "Test/2035.jpg",
+    "caixas_xyxy": [],
+    "sha256": "d6b648f59a8ddd4e78f6a9e977ba3b67376913fb823ba4cc0fb7e0378d58ef57"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-3072.jpg",
+    "origem": "Test/3072.jpg",
+    "caixas_xyxy": [],
+    "sha256": "dc3cfdeb08a182a67c131a8399458b98bff10b984ccde3165d7bca780b4fcb88"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-5036.jpg",
+    "origem": "Test/5036.jpg",
+    "caixas_xyxy": [],
+    "sha256": "45f6a9c3532f4448b8be1df449bdac87f4c00dd1f48f49f4382a46bfd12cbb6a"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-5051.jpg",
+    "origem": "Test/5051.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e59e93c8187cf10dc02595bb373e7662c150e01366bd188cf331bf4d5ee184fb"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-6084.jpg",
+    "origem": "Test/6084.jpg",
+    "caixas_xyxy": [],
+    "sha256": "78f978ca018fe426e4adb3961723c4f99b8ad8b7951771a07afe6ed498d76559"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-7001.jpg",
+    "origem": "Test/7001.jpg",
+    "caixas_xyxy": [],
+    "sha256": "84e4596e91125de9a54c2504919b0f484219d913ac0c2361f356d098f165ce32"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-7007.jpg",
+    "origem": "Test/7007.jpg",
+    "caixas_xyxy": [],
+    "sha256": "4cfd6d08759202f2e4324ed5e423abd5174536c73773fa3e0c72517ee52ee932"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-7053.jpg",
+    "origem": "Test/7053.jpg",
+    "caixas_xyxy": [],
+    "sha256": "54468945e4b94635d1fb40f8459466de35fed285c4bbd79164fb710574c91cf6"
+  },
+  {
+    "fonte": "pune",
+    "split": "test",
+    "imagem": "pune-7067.jpg",
+    "origem": "Test/7067.jpg",
+    "caixas_xyxy": [],
+    "sha256": "e652d598532fbabaac068d174f225c846b25bc80484cf18278e7f374448faf10"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h15m44s701.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h15m44s701.jpg",
+    "caixas_yolo": [],
+    "sha256": "71bf980f786041fab5a15af538ab416ff248dbd87343b94713463301041961d8"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h28m11s518.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h28m11s518.jpg",
+    "caixas_yolo": [
+      "0 0.4484380 0.7152780 0.0437500 0.0305560",
+      "0 0.5125000 0.6472220 0.0250000 0.0277780",
+      "0 0.4507810 0.6319445 0.0265620 0.0305550"
+    ],
+    "sha256": "68354fb1cda7079dcd01241615ca0ebe9dd7943fc636984cf56adb2d8d053095"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h18m26s133.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h18m26s133.jpg",
+    "caixas_yolo": [
+      "0 0.4109375 0.4847225 0.2625010 0.1138890"
+    ],
+    "sha256": "e21e81ca1962f585315fc63b6dc06e298f4f098bea19a2ec406f6f122989ca4d"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h11m31s430.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h11m31s430.jpg",
+    "caixas_yolo": [
+      "0 0.4429690 0.4333330 0.0234380 0.0277780",
+      "0 0.4984370 0.4347220 0.0437500 0.0472220"
+    ],
+    "sha256": "c7d18623b5829be9a10dbaf5b7aef4e92d1e4824e3ba8955658b6517d3c95365"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h18m28s528.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h18m28s528.jpg",
+    "caixas_yolo": [
+      "0 0.2843750 0.6833335 0.3125000 0.2111110"
+    ],
+    "sha256": "cc12e4e41013bfc916137057ddba0d3c85379570689b907333f4f2a2d967ff4b"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h36m10s641.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h36m10s641.jpg",
+    "caixas_yolo": [
+      "0 0.7726560 0.6194440 0.0984380 0.1000000"
+    ],
+    "sha256": "f0a2cbcda4ec20c9c41e0d1d2b3e0452b238bb9421f74990c11c44b2d1384c70"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h04m16s176.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h04m16s176.jpg",
+    "caixas_yolo": [
+      "0 0.5335940 0.5972220 0.0609380 0.0555560"
+    ],
+    "sha256": "59a9f6ae5d05e9554f55402bfc66a86469fd96f27041d1a85d8093c9e83facb8"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h28m07s931.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h28m07s931.jpg",
+    "caixas_yolo": [
+      "0 0.4023440 0.7027775 0.0546880 0.0666670",
+      "0 0.5390625 0.6736110 0.0749990 0.0416660",
+      "0 0.6179690 0.6458335 0.0578120 0.0583330",
+      "0 0.4999995 0.6444445 0.0406250 0.0277770"
+    ],
+    "sha256": "dc5d529ed9720dd19aeacb4323f94245b5f5d52c39b590a2292cd771a5537418"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h22m11s370.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h22m11s370.jpg",
+    "caixas_yolo": [],
+    "sha256": "0f41b5d102efd9688212d4cbda8bacab4726f07e746f5094323c948c9919825b"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h03m05s668.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h03m05s668.jpg",
+    "caixas_yolo": [
+      "0 0.0546875 0.8000000 0.1093750 0.1388880"
+    ],
+    "sha256": "7d589af12722288242d8feedee940992131b856e322e981e07f80b62d622e1c7"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h05m59s410.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h05m59s410.jpg",
+    "caixas_yolo": [],
+    "sha256": "92c8035d59c18a8349e923fc6bf482ff70d42eaeadf4e1066a477cbc829f0bbe"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h01m30s056.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h01m30s056.jpg",
+    "caixas_yolo": [
+      "0 0.0796875 0.6527780 0.0875010 0.0444440"
+    ],
+    "sha256": "670ae2adf075b21c805341bb758c02854e427906c35e53ddc4f7d9fc138316bf"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h36m36s724.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h36m36s724.jpg",
+    "caixas_yolo": [
+      "0 0.1726560 0.4680555 0.0453120 0.0361110"
+    ],
+    "sha256": "9253ce9ed359cdd0a4e42ca0adb2da1482127e8acbd6dcf900fe216176fbdef0"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h03m43s523.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h03m43s523.jpg",
+    "caixas_yolo": [
+      "0 0.5109370 0.5527780 0.0562500 0.0500000"
+    ],
+    "sha256": "9a26f403464ca5177a86df783af35d2247733af5742043045920ab6073f31932"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h27m47s699.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h27m47s699.jpg",
+    "caixas_yolo": [
+      "0 0.6343750 0.5111110 0.0687500 0.0333340"
+    ],
+    "sha256": "63d5a4f2ee515978dbe4f1223de42c99987ebd89272e95e461889386eade8696"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h24m07s428.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h24m07s428.jpg",
+    "caixas_yolo": [
+      "0 0.6765625 0.6500000 0.0250010 0.0277780"
+    ],
+    "sha256": "6cd6be9c68ec01aeeede0b0cfd60c4c9b6502d44299c80305989835abafe1ed9"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h18m58s066.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h18m58s066.jpg",
+    "caixas_yolo": [
+      "0 0.1187500 0.6944445 0.0406260 0.0444450"
+    ],
+    "sha256": "ae7c0b49cee523ef3331f1c3fcf2b634e9515ebe4646100b4cf74325b458ca61"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h22m56s835.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h22m56s835.jpg",
+    "caixas_yolo": [
+      "0 0.7890625 0.6708335 0.0781250 0.0361110"
+    ],
+    "sha256": "49aed6142dd4a921dfd9224ea82127776036277be10480650814dbcf80f1ba39"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h32m48s578.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h32m48s578.jpg",
+    "caixas_yolo": [],
+    "sha256": "8ef0362d2e88d94d21cc8600ef17f4495d375a05068578166629f0a8d283daa8"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h31m01s683.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h31m01s683.jpg",
+    "caixas_yolo": [],
+    "sha256": "ce115992a4a0f7cd6fc60c1fa5a1a524c0036812850a86d8d88f9c3fc1454f89"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h30m27s923.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h30m27s923.jpg",
+    "caixas_yolo": [
+      "0 0.3539060 0.6597225 0.0296880 0.0416670",
+      "0 0.6179690 0.6541665 0.0359380 0.0361110",
+      "0 0.6804690 0.7430555 0.0484380 0.0527770"
+    ],
+    "sha256": "9ae87a948d2ac09fb5e4874e7ff72ab7a88f6dd2c5149d573c14df7f982c7a1f"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h27m52s423.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h27m52s423.jpg",
+    "caixas_yolo": [],
+    "sha256": "5d9f6a6a999b09a4be62edf0117b231f31ba072fb69ebf04d80181317b0bcd24"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h30m29s418.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h30m29s418.jpg",
+    "caixas_yolo": [
+      "0 0.4960940 0.6666670 0.0703120 0.0777780",
+      "0 0.4125000 0.6916665 0.0875000 0.0611110"
+    ],
+    "sha256": "adb39d1c737094e8f3c86f780ea87c4ac5b0ca18aab3e54390fea130625cad50"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h14m38s784.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h14m38s784.jpg",
+    "caixas_yolo": [
+      "0 0.4718750 0.7222220 0.0656240 0.0444440"
+    ],
+    "sha256": "2ff06a1ef346b01d7814ff446e4a79f76e9b11176423244a26872d616ca40331"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h02m34s894.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h02m34s894.jpg",
+    "caixas_yolo": [
+      "0 0.5703120 0.7763890 0.0625000 0.0472220"
+    ],
+    "sha256": "30e42dd20f54459838cf2d33974c7bf2ef40efa24414f62d94a0aacb023dde90"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h26m23s112.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h26m23s112.jpg",
+    "caixas_yolo": [
+      "0 0.1789060 0.6569445 0.0296880 0.0305550"
+    ],
+    "sha256": "3dab378618006595297f2d00b74bfc3e29fdecdca0813671d7c194467ff7355a"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h27m49s136.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h27m49s136.jpg",
+    "caixas_yolo": [
+      "0 0.7179690 0.5680555 0.1203120 0.0805550",
+      "0 0.8859375 0.5972225 0.0593750 0.0666670"
+    ],
+    "sha256": "cfc5e982e367a3d60169d0346d9d2614ed6cfea574f853dc2fa8b92e447b3997"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h31m38s257.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h31m38s257.jpg",
+    "caixas_yolo": [
+      "0 0.4625000 0.7013885 0.0718740 0.0638890",
+      "0 0.6562500 0.6833335 0.0656260 0.0388890"
+    ],
+    "sha256": "d36e10a8555c0b6b2c2aa5064e60b372094c066dccbe79d7e659dec53d8e4029"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h16m34s670.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h16m34s670.jpg",
+    "caixas_yolo": [],
+    "sha256": "93ee17e3203b26f36344c7fad33ad5398fde74fa34564d29d40150141f6f80ef"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h33m15s549.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h33m15s549.jpg",
+    "caixas_yolo": [
+      "0 0.5101565 0.6541670 0.0640630 0.0972220"
+    ],
+    "sha256": "11106d08e051b799236e91c6544063b08564a764f94f2a13a5fd0b63b5aa9156"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h27m33s135.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h27m33s135.jpg",
+    "caixas_yolo": [],
+    "sha256": "5485414931b592d2bec1e9adb1c17cf185b97b397881996ad4d29b77cec8cdc5"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h21m43s351.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h21m43s351.jpg",
+    "caixas_yolo": [
+      "0 0.3421875 0.7152775 0.0531250 0.0638890"
+    ],
+    "sha256": "cf62a5645368a77fd33295b839cb817f5e55651cfcfe2f89a52eb0611c184e1a"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h06m17s642.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h06m17s642.jpg",
+    "caixas_yolo": [],
+    "sha256": "38f253da7c1dc4986b32a87c76cbef89ffed496581e18f6480126125e1a6ad02"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h19m14s872.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h19m14s872.jpg",
+    "caixas_yolo": [
+      "0 0.1125005 0.6763890 0.0531250 0.0416660"
+    ],
+    "sha256": "93e43e7d9f0b34540945900b9fc02b3756a497a5bb3e6d4a889f5e58e5d789ea"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h15m51s021.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h15m51s021.jpg",
+    "caixas_yolo": [],
+    "sha256": "02af70e844f28bd35ed88cf0f5b84b096969190a1a86499e1ddf2b8c044b8ed9"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-23h15m53s485.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-23h15m53s485.jpg",
+    "caixas_yolo": [],
+    "sha256": "791417eb3b60462d037d4b691d18fdd3954c1eb906317e41043e5206a3f0382d"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h32m35s761.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h32m35s761.jpg",
+    "caixas_yolo": [
+      "0 0.5632810 0.4875000 0.0484380 0.0416660"
+    ],
+    "sha256": "333159e70873d449504578e4b2b6e7599fafca2b53f3f0411c67ad1339382035"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h15m01s204.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h15m01s204.jpg",
+    "caixas_yolo": [
+      "0 0.2640625 0.7305555 0.0499990 0.0333330"
+    ],
+    "sha256": "36f2c3438440a682fc48018a9aa5afe678ded4295d7c1b7e98eecd95fb41ba9a"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h18m37s334.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h18m37s334.jpg",
+    "caixas_yolo": [
+      "0 0.2851560 0.7152780 0.0484380 0.0305560"
+    ],
+    "sha256": "5cac22b764d21d66514c09a382267dd358b10b852087b490af3b48c3db236d36"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-17h10m32s587.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-17h10m32s587.jpg",
+    "caixas_yolo": [
+      "0 0.4695315 0.6347225 0.1171870 0.0638890"
+    ],
+    "sha256": "f841a21eff6805c213f92288bdc53c3691e72e015e7f0b490bcb3e1e5d8df50d"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap_2025-03-16-15h30m23s580.jpg",
+    "origem": "data/images/vlcsnap_2025-03-16-15h30m23s580.jpg",
+    "caixas_yolo": [
+      "0 0.5773435 0.7180555 0.0328130 0.0472230",
+      "0 0.6078125 0.6638890 0.0156250 0.0333340",
+      "0 0.6187500 0.6236110 0.0437500 0.0305560"
+    ],
+    "sha256": "0eacb1f13d537891e28f60c1586ae85063cfe9216d927181c271afa143a7aa06"
+  },
+  {
+    "fonte": "roma",
+    "split": "train",
+    "imagem": "roma-vlcsnap-2025-02-18-18h36m42s188.jpg",
+    "origem": "data/images/vlcsnap-2025-02-18-18h36m42s188.jpg",
+    "caixas_yolo": [
+      "0 0.4375000 0.5583330 0.0437500 0.0500000"
+    ],
+    "sha256": "4c48ee7b3ea02088567c72e8ee84de24cb1ce1b5aed17bd4c53975fb4d563b74"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h37m58s129.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h37m58s129.jpg",
+    "caixas_yolo": [
+      "0 0.4546875 0.7972220 0.0750010 0.0722220"
+    ],
+    "sha256": "0d0a88390259d7f11a4a4125feed6adf4d4f3e7c4047f7a36b9c2ec04ba0323b"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m50s947.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m50s947.jpg",
+    "caixas_yolo": [
+      "0 0.7132810 0.6083335 0.1015620 0.0666670"
+    ],
+    "sha256": "d1bed720e8974be1ff20df6d68107b654719f7eb95b483b0f98f7b0b815dfb14"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h36m39s333.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h36m39s333.jpg",
+    "caixas_yolo": [
+      "0 0.1312500 0.7222220 0.0593760 0.0500000",
+      "0 0.3187495 0.6111115 0.0781250 0.0388890",
+      "0 0.4242190 0.6861115 0.0984380 0.0888890"
+    ],
+    "sha256": "75099e88d296b01ca9218c2b65de492366da25094de5d17c91a272a5d79f4974"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m00s633.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m00s633.jpg",
+    "caixas_yolo": [
+      "0 0.4492185 0.7208335 0.1171870 0.0583330"
+    ],
+    "sha256": "00e896d02d7afc1c1d12a7566c1647913acdd5dd6df5e0bdd1ad0e2d8894a3c4"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h33m55s986.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h33m55s986.jpg",
+    "caixas_yolo": [
+      "0 0.5265625 0.7583335 0.0625010 0.0555550"
+    ],
+    "sha256": "02ab2e0f3772e4ffec21d0025bbb850b64175af447edc6ed84e1a0885a17c6b1"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h40m31s746.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h40m31s746.jpg",
+    "caixas_yolo": [
+      "0 0.4570315 0.7041665 0.0546870 0.0694450",
+      "0 0.2695310 0.7000000 0.0671880 0.0944440"
+    ],
+    "sha256": "ab1039a8d8c4af0d2595649c66471d154e2b912109b295f42a6ec3bb420e28a3"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h42m24s605.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h42m24s605.jpg",
+    "caixas_yolo": [
+      "0 0.6359375 0.6472220 0.0437510 0.0444440"
+    ],
+    "sha256": "ce7bd9759a4359f11480d6bfd5a941def855659dc777e7212a26cbdd9169fd2b"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h40m33s122.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h40m33s122.jpg",
+    "caixas_yolo": [
+      "0 0.1273435 0.8347225 0.1765630 0.1138890"
+    ],
+    "sha256": "c1d66625af35ce58a1d9369138273ebe669cb8b3f07225510ce97d692631765a"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h37m43s267.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h37m43s267.jpg",
+    "caixas_yolo": [
+      "0 0.3843750 0.7361110 0.0812500 0.0777780"
+    ],
+    "sha256": "b2da84027b17ecc08b264d37bad2d7923888c5babef7a9fdc6570bd96dfd10de"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h37m05s314.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h37m05s314.jpg",
+    "caixas_yolo": [
+      "0 0.4734375 0.6861110 0.0531250 0.0666660"
+    ],
+    "sha256": "b396b28986085fd91593832595ad732edcae8ba961f93849184e89906b88779f"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m36s821.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m36s821.jpg",
+    "caixas_yolo": [
+      "0 0.4593750 0.6194445 0.0843760 0.0666670"
+    ],
+    "sha256": "c0a4883f34c0cd103d91864c5e9ff792042f2b43af214c4fee0d2efcd448d865"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m19s505.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m19s505.jpg",
+    "caixas_yolo": [
+      "0 0.4171875 0.7875000 0.0406250 0.0694440"
+    ],
+    "sha256": "c34a8f9ca94e56441ec26b36f2c3b8116482c2ec86eb664edb74bbdfb4d50aac"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h40m11s502.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h40m11s502.jpg",
+    "caixas_yolo": [
+      "0 0.4281250 0.7125000 0.0343740 0.0361120",
+      "0 0.2820310 0.6597220 0.0921880 0.0472220",
+      "0 0.1726560 0.7111115 0.1171880 0.0611110",
+      "0 0.4257810 0.6638890 0.0421880 0.0555560"
+    ],
+    "sha256": "1c92f75af354f35a00ee6f1e126ac9e89003bcc902ae65271e3199ea3dea71fb"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h36m00s346.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h36m00s346.jpg",
+    "caixas_yolo": [
+      "0 0.3914065 0.6500000 0.0390630 0.0333340",
+      "0 0.0796875 0.7111110 0.1562490 0.0833340"
+    ],
+    "sha256": "1539086b09721b30642c5215d154fbd0de1322349fed313965905c45272e6590"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h39m19s729.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h39m19s729.jpg",
+    "caixas_yolo": [
+      "0 0.3203125 0.8027775 0.0593750 0.0666670",
+      "0 0.6562500 0.7805555 0.0687500 0.0388890",
+      "0 0.6742190 0.8500000 0.0953120 0.0666660"
+    ],
+    "sha256": "a6d64bce0ce67f452304d35276a8c7952e2546b4377d446d6ddf63b08a21abe8"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h35m42s760.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h35m42s760.jpg",
+    "caixas_yolo": [
+      "0 0.8320315 0.7277775 0.1078130 0.0611110"
+    ],
+    "sha256": "d4fe6e6380264d660300dbb8b1d69eabb9ce20e4c96e18b073282e9571363a86"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h38m20s232.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h38m20s232.jpg",
+    "caixas_yolo": [
+      "0 0.8820310 0.7250000 0.1421880 0.0611120"
+    ],
+    "sha256": "08004c7c0f868fc13960a761a65f739747ce5322af312006a0631584945a1792"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h39m09s118.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h39m09s118.jpg",
+    "caixas_yolo": [
+      "0 0.0914065 0.6666665 0.1359370 0.0888890"
+    ],
+    "sha256": "f11adebc0b58417e60c2b718c674c92f0cbe53b6f72637c27199773e542eeb2c"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m15s130.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m15s130.jpg",
+    "caixas_yolo": [
+      "0 0.4351565 0.6013890 0.0546870 0.0472220",
+      "0 0.4351560 0.6527775 0.0640620 0.0388890"
+    ],
+    "sha256": "a80da062df5b930d46b91c3f50371913fdcdf9f569bf9e3ac997a3e9fcfe74ad"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m52s238.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m52s238.jpg",
+    "caixas_yolo": [
+      "0 0.8398440 0.7708330 0.1890620 0.1027780"
+    ],
+    "sha256": "a75d644ea340a1a48583279edf95aa3829e144a015ad8c7b4dabb34aaed5baab"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h35m00s383.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h35m00s383.jpg",
+    "caixas_yolo": [
+      "0 0.3203130 0.6916670 0.0937500 0.0500000"
+    ],
+    "sha256": "e6e2e80b51ebd85eef9bd40493ac784d303c7354134d633d981cf97293953cf6"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h37m22s370.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h37m22s370.jpg",
+    "caixas_yolo": [
+      "0 0.0625000 0.7277780 0.0687500 0.0555560"
+    ],
+    "sha256": "9c05e5be00f7654c77a4dc7fc09072ac9f76805127d93297231fcacc12ed7a5a"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h38m55s351.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h38m55s351.jpg",
+    "caixas_yolo": [
+      "0 0.5718750 0.8138890 0.0562500 0.0722220"
+    ],
+    "sha256": "e257c41fb2547a6015141b52de39c6ea2530cbfc65eb0adffc1e7a799f7dfb38"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h31m47s694.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h31m47s694.jpg",
+    "caixas_yolo": [
+      "0 0.5960935 0.6972225 0.0703130 0.0611110"
+    ],
+    "sha256": "e338680c132c6edcbb8fcce0caf6ac255f8c94af726852913a0ffebc0b6740a7"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h39m22s097.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h39m22s097.jpg",
+    "caixas_yolo": [
+      "0 0.3406250 0.7875000 0.0375000 0.0694440"
+    ],
+    "sha256": "84c93c13017b6fd34df06fd1f292fbc85e3bf095b682d0cd38773a083c24cd2f"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m16s845.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m16s845.jpg",
+    "caixas_yolo": [
+      "0 0.4382815 0.7416665 0.0703130 0.0611110"
+    ],
+    "sha256": "592c8a89241f45926de06697ee8c5126a64d60b683ceb69b420dd41072d8819e"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m32s686.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m32s686.jpg",
+    "caixas_yolo": [
+      "0 0.7421875 0.7680555 0.1531250 0.1083330"
+    ],
+    "sha256": "c279fceb212dfff58966ca14c63509e65011d0a2c08af60ec04a8d0b78924fb3"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h38m39s955.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h38m39s955.jpg",
+    "caixas_yolo": [
+      "0 0.2132815 0.7652780 0.0734370 0.0694440"
+    ],
+    "sha256": "8b082214386fd59d34de4f39447bd4b7b043741af865c2930c3d47040d0cb91c"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h35m10s274.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h35m10s274.jpg",
+    "caixas_yolo": [
+      "0 0.1562500 0.7236110 0.0625000 0.0416660",
+      "0 0.2101565 0.6750000 0.0453130 0.0333340",
+      "0 0.2835935 0.6583335 0.0953130 0.0611110"
+    ],
+    "sha256": "2b0ebf230fddecf89c27c674a0bd7ac2c98f9c959a2cdd35a15370ce879a8583"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h40m30s059.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h40m30s059.jpg",
+    "caixas_yolo": [
+      "0 0.6945310 0.6388890 0.0484380 0.0333340"
+    ],
+    "sha256": "5647bf94deffc83f656f90a04a437304d722b017fe07710f0257a1f54e761868"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h35m13s989.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h35m13s989.jpg",
+    "caixas_yolo": [
+      "0 0.4507815 0.5805555 0.0484370 0.0333330"
+    ],
+    "sha256": "a2db75ef4d733abc6637cefde99c8b15b81668180dfe6ea2534f1c008bd3e8b3"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m38s606.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m38s606.jpg",
+    "caixas_yolo": [
+      "0 0.4320310 0.7222225 0.1234380 0.1388890"
+    ],
+    "sha256": "c722502da578051e96dfe3de4b26c2771b8b20f34c75a2fdf04f1e4a7279a837"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h37m24s099.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h37m24s099.jpg",
+    "caixas_yolo": [],
+    "sha256": "729610bbcec9a8e0cd8b17ec5890634267e90aa81c6dd4f1c9f009803026e298"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h33m31s511.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h33m31s511.jpg",
+    "caixas_yolo": [],
+    "sha256": "6296f6dc30e347102196c202334414becc8e8dd9aba534ef596b9bcc716109cd"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h33m06s406.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h33m06s406.jpg",
+    "caixas_yolo": [],
+    "sha256": "b7e391a8ffd1c8c3263796d18c8c8127ee8d086970d746c8f70a0440e5e5a8ee"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h31m13s271.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h31m13s271.jpg",
+    "caixas_yolo": [],
+    "sha256": "e28eda0e9194046cc080f4eb592da6daa5f01b4e531919fb0c87af2e251a4992"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m04s882.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m04s882.jpg",
+    "caixas_yolo": [],
+    "sha256": "0ae3f219df32b1ca2ead71685246d8619465884c28111bcb7166b1404e7c80ab"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h38m18s850.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h38m18s850.jpg",
+    "caixas_yolo": [],
+    "sha256": "0ddae62647dea8c5561f08e1febeddc58798b375d197f1a4d50ddcc004a0f388"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m48s826.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m48s826.jpg",
+    "caixas_yolo": [],
+    "sha256": "f99160ad10dd92c28841e98e13efde6b43f71155baa98dec878628c17b2a5e16"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h41m36s103.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h41m36s103.jpg",
+    "caixas_yolo": [],
+    "sha256": "556b034c8da983a60ddcf2e9b4f507a705366254c01ce554866ad893e3537bdc"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h34m33s099.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h34m33s099.jpg",
+    "caixas_yolo": [],
+    "sha256": "dc48236c4907852a175727d1067f48bb6b7bd2a4863a7663ed58db2abb618b0e"
+  },
+  {
+    "fonte": "roma",
+    "split": "roma",
+    "imagem": "roma-vlcsnap-2025-02-26-20h33m04s400.jpg",
+    "origem": "data/images/vlcsnap-2025-02-26-20h33m04s400.jpg",
+    "caixas_yolo": [],
+    "sha256": "908289c1756fc402bc671e80d8605543bd779a4e86c8254501cb7f3e6fd4414b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/2008.jpg",
+    "imagem": "pune-2008.jpg",
+    "caixas_xyxy": [
+      [
+        0.3346457,
+        0.2121212,
+        0.6850394,
+        0.7454545
+      ]
+    ],
+    "sha256": "661728110306a2a097703b47d8e4dc7bc665c8da776e58a9fd774599712f9e85"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/2043.jpg",
+    "imagem": "pune-2043.jpg",
+    "caixas_xyxy": [
+      [
+        0.2992126,
+        0.169697,
+        0.8267717,
+        0.4727273
+      ]
+    ],
+    "sha256": "bd03721d8c88875cf7f84c613f0d1ead6a44a95aa9f7c4ade3253eb4b5332198"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6013.jpg",
+    "imagem": "pune-6013.jpg",
+    "caixas_xyxy": [
+      [
+        0.0669291,
+        0.1757576,
+        0.9251969,
+        0.8545455
+      ]
+    ],
+    "sha256": "74b84a69a2c7ece20a66710da173d9dc2fdc22c4a0356c4201f72877d496c9ed"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6078.jpg",
+    "imagem": "pune-6078.jpg",
+    "caixas_xyxy": [
+      [
+        0.2913386,
+        0.0484848,
+        0.976378,
+        0.6909091
+      ]
+    ],
+    "sha256": "ad8bd28abfedec89dbc8c0d112a8d7b03f5cc353e0db8827a6fdf8d38d8e769d"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/1029.jpg",
+    "imagem": "pune-1029.jpg",
+    "caixas_xyxy": [],
+    "sha256": "912e28e3761b3e2b3fc88512781d860c24596cf9645f5436234d58c51334396b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/1075.jpg",
+    "imagem": "pune-1075.jpg",
+    "caixas_xyxy": [],
+    "sha256": "440889ffe1bfed353eb14b2d3d6a7117f11a3c46761b29eba46ef8f31fd27bf1"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/3049.jpg",
+    "imagem": "pune-3049.jpg",
+    "caixas_xyxy": [],
+    "sha256": "f4d6aea43d5e97605969b1d7f024601f9687836bdef8eae5cdcb7ea32869965a"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/4035.jpg",
+    "imagem": "pune-4035.jpg",
+    "caixas_xyxy": [],
+    "sha256": "8dd02d47b165a3486f1d1ceb45b5a98864708271eb3f3653758770cc7483b28b"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/5006.jpg",
+    "imagem": "pune-5006.jpg",
+    "caixas_xyxy": [],
+    "sha256": "95b71b3839df4dfae826f6a9de4f41cd425008a4f6e7304cebcfdc44b146ece6"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/5027.jpg",
+    "imagem": "pune-5027.jpg",
+    "caixas_xyxy": [],
+    "sha256": "2fffd98f4b22472a570d85ac79dfff7109f7211fb7d96ae2176aa22879cbd75d"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/5067.jpg",
+    "imagem": "pune-5067.jpg",
+    "caixas_xyxy": [],
+    "sha256": "3c78a4c160fe3cbf4ab48886f74da5c7078218caf996154e114adba3d8bd327f"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6001.jpg",
+    "imagem": "pune-6001.jpg",
+    "caixas_xyxy": [],
+    "sha256": "acb503bc09b0e37738e20c2f4528c4968f2cb7af8a926290f9cad4b33848fed5"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6053.jpg",
+    "imagem": "pune-6053.jpg",
+    "caixas_xyxy": [],
+    "sha256": "1d66bfad29f1803173bbd2fac2112d8f84c09365bc398fda46ee4943f84e5c3f"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6057.jpg",
+    "imagem": "pune-6057.jpg",
+    "caixas_xyxy": [],
+    "sha256": "672d029052bf45241aacf076a49c575c74dc2f058980f813faa2f3958831e10c"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/6067.jpg",
+    "imagem": "pune-6067.jpg",
+    "caixas_xyxy": [],
+    "sha256": "02b76378cf41b2a530249c33e0a66a72692d89d1dbe06cf1716a811072142f91"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/7032.jpg",
+    "imagem": "pune-7032.jpg",
+    "caixas_xyxy": [],
+    "sha256": "eddaec2d5bf0754a98f3069db26b63ea4b5b79e3e4d8445c9e6584ed0c87ea85"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/7049.jpg",
+    "imagem": "pune-7049.jpg",
+    "caixas_xyxy": [],
+    "sha256": "d029cc8d4ae931d014e3516f7dbcfb21aac15242945be1bcc5eae8060d267d60"
+  },
+  {
+    "fonte": "pune",
+    "split": "train",
+    "origem": "Train/KGD02114.jpg",
+    "imagem": "pune-KGD02114.jpg",
+    "caixas_xyxy": [],
+    "sha256": "ce5baa4114c0129f9a41e56f89c671d35c3d3c1340d979c5db3cebb4f7ccaa34"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "imagem": "cavidade-simulada-pune-2018.jpg",
+    "piso_de_treino": "pune-2018.jpg",
+    "origem_do_recorte": "data/images/20250223_143902.jpg",
+    "poligono": 0,
+    "sha256": "2f34aec4ca9ffb5045eb62d9e61d794e3382f1d462969bf64b5d299fe019611a"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6072.jpg",
+    "piso_de_treino": "pune-6072.jpg",
+    "origem_do_recorte": "data/images/20250223_143815.jpg",
+    "poligono": 1,
+    "sha256": "1526d59c62fb2be83ea6c24c348fb51f2b2e0feed7a2db07b1f275ff4c8570c0"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6081.jpg",
+    "piso_de_treino": "pune-6081.jpg",
+    "origem_do_recorte": "data/images/20250223_144234.jpg",
+    "poligono": 0,
+    "sha256": "9dff8d7c2805fae9020b0d3425f859f5dc62f122c3b5d34ae7bb7bdf952cbf10"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1090.jpg",
+    "piso_de_treino": "pune-1090.jpg",
+    "origem_do_recorte": "data/images/20250223_144911.jpg",
+    "poligono": 1,
+    "sha256": "b0d54f4f92395f8e8a788640ada0c70f2e2d08555af4462d442c2a3108941bcd"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02113.jpg",
+    "piso_de_treino": "pune-KGD02113.jpg",
+    "origem_do_recorte": "data/images/20250223_144012.jpg",
+    "poligono": 3,
+    "sha256": "4661a8e9e0c13f6bd81b4f458f4bde777eb89a4ea14f00fbc68f9c2b03451aa4"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02073.jpg",
+    "piso_de_treino": "pune-KGD02073.jpg",
+    "origem_do_recorte": "data/images/20250223_144159.jpg",
+    "poligono": 0,
+    "sha256": "5aa65aae954c1f0601c54b0f2b769c0573e6f6c7811b9a651027c72082b02525"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5038.jpg",
+    "piso_de_treino": "pune-5038.jpg",
+    "origem_do_recorte": "data/images/20250223_144025.jpg",
+    "poligono": 1,
+    "sha256": "e6f4ba54f40cd5c958de06299afd9f9f13291a5d114f9f0b79c0e093456ce4af"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1021.jpg",
+    "piso_de_treino": "pune-1021.jpg",
+    "origem_do_recorte": "data/images/20250223_144242.jpg",
+    "poligono": 5,
+    "sha256": "4d98225812e99e005279fb2244a04e259e77607af6c62a8f55b5feb5a9ccd87d"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02084.jpg",
+    "piso_de_treino": "pune-KGD02084.jpg",
+    "origem_do_recorte": "data/images/20250223_104750.jpg",
+    "poligono": 1,
+    "sha256": "2fb669bc33321105ac843bd7165bb12e7000a7f24d9480073e0bccc774d17377"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-2047.jpg",
+    "piso_de_treino": "pune-2047.jpg",
+    "origem_do_recorte": "data/images/20250223_144853.jpg",
+    "poligono": 4,
+    "sha256": "0d6b69c29dff24c77b08bfd01434bc93c8a3393bf891ceef88197ed6459b0f6e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1055.jpg",
+    "piso_de_treino": "pune-1055.jpg",
+    "origem_do_recorte": "data/images/20250223_144145.jpg",
+    "poligono": 4,
+    "sha256": "41ff99068ab0cf0400e4e67991a1532fc6d7a6ef1df5d25205797f707fa911bb"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7064.jpg",
+    "piso_de_treino": "pune-7064.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 4,
+    "sha256": "71b189ce1ee222f840ce1a3814623612cac8f860139d2ea12dc0f40dbeefc75a"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02166.jpg",
+    "piso_de_treino": "pune-KGD02166.jpg",
+    "origem_do_recorte": "data/images/20250223_144828.jpg",
+    "poligono": 1,
+    "sha256": "4b5c738cb74450f0de2f83bf5ef5704fb414bde468730840fef51d79ac559144"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1036.jpg",
+    "piso_de_treino": "pune-1036.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 3,
+    "sha256": "8381b598883ec25c81f8eff13bbc6fc10bcbc9e0523e548e8ec70f721165281e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02064.jpg",
+    "piso_de_treino": "pune-KGD02064.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 5,
+    "sha256": "747b442f2308786f508f7cd0fede629f05fb21d92496f6623c8680ff3bd32642"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7058.jpg",
+    "piso_de_treino": "pune-7058.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 10,
+    "sha256": "dbb12e097fbce8d360e34d81d544ef6d2d195f82d52ad73445c0ddb941dce6de"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1000.jpg",
+    "piso_de_treino": "pune-1000.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 4,
+    "sha256": "9336e6acab38b28df6ffe0320cd382391f1694da1a899513b7e069229f3447af"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1035.jpg",
+    "piso_de_treino": "pune-1035.jpg",
+    "origem_do_recorte": "data/images/20250223_144159.jpg",
+    "poligono": 2,
+    "sha256": "709f8f9e32049b667ae9db62f6c3f0145a00b0b781e30cae50925e53e88be66a"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1120.jpg",
+    "piso_de_treino": "pune-1120.jpg",
+    "origem_do_recorte": "data/images/20250223_104743.jpg",
+    "poligono": 0,
+    "sha256": "08f2be7fbb4e95effc151f3ca53846fa43a256146dd85953aeebe9c685b4bd9b"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7063.jpg",
+    "piso_de_treino": "pune-7063.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 10,
+    "sha256": "e8e78310d7bde91750f050801f3d1b6619654a8c65ebd60b425678b7ee2d1f1f"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3046.jpg",
+    "piso_de_treino": "pune-3046.jpg",
+    "origem_do_recorte": "data/images/20250223_144304.jpg",
+    "poligono": 1,
+    "sha256": "4d980f66a47fc074d40fcbdb54668ec8c256549aa01a271c27cd5da3eeafa335"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02076.jpg",
+    "piso_de_treino": "pune-KGD02076.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 5,
+    "sha256": "901ff5dca2a76afc67dfaae51c8f66049a43096124686b096b97bdb897c5b407"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6016.jpg",
+    "piso_de_treino": "pune-6016.jpg",
+    "origem_do_recorte": "data/images/20250223_104730.jpg",
+    "poligono": 2,
+    "sha256": "bfeca2983e0c5f63862d4ea3e3a01c5025d483a82c1448935dfcfa8fed4c16a9"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1006.jpg",
+    "piso_de_treino": "pune-1006.jpg",
+    "origem_do_recorte": "data/images/20250223_143826.jpg",
+    "poligono": 0,
+    "sha256": "bbaa09e847f897cbf747281c77cb1df6624ea07eba1fc68d90e9e516cdb33d33"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1037.jpg",
+    "piso_de_treino": "pune-1037.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 2,
+    "sha256": "d680e10df5117b7684f496c15f888b2271c3925637055ef413eacfdcd3d0edf1"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7015.jpg",
+    "piso_de_treino": "pune-7015.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 4,
+    "sha256": "276034e8c4ee6a4fdaf0727606591ab79c1f1fbd334f5d4994fe00c046eb3bed"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3002.jpg",
+    "piso_de_treino": "pune-3002.jpg",
+    "origem_do_recorte": "data/images/20250223_144246.jpg",
+    "poligono": 0,
+    "sha256": "2778d0d07c86b4fb794c8320063160196e83eb009a0db62d1bdb06f097b2300c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02190.jpg",
+    "piso_de_treino": "pune-KGD02190.jpg",
+    "origem_do_recorte": "data/images/20250223_144234.jpg",
+    "poligono": 0,
+    "sha256": "4eb74410a57b9a805ee5dbe00886c7248de94a274c9c27358e1009060f67ec4a"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02185.jpg",
+    "piso_de_treino": "pune-KGD02185.jpg",
+    "origem_do_recorte": "data/images/20250223_143826.jpg",
+    "poligono": 0,
+    "sha256": "048fdcba9b19e82b76fedd363d16c43e688f2766c8b0d3abe18b97e2ebe97937"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7034.jpg",
+    "piso_de_treino": "pune-7034.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 5,
+    "sha256": "b50db31d656250e953966544a803a3c7c8a62d57251dd65aea1c77083082cd07"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1007.jpg",
+    "piso_de_treino": "pune-1007.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 6,
+    "sha256": "ffe8e11405e816c20339dead3f0931b1ed35a962446105fcb435299f26f111eb"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6060.jpg",
+    "piso_de_treino": "pune-6060.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 5,
+    "sha256": "89075579e5003d314d2c8bc48573d4ad4115b8f5006d8ed041f176ab3f1cb376"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1123.jpg",
+    "piso_de_treino": "pune-1123.jpg",
+    "origem_do_recorte": "data/images/20250223_104730.jpg",
+    "poligono": 1,
+    "sha256": "cf90066c6a0aa9b9701c0a090895ffda86a14911c48ec41a695ccfc413ebb202"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3064.jpg",
+    "piso_de_treino": "pune-3064.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 5,
+    "sha256": "e1522a37b7af545b00149ed08563ef85d2d941e70582e51ba7330ecc48ec0b6c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1030.jpg",
+    "piso_de_treino": "pune-1030.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 4,
+    "sha256": "ebddbcc2458d6a0e7ca1433d0fd4a7bbfef1757b9d74e8a9bf1c0b6faba8652e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02067.jpg",
+    "piso_de_treino": "pune-KGD02067.jpg",
+    "origem_do_recorte": "data/images/20250223_144025.jpg",
+    "poligono": 1,
+    "sha256": "f0c295bed5b2c6fc5b4a9140d4ddde7eb7f52b73ffb94ffb3242623d8dcbbbd1"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1122.jpg",
+    "piso_de_treino": "pune-1122.jpg",
+    "origem_do_recorte": "data/images/20250223_144828.jpg",
+    "poligono": 1,
+    "sha256": "97bfaa7e99f12c6896e5f09e992ebd4a0592c067487352ff83ceed7ca0d32b98"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1096.jpg",
+    "piso_de_treino": "pune-1096.jpg",
+    "origem_do_recorte": "data/images/20250223_144304.jpg",
+    "poligono": 1,
+    "sha256": "73ffa4c7e2f6d7518fdf5dfe01c5daa9d79f01827ba5003a98c7493ff524c5f4"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6043.jpg",
+    "piso_de_treino": "pune-6043.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 5,
+    "sha256": "571e79a6acbdab5a464a57409ff4df0bddd981b7a00463350b438642657a0fb1"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1117.jpg",
+    "piso_de_treino": "pune-1117.jpg",
+    "origem_do_recorte": "data/images/20250223_144145.jpg",
+    "poligono": 3,
+    "sha256": "a051ba13730f7866fa5b170ea8fe4ce023e117c64c5cde9ae33b52d1bf2e8f3e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7050.jpg",
+    "piso_de_treino": "pune-7050.jpg",
+    "origem_do_recorte": "data/images/20250223_144138.jpg",
+    "poligono": 1,
+    "sha256": "3192f208ebc153d9256c7916f0cfbd90010c00fd27cce1448693a2d925c272c9"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7046.jpg",
+    "piso_de_treino": "pune-7046.jpg",
+    "origem_do_recorte": "data/images/20250223_143847.jpg",
+    "poligono": 5,
+    "sha256": "08f2a5ca8a4f4f1e3d479f4d1ffa374376470ec9a9b3e23f86ccdbd451d70056"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1034.jpg",
+    "piso_de_treino": "pune-1034.jpg",
+    "origem_do_recorte": "data/images/20250223_144159.jpg",
+    "poligono": 2,
+    "sha256": "4bcf8ce6172e2d6632c8221a54c5d4e8341d4429b2c724f28e6b0f77f68674ca"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5001.jpg",
+    "piso_de_treino": "pune-5001.jpg",
+    "origem_do_recorte": "data/images/20250216_164325.jpg",
+    "poligono": 1,
+    "sha256": "573b0b4219ce860d91b1e98e3422535ab76ba7855b1d0637a8f1d451cf7c7a84"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3020.jpg",
+    "piso_de_treino": "pune-3020.jpg",
+    "origem_do_recorte": "data/images/20250223_144352.jpg",
+    "poligono": 0,
+    "sha256": "d38191d90bfdf41ffa9316b4e6002c90835f849ff2b7d0f4b2f8c08ff2cacb5c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02075.jpg",
+    "piso_de_treino": "pune-KGD02075.jpg",
+    "origem_do_recorte": "data/images/20250223_144145.jpg",
+    "poligono": 4,
+    "sha256": "52b3fe15ae7a3a8a43291cfacb247757fd39b9d04452f1714e33f89fbde3f480"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1045.jpg",
+    "piso_de_treino": "pune-1045.jpg",
+    "origem_do_recorte": "data/images/20250223_144234.jpg",
+    "poligono": 0,
+    "sha256": "12709f738a03cf94b2fb66b7ba40ba7282bddd8ee250c220235ea2d822b22e7e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-4012.jpg",
+    "piso_de_treino": "pune-4012.jpg",
+    "origem_do_recorte": "data/images/20250216_164541.jpg",
+    "poligono": 3,
+    "sha256": "51f8d79d054b0de85b882addfea4463bf68ff59e6e78e75e3f5661e286e3b123"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7019.jpg",
+    "piso_de_treino": "pune-7019.jpg",
+    "origem_do_recorte": "data/images/20250223_144154.jpg",
+    "poligono": 0,
+    "sha256": "64ce47537786c7e014c02d20f30401e09a20e74da0482b2791a8e18509668669"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1027.jpg",
+    "piso_de_treino": "pune-1027.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 11,
+    "sha256": "5a8194946b014e4adbdf7d0dd23bb92b807b97a9ca4a2fd91e69d5cc7b45698c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5058.jpg",
+    "piso_de_treino": "pune-5058.jpg",
+    "origem_do_recorte": "data/images/20250223_144242.jpg",
+    "poligono": 4,
+    "sha256": "91e9f398e542ca14d4e78978fdb819610ac190ee8c9149454b17fd7743d7172d"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02080.jpg",
+    "piso_de_treino": "pune-KGD02080.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 4,
+    "sha256": "2779b9939f1cb88914b170f1399f2e6120e8f6d7cafd95982be028a3a19d0af9"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02090.jpg",
+    "piso_de_treino": "pune-KGD02090.jpg",
+    "origem_do_recorte": "data/images/20250223_144906.jpg",
+    "poligono": 1,
+    "sha256": "0cbdb4942958193196ba637b2eef7725bafcdd84d725fe3db9d578de0725d4d7"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1068.jpg",
+    "piso_de_treino": "pune-1068.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 1,
+    "sha256": "d92b2e01429c80f82d8190f26220a3018364e8e7ba8098ad8791e36cd0641828"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-2017.jpg",
+    "piso_de_treino": "pune-2017.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 1,
+    "sha256": "de0b612e3f3463301855257ad3451e082b270a494bee6b16b058a59ce7aa2198"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5062.jpg",
+    "piso_de_treino": "pune-5062.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 5,
+    "sha256": "9ce80e71b1b912ba20e574e6db362f113d85ff394d55dabe27c7b8b672a8c3ae"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7052.jpg",
+    "piso_de_treino": "pune-7052.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 6,
+    "sha256": "f1f73c513e04fe9d7798a82a4e381ba988171367c6121575e3110aacf700a517"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3059.jpg",
+    "piso_de_treino": "pune-3059.jpg",
+    "origem_do_recorte": "data/images/20250223_144853.jpg",
+    "poligono": 2,
+    "sha256": "064a98b1b7a4b7c0c1a80fd06404a8413518ae722ca6c257184997a5538f80cf"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1119.jpg",
+    "piso_de_treino": "pune-1119.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 2,
+    "sha256": "c96683d62ed4501c3ecca0502018407359b5f7a8cd945d26f599a1a0f68beafc"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02082.jpg",
+    "piso_de_treino": "pune-KGD02082.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 2,
+    "sha256": "090fd3af2ff16ccd8915bf965483f135f12ab9b89832024f03276dade3b76224"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1008.jpg",
+    "piso_de_treino": "pune-1008.jpg",
+    "origem_do_recorte": "data/images/20250223_143902.jpg",
+    "poligono": 0,
+    "sha256": "90c33b9d8297d9fb6c999f38a36a99123516f1ef012598cbca9ad6840c590ba5"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6023.jpg",
+    "piso_de_treino": "pune-6023.jpg",
+    "origem_do_recorte": "data/images/20250223_143943.jpg",
+    "poligono": 0,
+    "sha256": "f41a0bcfde362ef4ead391a6e44670259e726df4c80f9b7fac2dcec23d2e5f66"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02149.jpg",
+    "piso_de_treino": "pune-KGD02149.jpg",
+    "origem_do_recorte": "data/images/20250223_144019.jpg",
+    "poligono": 0,
+    "sha256": "f04eebf1a41f0e7385fdd8ca4015100d912e9f291615cea68681833c49674a4c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1087.jpg",
+    "piso_de_treino": "pune-1087.jpg",
+    "origem_do_recorte": "data/images/20250216_164325.jpg",
+    "poligono": 2,
+    "sha256": "2c3a17d009165f005e077e0a2a94b59c64d22aeeed4abc5d47c0aaef5039b9bb"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02198.jpg",
+    "piso_de_treino": "pune-KGD02198.jpg",
+    "origem_do_recorte": "data/images/20250223_144145.jpg",
+    "poligono": 6,
+    "sha256": "4390134815a6c52a2c0199aa9ad5779b23cd57b128beaa7b3638bdb1f484d622"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02077.jpg",
+    "piso_de_treino": "pune-KGD02077.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 4,
+    "sha256": "9972595275d9a4dba6e9d4f7674eaf9ca2a1e92fd884fffc9595e7f3780c531c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6054.jpg",
+    "piso_de_treino": "pune-6054.jpg",
+    "origem_do_recorte": "data/images/20250223_144843.jpg",
+    "poligono": 0,
+    "sha256": "48e0902413f4a1fa00e5f2153cb9578d08af512230a8ea8c251eff354fd63dac"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6007.jpg",
+    "piso_de_treino": "pune-6007.jpg",
+    "origem_do_recorte": "data/images/20250223_144242.jpg",
+    "poligono": 1,
+    "sha256": "ab30395f705df535363a9a2c42617bc9a16042e2b4488923744df423c6fdda39"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02127.jpg",
+    "piso_de_treino": "pune-KGD02127.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 6,
+    "sha256": "b021f98287deb6e971eedec53588829da98c3174be53fdb90bb820545d9d8e96"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5045.jpg",
+    "piso_de_treino": "pune-5045.jpg",
+    "origem_do_recorte": "data/images/20250223_144352.jpg",
+    "poligono": 0,
+    "sha256": "87ccc69e7f81f159098d95e2455c1ae31aaee0ed2cd88c7818f1188bbbe74c30"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1063.jpg",
+    "piso_de_treino": "pune-1063.jpg",
+    "origem_do_recorte": "data/images/20250223_144911.jpg",
+    "poligono": 2,
+    "sha256": "a5408b502b4456b6c0d23ef62f1c3ee70daf42856fd76937c346933f217996ec"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7047.jpg",
+    "piso_de_treino": "pune-7047.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 3,
+    "sha256": "2d3046a67d4e3a5b11d14b21466bae5428034b9530f446b675a11d981d59152e"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1039.jpg",
+    "piso_de_treino": "pune-1039.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 5,
+    "sha256": "db17acf5c859db241c46e857b6638b300ee9ab848ef36d10910bd467b0b78977"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7061.jpg",
+    "piso_de_treino": "pune-7061.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 5,
+    "sha256": "2670a9b6db7a62f3b8c287c0a9783fafd338ad0a08b96fa458ac30b94df63865"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1014.jpg",
+    "piso_de_treino": "pune-1014.jpg",
+    "origem_do_recorte": "data/images/20250223_144836.jpg",
+    "poligono": 2,
+    "sha256": "2473a52d3848b97f6635ac138f68ba2c10a69abb9f44f6b2ef7ac52247aaad61"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1066.jpg",
+    "piso_de_treino": "pune-1066.jpg",
+    "origem_do_recorte": "data/images/20250223_144159.jpg",
+    "poligono": 0,
+    "sha256": "bdd905e9c003749af923f4e20858edb3b6811fdc2ab44bc0d5629bd41284833d"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5017.jpg",
+    "piso_de_treino": "pune-5017.jpg",
+    "origem_do_recorte": "data/images/20250223_143917.jpg",
+    "poligono": 8,
+    "sha256": "4249faab42514cd2c86997923a1f01d2a37a05fdca20ab0d1e284bc8282736da"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7065.jpg",
+    "piso_de_treino": "pune-7065.jpg",
+    "origem_do_recorte": "data/images/20250223_144242.jpg",
+    "poligono": 3,
+    "sha256": "47ee697a7b095446aa3bbc37a768ad5b3b445d41bbc8b04bf55da1597d295ec6"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1110.jpg",
+    "piso_de_treino": "pune-1110.jpg",
+    "origem_do_recorte": "data/images/20250223_144012.jpg",
+    "poligono": 5,
+    "sha256": "d72fd4793215fcba1243aca9e31ce85d846a32c5ef2768b55c99b71debd01036"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1038.jpg",
+    "piso_de_treino": "pune-1038.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 5,
+    "sha256": "419076a9df15de3d26ba6f11372c93c4714c20928543a487ccdbaec36fea0bc4"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02094.jpg",
+    "piso_de_treino": "pune-KGD02094.jpg",
+    "origem_do_recorte": "data/images/20250223_144242.jpg",
+    "poligono": 3,
+    "sha256": "16de66c10c52fd42ff58f9f62550ba26671cb48d3c9cf9547f7281cc6614852f"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-4037.jpg",
+    "piso_de_treino": "pune-4037.jpg",
+    "origem_do_recorte": "data/images/20250223_144853.jpg",
+    "poligono": 3,
+    "sha256": "274a235fad7aa3ccf641946be7d519c12f8a23c4666077ec4f171e349d7ebe5d"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7048.jpg",
+    "piso_de_treino": "pune-7048.jpg",
+    "origem_do_recorte": "data/images/20250223_144836.jpg",
+    "poligono": 1,
+    "sha256": "2028f688d63756e877e86cee03d7825d3beaf5c0ff0fcee655a34430b3f76664"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02183.jpg",
+    "piso_de_treino": "pune-KGD02183.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 6,
+    "sha256": "53e54dec62fb0332de73546e94869390f4a238aa2c9b067091d8a53d7275b629"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02104.jpg",
+    "piso_de_treino": "pune-KGD02104.jpg",
+    "origem_do_recorte": "data/images/20250223_144145.jpg",
+    "poligono": 6,
+    "sha256": "5239318978b59aaa158419552485da24bc2ed54c854749b951a2ffa22bf1f812"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7066.jpg",
+    "piso_de_treino": "pune-7066.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 2,
+    "sha256": "f266f3f76529f257daf8bc57cced62aef12ed97b3317280dc6fcf07a80a04249"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6050.jpg",
+    "piso_de_treino": "pune-6050.jpg",
+    "origem_do_recorte": "data/images/20250223_143908.jpg",
+    "poligono": 5,
+    "sha256": "0eac82072d6b78135bc0747943ca11acc14d9e5dd36f7a6b8ccf5bc9034f5bd0"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7026.jpg",
+    "piso_de_treino": "pune-7026.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 0,
+    "sha256": "d7e782a5c8069f6f712575c43b210a09b2a947b45d4bad5ce21b6a2cd1d3c381"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6037.jpg",
+    "piso_de_treino": "pune-6037.jpg",
+    "origem_do_recorte": "data/images/20250223_143826.jpg",
+    "poligono": 0,
+    "sha256": "3f6a0e17189631f6e57142e683e77479ebe0ccf07ea96e0c612b170cd8b670d6"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1051.jpg",
+    "piso_de_treino": "pune-1051.jpg",
+    "origem_do_recorte": "data/images/20250223_144121.jpg",
+    "poligono": 2,
+    "sha256": "64daab76b8b2649551b815beeb531100dbd58d62c80af6de4ec109015d51e37c"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5010.jpg",
+    "piso_de_treino": "pune-5010.jpg",
+    "origem_do_recorte": "data/images/20250223_144041.jpg",
+    "poligono": 4,
+    "sha256": "1e9a56db235c45f0ba3eaf758b2a487ef8c6711b7f0227c9531c2494bc90d14b"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-7051.jpg",
+    "piso_de_treino": "pune-7051.jpg",
+    "origem_do_recorte": "data/images/20250223_144853.jpg",
+    "poligono": 2,
+    "sha256": "fe457efa99c1947536deb7c8f2c2cb5adef71e711040f8ef4d01273d17d24fc1"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-KGD02165.jpg",
+    "piso_de_treino": "pune-KGD02165.jpg",
+    "origem_do_recorte": "data/images/20250223_104750.jpg",
+    "poligono": 2,
+    "sha256": "1b853e390c996b9ea1cbf356853319bfd02ec40222793cc2dbdb5ff05859897a"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-5050.jpg",
+    "piso_de_treino": "pune-5050.jpg",
+    "origem_do_recorte": "data/images/20250223_143908.jpg",
+    "poligono": 4,
+    "sha256": "1b996f0765898e5248abec959fac98e7196f88f0282667d1c69bd5e94d149288"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1044.jpg",
+    "piso_de_treino": "pune-1044.jpg",
+    "origem_do_recorte": "data/images/20250223_144234.jpg",
+    "poligono": 0,
+    "sha256": "1f4efda73017ff63827232ca63e52a28fe668bfa907fc9d52587529869aa96c5"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-3053.jpg",
+    "piso_de_treino": "pune-3053.jpg",
+    "origem_do_recorte": "data/images/20250223_144828.jpg",
+    "poligono": 1,
+    "sha256": "6c54466b0d80390cded9c0a22b14054907d680c1d027327cfc9faf947ddcc271"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-1107.jpg",
+    "piso_de_treino": "pune-1107.jpg",
+    "origem_do_recorte": "data/images/20250223_144012.jpg",
+    "poligono": 2,
+    "sha256": "49732f4e58c2b1c07cd15087a320b9a0b71b0d185b10fe58c0681d0aea2b2dd1"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-4020.jpg",
+    "piso_de_treino": "pune-4020.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 1,
+    "sha256": "07d751f60b36d9680a27030bb4b8c6559a0db72dd8f59f3ba052529b1c4e8677"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-4032.jpg",
+    "piso_de_treino": "pune-4032.jpg",
+    "origem_do_recorte": "data/images/20250223_144853.jpg",
+    "poligono": 1,
+    "sha256": "f3a80f6975390716bc5d17d410b4e51f43c9ef8767aae02db474f93ef85388ad"
+  },
+  {
+    "imagem": "cavidade-simulada-pune-6091.jpg",
+    "piso_de_treino": "pune-6091.jpg",
+    "origem_do_recorte": "data/images/20250223_144310.jpg",
+    "poligono": 2,
+    "sha256": "c9d54a88c27f846c15bd947801e234721d5a732f81b34e442d5a773d5e748458"
+  }
+]

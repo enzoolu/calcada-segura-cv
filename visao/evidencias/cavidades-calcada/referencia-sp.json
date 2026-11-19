@@ -1,0 +1,175 @@
+{
+  "origem": "Vídeos históricos do Wikimedia Commons. Reservados ao teste.",
+  "filtro_ffmpeg": "fps=1/2,scale=640:-2",
+  "pontos": [
+    {
+      "id": "sp01",
+      "arquivo": "Buraco_sem_tampa_na_calçada.webm",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Buraco_sem_tampa_na_cal%C3%A7ada.webm",
+      "url_transcodificada": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Buraco_sem_tampa_na_cal%C3%A7ada.webm/Buraco_sem_tampa_na_cal%C3%A7ada.webm.360p.mpeg4.mov",
+      "sha256": "cf3a9618459623746fab21c6ccaf30281a01c0e34d6f45fd4f2e8f5643707aa6",
+      "quadros": 8,
+      "quadros_anotados": [
+        {
+          "numero": 1,
+          "imagem": "sp01-01.jpg",
+          "caixas_xyxy": [
+            [
+              0.4251969,
+              0.2797203,
+              0.7480315,
+              0.7342657
+            ]
+          ]
+        },
+        {
+          "numero": 2,
+          "imagem": "sp01-02.jpg",
+          "caixas_xyxy": [
+            [
+              0.3937008,
+              0.2587413,
+              0.7283465,
+              0.7132867
+            ]
+          ]
+        },
+        {
+          "numero": 3,
+          "imagem": "sp01-03.jpg",
+          "caixas_xyxy": [
+            [
+              0.1102362,
+              0.3916084,
+              0.519685,
+              0.9440559
+            ]
+          ]
+        },
+        {
+          "numero": 4,
+          "imagem": "sp01-04.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 5,
+          "imagem": "sp01-05.jpg",
+          "caixas_xyxy": []
+        }
+      ]
+    },
+    {
+      "id": "sp02",
+      "arquivo": "Calçada_abandonada_na_rua_Cardeal_Leme_-_\"rua_da_Feira\"_(Bela_Vista).webm",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ada_abandonada_na_rua_Cardeal_Leme_-_%22rua_da_Feira%22_(Bela_Vista).webm",
+      "url_transcodificada": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Cal%C3%A7ada_abandonada_na_rua_Cardeal_Leme_-_%22rua_da_Feira%22_%28Bela_Vista%29.webm/Cal%C3%A7ada_abandonada_na_rua_Cardeal_Leme_-_%22rua_da_Feira%22_%28Bela_Vista%29.webm.360p.mpeg4.mov",
+      "sha256": "bb6dd56971e46f9fbab2b17d0f94dc81bc091a18df430d78c32b35c920b554a8",
+      "quadros": 15,
+      "quadros_anotados": [
+        {
+          "numero": 8,
+          "imagem": "sp02-08.jpg",
+          "caixas_xyxy": [
+            [
+              0.2007874,
+              0.2587413,
+              0.7559055,
+              0.8951049
+            ]
+          ]
+        },
+        {
+          "numero": 9,
+          "imagem": "sp02-09.jpg",
+          "caixas_xyxy": [
+            [
+              0.2559055,
+              0.3216783,
+              0.7716535,
+              0.8741259
+            ]
+          ]
+        },
+        {
+          "numero": 14,
+          "imagem": "sp02-14.jpg",
+          "caixas_xyxy": []
+        }
+      ]
+    },
+    {
+      "id": "sp03",
+      "arquivo": "Calçada_danificada_na_alameda_Ribeirão_Preto,_314_(Bela_Vista).webm",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ada_danificada_na_alameda_Ribeir%C3%A3o_Preto,_314_(Bela_Vista).webm",
+      "url_transcodificada": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Cal%C3%A7ada_danificada_na_alameda_Ribeir%C3%A3o_Preto%2C_314_%28Bela_Vista%29.webm/Cal%C3%A7ada_danificada_na_alameda_Ribeir%C3%A3o_Preto%2C_314_%28Bela_Vista%29.webm.360p.mpeg4.mov",
+      "sha256": "9ab28bb2bccbd457798c54caf382f5508171a923073e745071ec808d8c5b693b",
+      "quadros": 17,
+      "quadros_anotados": [
+        {
+          "numero": 5,
+          "imagem": "sp03-05.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 7,
+          "imagem": "sp03-07.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 8,
+          "imagem": "sp03-08.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 11,
+          "imagem": "sp03-11.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 13,
+          "imagem": "sp03-13.jpg",
+          "caixas_xyxy": []
+        },
+        {
+          "numero": 14,
+          "imagem": "sp03-14.jpg",
+          "caixas_xyxy": []
+        }
+      ]
+    },
+    {
+      "id": "sp05",
+      "arquivo": "Calçada_danificada_na_rua_Rocha,_206_(Bela_Vista).webm",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Cal%C3%A7ada_danificada_na_rua_Rocha,_206_(Bela_Vista).webm",
+      "url_transcodificada": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Cal%C3%A7ada_danificada_na_rua_Rocha%2C_206_%28Bela_Vista%29.webm/Cal%C3%A7ada_danificada_na_rua_Rocha%2C_206_%28Bela_Vista%29.webm.360p.mpeg4.mov",
+      "sha256": "46f8c15a120a6bb5d34c1ac95c9652545e2395125492366aefd2d4381c702d81",
+      "quadros": 6,
+      "quadros_anotados": [
+        {
+          "numero": 1,
+          "imagem": "sp05-01.jpg",
+          "caixas_xyxy": [
+            [
+              0.3149606,
+              0.4825175,
+              0.523622,
+              0.6503497
+            ]
+          ]
+        },
+        {
+          "numero": 2,
+          "imagem": "sp05-02.jpg",
+          "caixas_xyxy": [
+            [
+              0.1456693,
+              0.020979,
+              0.8110236,
+              0.9020979
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
